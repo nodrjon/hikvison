@@ -50,6 +50,37 @@ import V3232build211029 from './pages/V3232build211029';
 import V3235build220221 from './pages/V3235build220221';
 import DSK1T671TM3XFDSK5604DSK5671DSK1TA70 from './pages/DSK1T671TM3XFDSK5604DSK5671DSK1TA70';
 import V226build200629 from './pages/V226build200629';
+import ARM from './pages/ARM';
+import MCU from './pages/MCU';
+import ThermalModule from './pages/ThermalModule';
+import SupportedText from './pages/SupportedText';
+import V226build200909 from './pages/V226build200909';
+import ARM2 from './pages/ARM2';
+import ThermalModule2 from './pages/ThermalModule2';
+import V226build200927 from './pages/V226build200927';
+import ARM3 from './pages/ARM3';
+import ThermalModule3 from './pages/ThermalModule3';
+import V226build201224 from './pages/V226build201224';
+import ARM4 from './pages/ARM4';
+import ThermalModule4 from './pages/ThermalModule4';
+import ThermalModule4Text from './pages/ThermalModule4Text';
+import V322build210207 from './pages/V322build210207';
+import ARM5 from './pages/ARM5';
+import MCU2 from './pages/MCU2';
+import ThermalModule5 from './pages/ThermalModule5';
+import ThermalModule5Text from './pages/ThermalModule5Text';
+import V3232build210406 from './pages/V3232build210406';
+import ARM6 from './pages/ARM6';
+import MCU3 from './pages/MCU3';
+import ThermalModule6 from './pages/ThermalModule6';
+import ReleasenoteText from './pages/ReleasenoteText';
+import V3232build210610 from './pages/V3232build210610';
+import V3232build211101 from './pages/V3232build211101';
+import V3232build220114 from './pages/V3232build220114';
+import V3s235build220221 from './pages/V3s235build220221';
+import V3235build220610 from './pages/V3235build220610';
+import ExtensionModule from './pages/ExtensionModule';
+import Text3 from './pages/Text3';
 
 function App() {
   return (
@@ -104,7 +135,37 @@ function App() {
         <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T643-T/V3.2.35_build220221/' element={<V3235build220221 />} />
         <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/' element={<DSK1T671TM3XFDSK5604DSK5671DSK1TA70 />} />
         <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200629/' element={<V226build200629 />} />
-
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200629/ARM/' element={<ARM />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200629/MCU/' element={<MCU />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200629/Thermal Module/' element={<ThermalModule />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200629/Supported device models.txt' element={<SupportedText />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200909/' element={<V226build200909 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200909/ARM/' element={<ARM2 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200909/Thermal Module/' element={<ThermalModule2 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200927/' element={<V226build200927 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200927/ARM/' element={<ARM3 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200927/Thermal Module/' element={<ThermalModule3 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build201224/' element={<V226build201224 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build201224/ARM/' element={<ARM4 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build201224/Thermal Module/' element={<ThermalModule4 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build201224/Thermal Module/Thermal Module Release Note_V5.5.4_build201107.txt' element={<ThermalModule4Text />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.2_build210207/' element={<V322build210207 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.2_build210207/ARM/' element={<ARM5 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.2_build210207/MCU/' element={<MCU2 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.2_build210207/Thermal Module/' element={<ThermalModule5 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.2_build210207/Thermal Module/Thermal Module Release Note_V5.5.4_ build201107.txt' element={<ThermalModule5Text />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.32_build210406/' element={<V3232build210406 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.32_build210406/ARM(Controller)/' element={<ARM6 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.32_build210406/MCU(Extension Module)/' element={<MCU3 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.32_build210406/Thermal Module/' element={<ThermalModule6 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.32_build210406/Release note.txt' element={<ReleasenoteText />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.32_build210610/' element={<V3232build210610 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.32_build211101/' element={<V3232build211101 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.32_build220114/' element={<V3232build220114 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.35_build220221/' element={<V3s235build220221 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.35_build220610/' element={<V3235build220610 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.35_build220610/Extension Module/' element={<ExtensionModule />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.35_build220610/Extension Module/新建文本文档.txt' element={<Text3 />} />
       </Routes>
     </div>
   );
