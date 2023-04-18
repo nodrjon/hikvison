@@ -8,7 +8,7 @@ function OnlyforWarehouse() {
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"//Firmware/Only for Warehouse/DS-2CD2123G0E-I(B)/"} className='button_div2'>
+                        <Link to={"/Firmware/Only for Warehouse/DS-2CD2123G0E-I(B)/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>DS-2CD2123G0E-I(B)/</h5>
                         </Link>
@@ -60,7 +60,7 @@ function OnlyforWarehouse() {
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>DS-I450M DS-I453M/</h5>
                         </Link>
-                        <Link to={'/Firmware/Only for Warehouse/DS-I450M(B) DS-I453M(B) DS-I250M(B) DS-I253M(B)'} className='button_div2'>
+                        <Link to={'/Firmware/Only for Warehouse/DS-I450M(B) DS-I453M(B) DS-I250M(B) DS-I253M(B)/'} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>DS-I450M(B) DS-I453M(B) DS-I250M(B) DS-I253M(B)/</h5>
                         </Link>

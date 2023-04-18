@@ -33,7 +33,6 @@
   font-size: 20px;
   line-height: 23px;
   color: white;
-  margin-top: 50px;
 }
 
 #clear_ {
@@ -72,4 +71,11 @@
   width: 100%;
   height: 158px;
   margin-top: 30px;
+}
+#back_icon {
+  cursor: pointer;
+  font-size: 30px;
+}
+.Text_div2 {
+  width: 680px;
 }
