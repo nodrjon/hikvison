@@ -112,6 +112,16 @@ import BlazerExpress14 from './pages/BlazerExpress14';
 import Download3 from './pages/Download3';
 import Documentation3 from './pages/Documentation3';
 import BlazerExpress14Doc from './pages/BlazerExpress14Doc';
+import IPCamera from './pages/IPCamera';
+import NVRIPregs from './pages/NVRIPregs';
+import PTZ from './pages/PTZ';
+import DVRTVIregs from './pages/DVRTVIregs';
+import AccessControl2 from './pages/AccessControl2';
+import Alarm from './pages/Alarm';
+import Keyboards from './pages/Keyboards';
+import Network from './pages/Network';
+import Thermal2 from './pages/Thermal2';
+import Storage2 from './pages/Storage';
 
 function App() {
   return (
@@ -228,6 +238,17 @@ function App() {
         <Route path='/VMS/Blazer/Blazer Express/Download/Blazer Express 1.4/' element={<BlazerExpress14 />} />
         <Route path='/VMS/Blazer/Blazer Express/Documentation/' element={<Documentation3 />} />
         <Route path='/VMS/Blazer/Blazer Express/Documentation/Blazer Express 1.4/' element={<BlazerExpress14Doc />} />
+        <Route path='/Firmware/Hikvision/IP Camera/' element={<IPCamera />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/' element={<NVRIPregs />} />
+        <Route path='/Firmware/Hikvision/PTZ/' element={<PTZ />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/' element={<DVRTVIregs />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/' element={<DVRTVIregs />} />
+        <Route path='/Firmware/Hikvision/Access Control/' element={<AccessControl2 />} />
+        <Route path='/Firmware/Hikvision/Alarm/' element={<Alarm />} />
+        <Route path='/Firmware/Hikvision/Keyboards/' element={<Keyboards />} />
+        <Route path='/Firmware/Hikvision/Network/' element={<Network />} />
+        <Route path='/Firmware/Hikvision/Thermal/' element={<Thermal2 />} />
+        <Route path='/Firmware/Hikvision/Storage/' element={<Storage2 />} />
       </Routes>
     </div>
   );

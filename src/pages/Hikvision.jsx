@@ -24,7 +24,7 @@ function Hikvision() {
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>04. DVR (TVI regs)/ </h5>
                         </Link>
-                        <Link to={'/Firmware/Hikvision/'} className='button_div2'>
+                        <Link to={'/Firmware/Hikvision/Video Intercom/'} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>05. Video Intercom/  </h5>
                         </Link>
