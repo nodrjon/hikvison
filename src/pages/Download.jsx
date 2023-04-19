@@ -2,19 +2,19 @@ import React from 'react'
 import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
-function AccessControl() {
+function Download() {
     return (
         <div>
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/Temperature Screening/Access Control/Firmware/"} className='button_div2'>
+                        <Link to={"/VMS/HikCentral/Download/V1.6.0/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>01 Firmware/</h5>
+                            <h5>V1.6.0/</h5>
                         </Link>
-                        <Link to={"/Temperature Screening/Access Control/How to/"} className='button_div2'>
+                        <Link to={"/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>02 How to/ </h5>
+                            <h5>HikCentral_ V1.2.1_ 20180719.exe </h5>
                         </Link>
                     </div>
                     <div>
@@ -26,4 +26,4 @@ function AccessControl() {
     )
 }
 
-export default AccessControl
+export default Download

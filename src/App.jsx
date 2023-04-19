@@ -81,6 +81,37 @@ import V3s235build220221 from './pages/V3s235build220221';
 import V3235build220610 from './pages/V3235build220610';
 import ExtensionModule from './pages/ExtensionModule';
 import Text3 from './pages/Text3';
+import DSK1T672T from './pages/DSK1T672T';
+import V3232build210429 from './pages/V3232build210429';
+import V3232build211029A from './pages/V3232build211029A';
+import DSKC001 from './pages/DSKC001';
+import V29build200714releasenotetxt from './pages/V29build200714releasenotetxt';
+import HowtoPage2 from './pages/HowtoPage2';
+import IVMS4200A from './pages/IVMS4200A';
+import V32505 from './pages/V32505';
+import HikCentralProfessional from './pages/HikCentralProfessional';
+import SmartOnboardTempScreeningTerminal from './pages/SmartOnboardTempScreeningTerminal';
+import Firmware2 from './pages/Firmware2';
+import A20200901 from './pages/A20200901';
+import Thermal from './pages/Thermal';
+import Twoinone from './pages/Twoinone';
+import HikCentral2 from './pages/HikCentral2';
+import Download from './pages/Download';
+import V160 from './pages/V160';
+import Documentation from './pages/Documentation';
+import HikCentral12 from './pages/HikCentral12';
+import Howto from './pages/Howto';
+import Blazer from './pages/Blazer';
+import BlazerPro from './pages/BlazerPro';
+import Download2 from './pages/Download2';
+import BlazerPro21 from './pages/BlazerPro21';
+import Documentation2 from './pages/Documentation2';
+import BlazerPro21Doc from './pages/BlazerPro21Doc';
+import BlazerExpress from './pages/BlazerExpress';
+import BlazerExpress14 from './pages/BlazerExpress14';
+import Download3 from './pages/Download3';
+import Documentation3 from './pages/Documentation3';
+import BlazerExpress14Doc from './pages/BlazerExpress14Doc';
 
 function App() {
   return (
@@ -109,8 +140,8 @@ function App() {
         <Route path='/Documents/How to documents/' element={<Howtodocuments />} />
         <Route path='/Documents/Datasheets/' element={<Datasheets />} />
         <Route path='/Documents/Accessary/' element={<Accessary />} />
-        <Route path='/Documents/Маркетинговые материалы/' element={<Marketing/>} />
-        <Route path='/Documents/ Материалы для проектирования/' element={<Materialsfordesign/>} />
+        <Route path='/Documents/Маркетинговые материалы/' element={<Marketing />} />
+        <Route path='/Documents/ Материалы для проектирования/' element={<Materialsfordesign />} />
         <Route path='/Temperature Screening/Thermal Camera/' element={<ThermalCamera />} />
         <Route path='/Temperature Screening/Thermal Camera/Installation&How to Video/' element={<InstallationHowVideo />} />
         <Route path='/Temperature Screening/Thermal Camera/Quick Installation&Configuration Guide/' element={<QuickInstallation />} />
@@ -166,6 +197,37 @@ function App() {
         <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.35_build220610/' element={<V3235build220610 />} />
         <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.35_build220610/Extension Module/' element={<ExtensionModule />} />
         <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.35_build220610/Extension Module/新建文本文档.txt' element={<Text3 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T672-T/' element={<DSK1T672T />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T672-T/V3.2.32_build210429/' element={<V3232build210429 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-K1T672-T/V3.2.32_build211029/' element={<V3232build211029A />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-KC001/' element={<DSKC001 />} />
+        <Route path='/Temperature Screening/Access Control/Firmware/DS-KC001/V2.1.9_build200714 release note.txt' element={<V29build200714releasenotetxt />} />
+        <Route path='/Temperature Screening/Access Control/How to/' element={<HowtoPage2 />} />
+        <Route path='/Temperature Screening/iVMS-4200/' element={<IVMS4200A />} />
+        <Route path='/Temperature Screening/iVMS-4200/v3.2.50.5/' element={<V32505 />} />
+        <Route path='/Temperature Screening/HikCentral Professional/' element={<HikCentralProfessional />} />
+        <Route path='/Temperature Screening/Smart Onboard Temp Screening Terminal/' element={<SmartOnboardTempScreeningTerminal />} />
+        <Route path='/Temperature Screening/Smart Onboard Temp Screening Terminal/Firmware/' element={<Firmware2 />} />
+        <Route path='/Temperature Screening/Smart Onboard Temp Screening Terminal/Firmware/20200901/' element={<A20200901 />} />
+        <Route path='/Temperature Screening/Smart Onboard Temp Screening Terminal/Firmware/20200901/Thermal/' element={<Thermal />} />
+        <Route path='/Temperature Screening/Smart Onboard Temp Screening Terminal/Firmware/20200901/two in one/' element={<Twoinone />} />
+        <Route path='/VMS/HikCentral/' element={<HikCentral2 />} />
+        <Route path='/VMS/HikCentral/Download/' element={<Download />} />
+        <Route path='/VMS/HikCentral/Download/V1.6.0/' element={<V160 />} />
+        <Route path='/VMS/HikCentral/Documentation/' element={<Documentation />} />
+        <Route path='/VMS/HikCentral/Documentation/HikCentral 1.2/' element={<HikCentral12 />} />
+        <Route path='/VMS/HikCentral/How-to/' element={<Howto />} />
+        <Route path='/VMS/Blazer/' element={<Blazer />} />
+        <Route path='/VMS/Blazer/Blazer Pro/' element={<BlazerPro />} />
+        <Route path='/VMS/Blazer/Blazer Pro/Download/' element={<Download2 />} />
+        <Route path='/VMS/Blazer/Blazer Pro/Download/Blazer Pro 2.1/' element={<BlazerPro21 />} />
+        <Route path='/VMS/Blazer/Blazer Pro/Documentation/' element={<Documentation2 />} />
+        <Route path='/VMS/Blazer/Blazer Pro/Documentation/Blazer Pro 2.1/' element={<BlazerPro21Doc />} />
+        <Route path='/VMS/Blazer/Blazer Express/' element={<BlazerExpress />} />
+        <Route path='/VMS/Blazer/Blazer Express/Download/' element={<Download3 />} />
+        <Route path='/VMS/Blazer/Blazer Express/Download/Blazer Express 1.4/' element={<BlazerExpress14 />} />
+        <Route path='/VMS/Blazer/Blazer Express/Documentation/' element={<Documentation3 />} />
+        <Route path='/VMS/Blazer/Blazer Express/Documentation/Blazer Express 1.4/' element={<BlazerExpress14Doc />} />
       </Routes>
     </div>
   );

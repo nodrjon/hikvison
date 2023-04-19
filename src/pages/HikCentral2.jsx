@@ -2,19 +2,23 @@ import React from 'react'
 import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
-function AccessControl() {
+function HikCentral2() {
     return (
         <div>
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/Temperature Screening/Access Control/Firmware/"} className='button_div2'>
+                        <Link to={"/VMS/HikCentral/Download/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>01 Firmware/</h5>
+                            <h5>Download/</h5>
                         </Link>
-                        <Link to={"/Temperature Screening/Access Control/How to/"} className='button_div2'>
+                        <Link to={"/VMS/HikCentral/Documentation/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>02 How to/ </h5>
+                            <h5>Documentation/</h5>
+                        </Link>
+                        <Link to={"/VMS/HikCentral/How-to/"} className='button_div2'>
+                            <i id='clear_' className="material-icons">clear</i>
+                            <h5>How-to/</h5>
                         </Link>
                     </div>
                     <div>
@@ -26,4 +30,4 @@ function AccessControl() {
     )
 }
 
-export default AccessControl
+export default HikCentral2

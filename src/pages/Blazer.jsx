@@ -2,19 +2,19 @@ import React from 'react'
 import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
-function AccessControl() {
+function Blazer() {
     return (
         <div>
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/Temperature Screening/Access Control/Firmware/"} className='button_div2'>
+                        <Link to={"/VMS/Blazer/Blazer Pro/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>01 Firmware/</h5>
+                            <h5>Blazer Pro/</h5>
                         </Link>
-                        <Link to={"/Temperature Screening/Access Control/How to/"} className='button_div2'>
+                        <Link to={"/VMS/Blazer/Blazer Express/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>02 How to/ </h5>
+                            <h5>Blazer Express/</h5>
                         </Link>
                     </div>
                     <div>
@@ -26,4 +26,4 @@ function AccessControl() {
     )
 }
 
-export default AccessControl
+export default Blazer
