@@ -122,6 +122,49 @@ import Keyboards from './pages/Keyboards';
 import Network from './pages/Network';
 import Thermal2 from './pages/Thermal2';
 import Storage2 from './pages/Storage';
+import A2series2XXX from './pages/A2series2XXX';
+import E3platform from './pages/E3platform';
+import V55800210628safeversion from './pages/V55800210628safeversion';
+import Readmetxt3 from './pages/Readmetxt3';
+import E8platform from './pages/E8platform';
+import A55800 from './pages/A55800';
+import A571 from './pages/A571';
+import A5712 from './pages/A5712';
+import A572 from './pages/A572';
+import A5720 from './pages/A5720';
+import G0platform from './pages/G0platform';
+import A5588200317 from './pages/A5588200317';
+import A5588206010 from './pages/A5588206010';
+import A5589210429 from './pages/A5589210429';
+import G1fisheye29X5 from './pages/G1fisheye29X5';
+import G1platform from './pages/G1platform';
+import G1Mplatform from './pages/G1Mplatform';
+import G3platform from './pages/G3platform';
+import DS2CD2XX6G2 from './pages/DS2CD2XX6G2';
+import A55800build211009 from './pages/A55800build211009';
+import Modeltxt from './pages/Modeltxt';
+import A55801build21105 from './pages/A55801build21105';
+import G5platform from './pages/G5platform';
+import V55801210727safeversion from './pages/V55801210727safeversion';
+import V5710220830 from './pages/V5710220830';
+import V5711220913 from './pages/V5711220913';
+import V5711221009 from './pages/V5711221009';
+import V5712221201 from './pages/V5712221201';
+import V5712230131 from './pages/V5712230131';
+import V5713230403 from './pages/V5713230403';
+import V571211009 from './pages/V571211009';
+import V572211109 from './pages/V572211109';
+import Oldmodels from './pages/Oldmodels';
+import R0Fisheye from './pages/R0Fisheye';
+import R0platform from './pages/R0platform';
+import R2platform from './pages/R2platform';
+import R6platform from './pages/R6platform';
+import TypeA6441 from './pages/TypeA6441';
+import TypeB6446 from './pages/TypeB6446';
+import TypeCplatformDS2CD7XXXDS2CD8XXX from './pages/TypeCplatformDS2CD7XXXDS2CD8XXX';
+import WiFicamerawithUSB from './pages/WiFicamerawithUSB';
+import DS2CD2U212Q21 from './pages/DS2CD2U212Q21';
+import DS2CV2Q21FDIW28mmW from './pages/DS2CV2Q21FDIW28mmW';
 
 function App() {
   return (
@@ -249,6 +292,49 @@ function App() {
         <Route path='/Firmware/Hikvision/Network/' element={<Network />} />
         <Route path='/Firmware/Hikvision/Thermal/' element={<Thermal2 />} />
         <Route path='/Firmware/Hikvision/Storage/' element={<Storage2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/' element={<A2series2XXX />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E3 platform (2X23G0D-IW2 2X21G1-IDW12 2X21G0 2/' element={<E3platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E3 platform (2X23G0D-IW2 2X21G1-IDW12 2X21G0 2/V5.5.800 210628 safe version/' element={<V55800210628safeversion />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E3 platform (2X23G0D-IW2 2X21G1-IDW12 2X21G0 2/V5.5.800 210628 safe version/Readme.txt' element={<Readmetxt3 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E8 platform (2CD2X23G0E(B))/' element={<E8platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E8 platform (2CD2X23G0E(B))/5.5.800/' element={<A55800 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E8 platform (2CD2X23G0E(B))/5.7.1/' element={<A571 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E8 platform (2CD2X23G0E(B))/5.7.12/' element={<A5712 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E8 platform (2CD2X23G0E(B))/5.7.2/' element={<A572 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E8 platform (2CD2X23G0E(B))/5.7.20/' element={<A5720 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G0 platform (2X47G3E 2X451G1-IDW12)/' element={<G0platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G0 platform (2X47G3E 2X451G1-IDW12)/5.5.88 200317/' element={<A5588200317 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G0 platform (2X47G3E 2X451G1-IDW12)/5.5.88 206010/' element={<A5588206010 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G0 platform (2X47G3E 2X451G1-IDW12)/5.5.89 210429/' element={<A5589210429 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G1 fisheye (29X5)/' element={<G1fisheye29X5 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G1 platform (2XX5 2XX3 2XX7G1)/' element={<G1platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G1+M platform (2XX6G1)/' element={<G1Mplatform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G3 platform (2XX6G2 2X41G2 2XX7G2 2XX6G0)/' element={<G3platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G3 platform (2XX6G2 2X41G2 2XX7G2 2XX6G0)/DS-2CD2XX6G2,2XX7G2 Models/' element={<DS2CD2XX6G2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G3 platform (2XX6G2 2X41G2 2XX7G2 2XX6G0)/DS-2CD2XX6G2,2XX7G2 Models/5.5.800 build 211009 safe version/' element={<A55800build211009 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G3 platform (2XX6G2 2X41G2 2XX7G2 2XX6G0)/DS-2CD2XX6G2,2XX7G2 Models/5.5.800 build 211009 safe version/model.txt' element={<Modeltxt />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G3 platform (2XX6G2 2X41G2 2XX7G2 2XX6G0)/DS-2CD2XX6G2,2XX7G2 Models/5.5.801 build211105/' element={<A55801build21105 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/' element={<G5platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.5.801_210727 safe version/' element={<V55801210727safeversion />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.10_220830/' element={<V5710220830 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.11_220913/' element={<V5711220913 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.11_221009/' element={<V5711221009 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.12_221201/' element={<V5712221201 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.12_230131/' element={<V5712230131 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.13_230403/' element={<V5713230403 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.1_211009 safe version/' element={<V571211009 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.2_211109/' element={<V572211109 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/' element={<Oldmodels />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R0 Fisheye(DS-2CD2942F-I(W)(S))/' element={<R0Fisheye />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R0 platform (2xx2)/' element={<R0platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R2 platform (2хх2 2mpx, 2xx0)/' element={<R2platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/' element={<R6platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeA(6441)/' element={<TypeA6441 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeB(6446)/' element={<TypeB6446 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/' element={<TypeCplatformDS2CD7XXXDS2CD8XXX />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/' element={<WiFicamerawithUSB />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CD2U21_2Q21/' element={<DS2CD2U212Q21 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CV2Q21FD-IW2.8mmW safe version/' element={<DS2CV2Q21FDIW28mmW />} />
       </Routes>
     </div>
   );
