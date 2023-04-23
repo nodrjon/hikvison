@@ -165,6 +165,42 @@ import TypeCplatformDS2CD7XXXDS2CD8XXX from './pages/TypeCplatformDS2CD7XXXDS2CD
 import WiFicamerawithUSB from './pages/WiFicamerawithUSB';
 import DS2CD2U212Q21 from './pages/DS2CD2U212Q21';
 import DS2CV2Q21FDIW28mmW from './pages/DS2CV2Q21FDIW28mmW';
+import A3series3XXX from './pages/A3series3XXX';
+import G1platform3XX5 from './pages/G1platform3XX5';
+import G3platform3XX6G2 from './pages/G3platform3XX6G2';
+import G5platform3xx6G2C from './pages/G5platform3xx6G2C';
+import G5platform3xxG2P from './pages/G5platform3xxG2P';
+import Aseries4XXX from './pages/Aseries4XXX';
+import A5series5XXX from './pages/A5series5XXX';
+import A6series6XXX from './pages/A6series6XXX';
+import A7series7XXX from './pages/A7series7XXX';
+import A8series8XXX from './pages/A8series8XXX';
+import Other from './pages/Other';
+import IVMS4200fullversion from './pages/IVMS4200fullversion';
+import A3119 from './pages/A3119';
+import A3705 from './pages/A3705';
+import A3715 from './pages/A3715';
+import A3804 from './pages/A3804';
+import A3814 from './pages/A3814';
+import A3904 from './pages/A3904';
+import A3914 from './pages/A3914';
+import IVMS4200AC from './pages/IVMS4200AC';
+import B14010 from './pages/B14010';
+import B1606 from './pages/B1606';
+import B1613 from './pages/B1613';
+import B1615 from './pages/B1615';
+import B1616 from './pages/B1616';
+import B1705 from './pages/B1705';
+import B1715 from './pages/B1715';
+import B1804 from './pages/B1804';
+import B1814 from './pages/B1814';
+import B1914 from './pages/B1914';
+import IVMS4200formacosx from './pages/IVMS4200formacosx';
+import V20010 from './pages/V20010';
+import V20012 from './pages/V20012';
+import V2009 from './pages/V2009';
+import IVMS4200VideoWallclient from './pages/IVMS4200VideoWallclient';
+import IVMS4200mobile from './pages/IVMS4200mobile';
 
 function App() {
   return (
@@ -335,6 +371,42 @@ function App() {
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/' element={<WiFicamerawithUSB />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CD2U21_2Q21/' element={<DS2CD2U212Q21 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CV2Q21FD-IW2.8mmW safe version/' element={<DS2CV2Q21FDIW28mmW />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/' element={<A3series3XXX />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G1 platform (3XX5)/' element={<G1platform3XX5 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/' element={<G3platform3XX6G2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G5 platform (3xx6G2(C) 3xx7G2(C))/' element={<G5platform3xx6G2C />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G5 platform (3xxG2P)/' element={<G5platform3xxG2P />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/' element={<Aseries4XXX />} />
+        <Route path='/Firmware/Hikvision/IP Camera/5 series - 5XXX/' element={<A5series5XXX />} />
+        <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/' element={<A6series6XXX />} />
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/' element={<A7series7XXX />} />
+        <Route path='/Firmware/Hikvision/IP Camera/8 series - 8XXX/' element={<A8series8XXX />} />
+        <Route path='/Firmware/Hikvision/IP Camera/Other/' element={<Other />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 full version/' element={<IVMS4200fullversion />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 full version/3.1.1.9/' element={<A3119 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 full version/3.7.0.5/' element={<A3705 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 full version/3.7.1.5/' element={<A3715 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 full version/3.8.0.4/' element={<A3804 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 full version/3.8.1.4/' element={<A3814 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 full version/3.9.0.4/' element={<A3904 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 full version/3.9.1.4/' element={<A3914 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/' element={<IVMS4200AC />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/1.4.0.10/' element={<B14010 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/1.6.0.6/' element={<B1606 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/1.6.1.3/' element={<B1613 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/1.6.1.5/' element={<B1615 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/1.6.1.6/' element={<B1616 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/1.7.0.5/' element={<B1705 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/1.7.1.5/' element={<B1715 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/1.8.0.4/' element={<B1804 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/1.8.1.4/' element={<B1814 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 AC/1.9.1.4/' element={<B1914 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 for macosx/' element={<IVMS4200formacosx />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 for macosx/V2.0.0.10/' element={<V20010 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 for macosx/V2.0.0.12/' element={<V20012 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 for macosx/V2.0.0.9/' element={<V2009 />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 Video Wall client/' element={<IVMS4200VideoWallclient />} />
+        <Route path='/Software/iVMS-4200/iVMS-4200 mobile/' element={<IVMS4200mobile />} />
       </Routes>
     </div>
   );
