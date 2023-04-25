@@ -201,6 +201,14 @@ import V20012 from './pages/V20012';
 import V2009 from './pages/V2009';
 import IVMS4200VideoWallclient from './pages/IVMS4200VideoWallclient';
 import IVMS4200mobile from './pages/IVMS4200mobile';
+import V573220112 from './pages/V573220112';
+import FirmwareIPCRaptorseriesEnV550170725 from './pages/FirmwareIPCRaptorseriesEnV550170725';
+import FirmwareIPCRaptorseriesEnV555180111 from './pages/FirmwareIPCRaptorseriesEnV555180111';
+import Firmware_IPC_Raptorseries_En_V5553180730 from './pages/Firmware_IPC_Raptorseries_En_V5553180730';
+import Firmware_IPC_Raptorseries_En_V5582190220 from './pages/Firmware_IPC_Raptorseries_En_V5582190220';
+import Firmware_IPC_Raptorseries_EnV5582190909 from './pages/Firmware_IPC_Raptorseries_EnV5582190909';
+import Камерывыпущенныедо201года from './pages/Камерывыпущенныедо201года';
+import TyCText from './pages/TyCText';
 
 function App() {
   return (
@@ -360,14 +368,24 @@ function App() {
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.13_230403/' element={<V5713230403 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.1_211009 safe version/' element={<V571211009 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.2_211109/' element={<V572211109 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.3_220112/' element={<V573220112 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/' element={<Oldmodels />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R0 Fisheye(DS-2CD2942F-I(W)(S))/' element={<R0Fisheye />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R0 platform (2xx2)/' element={<R0platform />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R2 platform (2хх2 2mpx, 2xx0)/' element={<R2platform />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/' element={<R6platform />} />
+        {/* r6 ning ichki linklari */}
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/Firmware_IPC_Raptor series_En_V5.5.0 170725/' element={<FirmwareIPCRaptorseriesEnV550170725 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/Firmware_IPC_Raptor series_En_V5.5.5 180111/' element={<FirmwareIPCRaptorseriesEnV555180111 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/Firmware_IPC_Raptor series_En_V5.5.53 180730/' element={<Firmware_IPC_Raptorseries_En_V5553180730 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/Firmware_IPC_Raptor series_En_V5.5.82 190220/' element={<Firmware_IPC_Raptorseries_En_V5582190220 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/Firmware_IPC_Raptor series_En_V5.5.82 190909/' element={<Firmware_IPC_Raptorseries_EnV5582190909 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeA(6441)/' element={<TypeA6441 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeB(6446)/' element={<TypeB6446 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/' element={<TypeCplatformDS2CD7XXXDS2CD8XXX />} />
+        {/* type c files */}
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/Камеры, выпущенные до 2012 года/' element={<Камерывыпущенныедо201года />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/Камеры, выпущенные до 2012 года/text' element={<TyCText />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/' element={<WiFicamerawithUSB />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CD2U21_2Q21/' element={<DS2CD2U212Q21 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CV2Q21FD-IW2.8mmW safe version/' element={<DS2CV2Q21FDIW28mmW />} />
@@ -407,6 +425,7 @@ function App() {
         <Route path='/Software/iVMS-4200/iVMS-4200 for macosx/V2.0.0.9/' element={<V2009 />} />
         <Route path='/Software/iVMS-4200/iVMS-4200 Video Wall client/' element={<IVMS4200VideoWallclient />} />
         <Route path='/Software/iVMS-4200/iVMS-4200 mobile/' element={<IVMS4200mobile />} />
+        <Route path='*' element={<h3 className='text-center'>404</h3>} />
       </Routes>
     </div>
   );
