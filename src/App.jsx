@@ -213,6 +213,10 @@ import TyCText from './pages/TyCText';
 import README_TyCTXT from './pages/README_TyCTXT';
 import Html from './pages/Html';
 import Model_wifi_txt from './pages/Model_wifi_txt';
+import G3platform3XX6G2_1 from './pages/G3platform3XX6G2_1';
+import G3platform3XX6G2_2 from './pages/G3platform3XX6G2_2';
+import G3platform3XX6G2_text from './pages/G3platform3XX6G2_text';
+import G3platform3XX6G2_3 from './pages/G3platform3XX6G2_3';
 
 function App() {
   return (
@@ -400,6 +404,10 @@ function App() {
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/' element={<A3series3XXX />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G1 platform (3XX5)/' element={<G1platform3XX5 />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/' element={<G3platform3XX6G2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/5.5.800 build210628 safe version/' element={<G3platform3XX6G2_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/5.5.800 build211009 safe version/' element={<G3platform3XX6G2_2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/5.5.820 build220520 safe version/' element={<G3platform3XX6G2_3 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/5.5.800 build211009 safe version/text' element={<G3platform3XX6G2_text />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G5 platform (3xx6G2(C) 3xx7G2(C))/' element={<G5platform3xx6G2C />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G5 platform (3xxG2P)/' element={<G5platform3xxG2P />} />
         <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/' element={<Aseries4XXX />} />
