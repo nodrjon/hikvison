@@ -208,7 +208,11 @@ import Firmware_IPC_Raptorseries_En_V5553180730 from './pages/Firmware_IPC_Rapto
 import Firmware_IPC_Raptorseries_En_V5582190220 from './pages/Firmware_IPC_Raptorseries_En_V5582190220';
 import Firmware_IPC_Raptorseries_EnV5582190909 from './pages/Firmware_IPC_Raptorseries_EnV5582190909';
 import Камерывыпущенныедо201года from './pages/Камерывыпущенныедо201года';
+import Камерывыпущенныепосле2012года from './pages/Камерывыпущенныепосле2012года';
 import TyCText from './pages/TyCText';
+import README_TyCTXT from './pages/README_TyCTXT';
+import Html from './pages/Html';
+import Model_wifi_txt from './pages/Model_wifi_txt';
 
 function App() {
   return (
@@ -385,10 +389,14 @@ function App() {
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/' element={<TypeCplatformDS2CD7XXXDS2CD8XXX />} />
         {/* type c files */}
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/Камеры, выпущенные до 2012 года/' element={<Камерывыпущенныедо201года />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/Камеры, выпущенные после 2012 года/' element={<Камерывыпущенныепосле2012года />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/Камеры, выпущенные до 2012 года/text' element={<TyCText />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/README.TXT/' element={<README_TyCTXT />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/html' element={<Html />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/' element={<WiFicamerawithUSB />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CD2U21_2Q21/' element={<DS2CD2U212Q21 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CV2Q21FD-IW2.8mmW safe version/' element={<DS2CV2Q21FDIW28mmW />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CV2Q21FD-IW2.8mmW safe version/model_txt' element={<Model_wifi_txt />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/' element={<A3series3XXX />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G1 platform (3XX5)/' element={<G1platform3XX5 />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/' element={<G3platform3XX6G2 />} />
