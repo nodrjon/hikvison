@@ -217,6 +217,24 @@ import G3platform3XX6G2_1 from './pages/G3platform3XX6G2_1';
 import G3platform3XX6G2_2 from './pages/G3platform3XX6G2_2';
 import G3platform3XX6G2_text from './pages/G3platform3XX6G2_text';
 import G3platform3XX6G2_3 from './pages/G3platform3XX6G2_3';
+import H0platform from './pages/H0platform';
+import IPC_H0_ML_STD_545_170302 from './pages/IPC_H0_ML_STD_545_170302';
+import R1platform from './pages/R1platform';
+import R1platform_r1 from './pages/R1platform_r1';
+import R1platform_r2 from './pages/R1platform_r2';
+import R1platform_r3 from './pages/R1platform_r3';
+import R1platform_r4 from './pages/R1platform_r4';
+import R3platform from './pages/R3platform';
+import R3platform__1 from './pages/R3platform__1';
+import R3platform__2 from './pages/R3platform__2';
+import R4platform from './pages/R4platform';
+import R4platform__1 from './pages/R4platform__1';
+import R4platform__2 from './pages/R4platform__2';
+import R7platform from './pages/R7platform';
+import R7platform__1 from './pages/R7platform__1';
+import R7platform__2 from './pages/R7platform__2';
+import R7platform__3 from './pages/R7platform__3';
+import R7platform__1_text from './pages/R7platform__1_text';
 
 function App() {
   return (
@@ -411,6 +429,35 @@ function App() {
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G5 platform (3xx6G2(C) 3xx7G2(C))/' element={<G5platform3xx6G2C />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G5 platform (3xxG2P)/' element={<G5platform3xxG2P />} />
         <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/' element={<Aseries4XXX />} />
+        {/* ichki fayllar */}
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/' element={<H0platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/R1 platform (discontinued)/' element={<R1platform />} />
+        {/* r1 uchun */}
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r1' element={<R1platform_r1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r2' element={<R1platform_r2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r3' element={<R1platform_r3 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r4' element={<R1platform_r4 />} />
+
+        {/* r3 */}
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/R3 platform (4x26FWD)/' element={<R3platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r3_1' element={<R3platform__1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r3_2' element={<R3platform__2 />} />
+
+          {/* r4 */}
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/R4 platform (4XX5 series)/' element={<R4platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r4_1' element={<R4platform__1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r4_2' element={<R4platform__2 />} />
+
+        {/* r7 */}
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/>R7 platform (H.265 4X26EFWD, 4BX6, 4CX6, 4DX6, ..' element={<R7platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r7_1' element={<R7platform__1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r7_1_text' element={<R7platform__1_text />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r7_2' element={<R7platform__2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r7_3' element={<R7platform__3 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/HBaseline' element={<IPC_H0_ML_STD_545_170302 />} />
         <Route path='/Firmware/Hikvision/IP Camera/5 series - 5XXX/' element={<A5series5XXX />} />
         <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/' element={<A6series6XXX />} />
         <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/' element={<A7series7XXX />} />
