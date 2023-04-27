@@ -2,19 +2,23 @@ import React from 'react'
 import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
-function HIKVISIONCardDriver2() {
+function VisualC() {
     return (
-        <div> 
+        <div>
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/Vista x86(32-bit) Driver/"} className='button_div2'>
+                        <Link to={"/Software/3rd party tools/Visual C++/2008/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>Vista x86(32-bit) Driver/</h5>
+                            <h5>2008/</h5>
                         </Link>
-                        <Link to={"/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/win2000XP2003 Driver/"} className='button_div2'>
+                        <Link to={"/Software/3rd party tools/Visual C++/2013/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>win2000XP2003 Driver/</h5>
+                            <h5>2013/</h5>
+                        </Link>
+                        <Link to={"/Software/3rd party tools/Visual C++/2017/"} className='button_div2'>
+                            <i id='clear_' className="material-icons">clear</i>
+                            <h5>2017/</h5>
                         </Link>
                     </div>
                     <div>
@@ -26,4 +30,4 @@ function HIKVISIONCardDriver2() {
     )
 }
 
-export default HIKVISIONCardDriver2;
+export default VisualC

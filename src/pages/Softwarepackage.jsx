@@ -2,19 +2,23 @@ import React from 'react'
 import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
-function HIKVISIONCardDriver2() {
+function Softwarepackage() {
     return (
-        <div> 
+        <div>
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/Vista x86(32-bit) Driver/"} className='button_div2'>
+                        <Link to={"/Software/Hik-Central/Software package/2.0.1/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>Vista x86(32-bit) Driver/</h5>
+                            <h5>2.0.1/</h5>
                         </Link>
-                        <Link to={"/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/win2000XP2003 Driver/"} className='button_div2'>
+                        <Link to={"/Software/Hik-Central/Software package/2.2.1/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>win2000XP2003 Driver/</h5>
+                            <h5>2.2.1/</h5>
+                        </Link>
+                        <Link to={"/Software/Hik-Central/Software package/2.3/"} className='button_div2'>
+                            <i id='clear_' className="material-icons">clear</i>
+                            <h5>2.3/</h5>
                         </Link>
                     </div>
                     <div>
@@ -26,4 +30,4 @@ function HIKVISIONCardDriver2() {
     )
 }
 
-export default HIKVISIONCardDriver2;
+export default Softwarepackage;

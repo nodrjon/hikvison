@@ -110,7 +110,7 @@ function Howtodocuments() {
                         </a>
                         <a target='_blank' href='http://ftp.hikvision.ru/03.%20Documents/01.%20How%20to%20documents/how_to_choose_focus_distance.jpg' className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>how_to_choose_focus_distance.jpg </h5>
+                            <h5>how_to_choose_focus _distance.jpg </h5>
                         </a>
                         <a target='_blank' href='http://ftp.hikvision.ru/03.%20Documents/01.%20How%20to%20documents/%D0%90%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BF%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D0%B0.pdf' className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>

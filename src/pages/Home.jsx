@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 function Home() {
     return (
         <div>
-            <div className='home_div'> 
+            <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
                         <Link to={"/Firmware/"} className='button_div2'>

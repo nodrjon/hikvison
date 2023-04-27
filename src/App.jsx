@@ -271,6 +271,33 @@ import DS4000Drv25x86 from './pages/DS4000Drv25x86';
 import Drivers_Old from './pages/Drivers_Old';
 import HIKVISIONCardDriver2 from './pages/HIKVISIONCardDriver2';
 import Vistax8632bitDriver from './pages/Vistax8632bitDriver';
+import Win2000XP2003Driver from './pages/Win2000XP2003Driver';
+import Hikvision4200CardDriver from './pages/Hikvision4200CardDriver';
+import A32biWinOS from './pages/A32biWinOS';
+import A64bitWinOS from './pages/A64bitWinOS';
+import Hikvision4300CardDriver from './pages/Hikvision4300CardDriver';
+import DS43xxDrvX64 from './pages/DS43xxDrvX64';
+import DS43xxDrvX86 from './pages/DS43xxDrvX86';
+import Driver_v23_x64_x86 from './pages/Driver_v23_x64_x86';
+import DS4000Drv23x64 from './pages/DS4000Drv23x64';
+import DS4000Drv23x86 from './pages/DS4000Drv23x86';
+import Mib from './pages/Mib';
+import Cameras from './pages/Cameras';
+import ForMacosx from './pages/ForMacosx';
+import SADP2 from './pages/SADP2';
+import BatchConfigTool2 from './pages/BatchConfigTool2';
+import VSPlayer2 from './pages/VSPlayer2';
+import Storageandnetworkcalculator from './pages/Storageandnetworkcalculator';
+import OnvifDeviceTestTool from './pages/OnvifDeviceTestTool';
+import VisualC from './pages/VisualC';
+import A2008 from './pages/A2008';
+import A2013 from './pages/A2013';
+import V2017 from './pages/V2017';
+import Softwarepackage from './pages/Softwarepackage';
+import A201 from './pages/A201';
+import A221 from './pages/A221';
+import A23 from './pages/A23';
+import Kojuhi from './pages/Кожухи';
 
 function App() {
   return (
@@ -479,7 +506,7 @@ function App() {
         <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r3_1' element={<R3platform__1 />} />
         <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r3_2' element={<R3platform__2 />} />
 
-          {/* r4 */}
+        {/* r4 */}
         <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/R4 platform (4XX5 series)/' element={<R4platform />} />
         <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r4_1' element={<R4platform__1 />} />
         <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r4_2' element={<R4platform__2 />} />
@@ -560,6 +587,33 @@ function App() {
         <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/' element={<Drivers_Old />} />
         <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/' element={<HIKVISIONCardDriver2 />} />
         <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/Vista x86(32-bit) Driver/' element={<Vistax8632bitDriver />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/win2000XP2003 Driver/' element={<Win2000XP2003Driver />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/Hikvision 4200 Card Driver/' element={<Hikvision4200CardDriver />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/Hikvision 4200 Card Driver/32bit WinOS/' element={<A32biWinOS />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/Hikvision 4200 Card Driver/64bit WinOS/' element={<A64bitWinOS />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/Hikvision 4300 Card Driver/' element={<Hikvision4300CardDriver />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/Hikvision 4300 Card Driver/DS43xxDrv-X64/' element={<DS43xxDrvX64 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/Hikvision 4300 Card Driver/DS43xxDrv-X86/' element={<DS43xxDrvX86 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/driver_v2.3_x64_x86/' element={<Driver_v23_x64_x86 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/driver_v2.3_x64_x86/DS4000Drv-2.3-x64/' element={<DS4000Drv23x64 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/driver_v2.3_x64_x86/DS4000Drv-2.3-x86/' element={<DS4000Drv23x86 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/mib/' element={<Mib />} />
+        <Route path='/Software/Hikvision Tools/For Windows/mib/Cameras/' element={<Cameras />} />
+        <Route path='/Software/Hikvision Tools/For Macosx/' element={<ForMacosx />} />
+        <Route path='/Software/Hikvision Tools/For Macosx/SADP/' element={<SADP2 />} />
+        <Route path='/Software/Hikvision Tools/For Macosx/BatchConfig Tool/' element={<BatchConfigTool2 />} />
+        <Route path='/Software/Hikvision Tools/For Macosx/VS Player/' element={<VSPlayer2 />} />
+        <Route path='/Software/Hikvision Tools/For Macosx/Storage and network calculator/' element={<Storageandnetworkcalculator />} />
+        <Route path='/Software/3rd party tools/Onvif Device Test Tool/' element={<OnvifDeviceTestTool />} />
+        <Route path='/Software/3rd party tools/Visual C++/' element={<VisualC />} />
+        <Route path='/Software/3rd party tools/Visual C++/2008/' element={<A2008 />} />
+        <Route path='/Software/3rd party tools/Visual C++/2013/' element={<A2013 />} />
+        <Route path='/Software/3rd party tools/Visual C++/2013/' element={<V2017 />} />
+        <Route path='/Software/Hik-Central/Software package/' element={<Softwarepackage />} />
+        <Route path='/Software/Hik-Central/Software package/2.0.1/' element={<A201 />} />
+        <Route path='/Software/Hik-Central/Software package/2.2.1/' element={<A221 />} />
+        <Route path='/Software/Hik-Central/Software package/2.3/' element={<A23 />} />
+        <Route path='/Documents/Accessary/Кожухи/' element={<Kojuhi />} />
       </Routes>
     </div>
   );

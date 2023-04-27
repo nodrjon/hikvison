@@ -2,19 +2,19 @@ import React from 'react'
 import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
-function HIKVISIONCardDriver2() {
+function Driver_v23_x64_x86() {
     return (
-        <div> 
+        <div>
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/Vista x86(32-bit) Driver/"} className='button_div2'>
+                        <Link to={"/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/driver_v2.3_x64_x86/DS4000Drv-2.3-x64/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>Vista x86(32-bit) Driver/</h5>
+                            <h5>DS4000Drv-2.3-x64/</h5>
                         </Link>
-                        <Link to={"/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/win2000XP2003 Driver/"} className='button_div2'>
+                        <Link to={"/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/driver_v2.3_x64_x86/DS4000Drv-2.3-x86/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>win2000XP2003 Driver/</h5>
+                            <h5>DS4000Drv-2.3-x86/</h5>
                         </Link>
                     </div>
                     <div>
@@ -26,4 +26,4 @@ function HIKVISIONCardDriver2() {
     )
 }
 
-export default HIKVISIONCardDriver2;
+export default Driver_v23_x64_x86
