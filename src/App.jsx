@@ -201,6 +201,34 @@ import V20012 from './pages/V20012';
 import V2009 from './pages/V2009';
 import IVMS4200VideoWallclient from './pages/IVMS4200VideoWallclient';
 import IVMS4200mobile from './pages/IVMS4200mobile';
+import ForWindows from './pages/ForWindows';
+import Hikvisiontoolsmanager from './pages/Hikvisiontoolsmanager';
+import SADP from './pages/SADP';
+import ReleaseNotes from './pages/ReleaseNotes';
+import BatchConfigTool from './pages/BatchConfigTool';
+import C2006 from './pages/C2006';
+import C3023 from './pages/C3023';
+import C3038 from './pages/C3038';
+import C3104 from './pages/C3104';
+import C3122 from './pages/C3122';
+import C3125 from './pages/C3125';
+import LocalPlayback from './pages/LocalPlayback';
+import C3005 from './pages/C3005';
+import C3012 from './pages/C3012';
+import RemoteBackup from './pages/RemoteBackup';
+import V300301 from './pages/V300301';
+import V3012 from './pages/V3012';
+import VSPlayer from './pages/VSPlayer';
+import V744 from './pages/V744';
+import V7444 from './pages/V7444';
+import Lensselection from './pages/Lensselection';
+import C2041 from './pages/C2041';
+import GUIemulator from './pages/GUIemulator';
+import WebComponents from './pages/WebComponents';
+import ForIPSpeaker from './pages/ForIPSpeaker';
+import IseriesNVRfirmware from './pages/IseriesNVRfirmware';
+import Speakerfirmware from './pages/Speakerfirmware';
+import HikIPReceiverpro from './pages/HikIPReceiverpro';
 
 function App() {
   return (
@@ -407,6 +435,34 @@ function App() {
         <Route path='/Software/iVMS-4200/iVMS-4200 for macosx/V2.0.0.9/' element={<V2009 />} />
         <Route path='/Software/iVMS-4200/iVMS-4200 Video Wall client/' element={<IVMS4200VideoWallclient />} />
         <Route path='/Software/iVMS-4200/iVMS-4200 mobile/' element={<IVMS4200mobile />} />
+        <Route path='/Software/Hikvision Tools/For Windows/' element={<ForWindows />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision tools manager/' element={<Hikvisiontoolsmanager />} />
+        <Route path='/Software/Hikvision Tools/For Windows/SADP/' element={<SADP />} />
+        <Route path='/Software/Hikvision Tools/For Windows/SADP/Release Notes/' element={<ReleaseNotes />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/' element={<BatchConfigTool />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/2.0.0.6/' element={<C2006 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.0.2.3/' element={<C3023 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.0.3.8/' element={<C3038 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.0.4/' element={<C3104 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.2.2/' element={<C3122 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.2.5/' element={<C3125 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Local Playback/' element={<LocalPlayback />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Local Playback/3.0.0.5/' element={<C3005 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Local Playback/3.0.1.2/' element={<C3012 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Remote Backup/' element={<RemoteBackup />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Remote Backup/V3.0.0.301/' element={<V300301 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Remote Backup/V3.0.1.2/' element={<V3012 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/VSPlayer/' element={<VSPlayer />} />
+        <Route path='/Software/Hikvision Tools/For Windows/VSPlayer/v7.4.4/' element={<V744 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/VSPlayer/v7.4.4.4/' element={<V7444 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Lens selection/' element={<Lensselection />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Lens selection/2.0.4.1/' element={<C2041 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/GUI emulator/' element={<GUIemulator />} />
+        <Route path='/Software/Hikvision Tools/For Windows/WebComponents/' element={<WebComponents />} />
+        <Route path='/Software/Hikvision Tools/For Windows/For IP Speaker/' element={<ForIPSpeaker />} />
+        <Route path='/Software/Hikvision Tools/For Windows/For IP Speaker/I series NVR firmware/' element={<IseriesNVRfirmware />} />
+        <Route path='/Software/Hikvision Tools/For Windows/For IP Speaker/Speaker firmware/' element={<Speakerfirmware />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hik IP Receiver pro/' element={<HikIPReceiverpro />} />
       </Routes>
     </div>
   );
