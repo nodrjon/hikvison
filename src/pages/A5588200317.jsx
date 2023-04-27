@@ -30,9 +30,7 @@ function A5588200317() {
               <h5>IPC_G0_EN_STD_ 5.5.88_200317.zip</h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

@@ -8,14 +8,12 @@ function A5series5XXX() {
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/Firmware/Hikvision/IP Camera/5 series - 5XXX/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                        <Link to={"/Firmware/Hikvision/IP Camera/5 series - 5XXX/1"} className='button_div2'>
+                             
                             <h5>H3 platform (DS-2CD5XXX)/ </h5>
                         </Link>
                     </div>
-                    <div>
-                        <img src={img} alt="" />
-                    </div>
+                     
                 </div>
             </div>
         </div>

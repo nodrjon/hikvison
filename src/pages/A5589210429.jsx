@@ -30,9 +30,7 @@ function A5589210429() {
               <h5>Network Camera V5.5.89 Release Note --G0.pdf</h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

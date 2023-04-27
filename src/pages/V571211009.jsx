@@ -26,9 +26,7 @@ function V571211009() {
               <h5>model.txt </h5>
             </Link>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

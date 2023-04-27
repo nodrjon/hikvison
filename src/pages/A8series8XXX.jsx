@@ -9,13 +9,11 @@ function A8series8XXX() {
                 <div className='home_div2'>
                     <div className='button_div'>
                         <Link to={"/Firmware/Hikvision/IP Camera/8 series - 8XXX/H3 platform/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>H3 platform/</h5>
                         </Link>
                     </div>
-                    <div>
-                        <img src={img} alt="" />
-                    </div>
+                     
                 </div>
             </div>
         </div>

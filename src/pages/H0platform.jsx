@@ -20,9 +20,7 @@ export default function H0platform() {
               <h5>HBaseline Firmware_IPC_Raptor series_En_V5.4.5 1..</h5>
             </Link>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

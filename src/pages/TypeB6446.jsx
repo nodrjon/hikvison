@@ -20,9 +20,7 @@ function TypeB6446() {
               <h5>Hikvision Firmware_IPC_TypeB series_En_V2.0 110..</h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

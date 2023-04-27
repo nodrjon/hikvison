@@ -19,9 +19,7 @@ export default function R3platform__1() {
             <h5>IPC_R3_ML_ST D_5.4. 5_17022 8.zip </h5>
           </a>
         </div>
-        <div>
-          <img src={img} alt="" />
-        </div>
+         
       </div>
     </div>
   );

@@ -20,9 +20,7 @@ export default function G3platform3XX6G2_1() {
               <h5>IPC G_G 3_EN _STD_5.5.800_210628.zip </h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

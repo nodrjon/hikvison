@@ -30,9 +30,7 @@ function V55801210727safeversion() {
               <h5>Network Camera V5.5.801 Release Note --G5.pdf </h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

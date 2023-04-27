@@ -64,9 +64,7 @@ function Камерывыпущенныепосле2012года() {
               <h5>typeC_V5.0.0 _EN.zip</h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

@@ -19,9 +19,7 @@ export default function R1platform_r3() {
             <h5>I PC_R1 _EN_STD_5.4  .41_170310.zip  </h5>
           </a>
         </div>
-        <div>
-          <img src={img} alt="" />
-        </div>
+         
       </div>
     </div>
   );

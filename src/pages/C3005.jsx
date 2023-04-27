@@ -9,13 +9,11 @@ function C3005() {
                 <div className='home_div2'>
                     <div className='button_div'>
                         <Link to={"/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>LocalPlayback.exe</h5>
                         </Link>
                     </div>
-                    <div>
-                        <img src={img} alt="" />
-                    </div>
+                     
                 </div>
             </div>
         </div>

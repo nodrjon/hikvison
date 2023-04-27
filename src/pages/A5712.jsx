@@ -30,9 +30,7 @@ function A5712() {
               <h5>IPC_E8-V5.7.12_SP Release Note--EN.pdf</h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

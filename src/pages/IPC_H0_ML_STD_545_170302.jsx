@@ -21,9 +21,7 @@ export default function IPC_H0_ML_STD_545_170302() {
             <h5>IPC_H0_M L_ST D_5. 4.5_170302.zip</h5>
           </a>
         </div>
-        <div>
-          <img src={img} alt="" />
-        </div>
+         
       </div>
     </div>
   </div>

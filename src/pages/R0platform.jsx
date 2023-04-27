@@ -63,9 +63,7 @@ function R0platform() {
               <h5>IPC_R0_EN_STD_ 5.4.800_210813.zip </h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

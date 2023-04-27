@@ -52,9 +52,7 @@ function G1fisheye29X5() {
               <h5>IPC_G1_EN_STD_ 5.4.5_170216.zip </h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

@@ -20,9 +20,7 @@ function DS2CD2U212Q21() {
               <h5>DS-2CD2U21_2Q21_STD_ 5.4.800_210820.zip </h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

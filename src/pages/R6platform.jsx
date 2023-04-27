@@ -65,9 +65,7 @@ function R6platform() {
               <h5>Firmware_IPC_Raptor series_En_V5.5.82 190909/</h5>
             </Link>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

@@ -9,17 +9,15 @@ function C2006() {
                 <div className='home_div2'>
                     <div className='button_div'>
                         <a target='_blank' href='http://ftp.hikvision.ru/02.%20Software/02.%20Hikvision%20Tools/01.%20For%20Windows/02.%20BatchConfig%20Tool/2.0.0.6/BatchConfigTool%20v2.0.0.6%20%20Release%20Notes_External.pdf' className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>BatchConfigTool v2.0.0.6  Release Notes_Externa..</h5>
                         </a>
                         <Link to={'/'} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>BatchConfigTool.exe </h5>
                         </Link>
                     </div>
-                    <div>
-                        <img src={img} alt="" />
-                    </div>
+                     
                 </div>
             </div>
         </div>
