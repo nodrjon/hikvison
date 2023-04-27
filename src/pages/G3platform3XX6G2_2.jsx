@@ -7,7 +7,7 @@ export default function G3platform3XX6G2_2() {
     <div>
       <div className="home_div">
         <div className="home_div2">
-          <div className="button_div">
+          <div className="button_div"> 
             <a
               href={
                 "http://ftp.hikvision.ru/01.%20Firmware/01.%20Hikvision/01.%20IP%20Camera/02.%203%20series%20-%203XXX/G3%20platform%20%283XX6G2%29/5.5.800%20build211009%20safe%20version/IPCG_G3_EN_STD_5.5.800_211009.zip"

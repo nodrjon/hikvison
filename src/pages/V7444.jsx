@@ -25,7 +25,7 @@ function V7444() {
                         <img src={img} alt="" />
                     </div>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }

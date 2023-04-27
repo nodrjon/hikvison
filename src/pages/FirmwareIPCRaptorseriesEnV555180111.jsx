@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import img from "../photo/img.png";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 
 function FirmwareIPCRaptorseriesEnV555180111() {
   return (

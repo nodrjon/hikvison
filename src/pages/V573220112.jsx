@@ -16,7 +16,7 @@ function V573220112() {
             >
               <i id="clear_" className="material-icons">
                 clear
-              </i>
+              </i> 
               <h5>IPC_G5_EN_STD_5 .7.3_220112.zip</h5>
             </a>
             <a

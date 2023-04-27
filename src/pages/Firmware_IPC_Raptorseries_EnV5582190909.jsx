@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Firmware_IPC_Raptorseries_EnV5582190909() {
   return (
-    <div>
+    <div> 
       <div className="home_div">
         <div className="home_div2">
           <div className="button_div">

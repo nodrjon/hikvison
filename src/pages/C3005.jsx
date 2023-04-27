@@ -22,4 +22,4 @@ function C3005() {
     )
 }
 
-export default C3005
+export default C3005 

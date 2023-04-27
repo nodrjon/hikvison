@@ -6,7 +6,7 @@ function Firmware_IPC_Raptorseries_En_V5553180730() {
   return (
     <div>
       <div className="home_div">
-        <div className="home_div2">
+        <div className="home_div2"> 
           <div className="button_div">
 
             <a

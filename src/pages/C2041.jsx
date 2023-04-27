@@ -3,7 +3,7 @@ import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
 function C2041() {
-    return (
+    return ( 
         <div>
             <div className='home_div'>
                 <div className='home_div2'>
@@ -23,7 +23,7 @@ function C2041() {
                 </div>
             </div>
         </div>
-    )
+    ) 
 }
 
 export default C2041

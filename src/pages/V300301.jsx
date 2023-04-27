@@ -3,7 +3,7 @@ import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
 function V300301() {
-    return (
+    return ( 
         <div>
             <div className='home_div'>
                 <div className='home_div2'>

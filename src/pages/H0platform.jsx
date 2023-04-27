@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img from "../photo/img.png";
 
-export default function H0platform() {
+export default function H0platform() { 
   return (
     <div>
       <div className="home_div">

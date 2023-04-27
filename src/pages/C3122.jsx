@@ -22,4 +22,4 @@ function C3122() {
     )
 }
 
-export default C3122
+export default C3122 

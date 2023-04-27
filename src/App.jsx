@@ -201,6 +201,76 @@ import V20012 from './pages/V20012';
 import V2009 from './pages/V2009';
 import IVMS4200VideoWallclient from './pages/IVMS4200VideoWallclient';
 import IVMS4200mobile from './pages/IVMS4200mobile';
+import R7platform__3 from './pages/R7platform__3';
+import V573220112 from './pages/V573220112';
+import FirmwareIPCRaptorseriesEnV550170725 from './pages/FirmwareIPCRaptorseriesEnV550170725';
+import FirmwareIPCRaptorseriesEnV555180111 from './pages/FirmwareIPCRaptorseriesEnV555180111';
+import Firmware_IPC_Raptorseries_En_V5553180730 from './pages/Firmware_IPC_Raptorseries_En_V5553180730';
+import Firmware_IPC_Raptorseries_En_V5582190220 from './pages/Firmware_IPC_Raptorseries_En_V5582190220';
+import Firmware_IPC_Raptorseries_EnV5582190909 from './pages/Firmware_IPC_Raptorseries_EnV5582190909';
+import G3platform3XX6G2_1 from './pages/G3platform3XX6G2_1';
+import G3platform3XX6G2_2 from './pages/G3platform3XX6G2_2';
+import G3platform3XX6G2_3 from './pages/G3platform3XX6G2_3';
+import H0platform from './pages/H0platform';
+import R1platform from './pages/R1platform';
+import Камерывыпущенныедо201года from './pages/Камерывыпущенныедо201года';
+import Камерывыпущенныепосле2012года from './pages/Камерывыпущенныепосле2012года';
+import TyCText from './pages/TyCText';
+import README_TyCTXT from './pages/README_TyCTXT';
+import Html from './pages/Html';
+import Model_wifi_txt from './pages/Model_wifi_txt';
+import G3platform3XX6G2_text from './pages/G3platform3XX6G2_text';
+import R1platform_r1 from './pages/R1platform_r1';
+import R1platform_r2 from './pages/R1platform_r2';
+import R1platform_r3 from './pages/R1platform_r3';
+import R1platform_r4 from './pages/R1platform_r4';
+import R3platform from './pages/R3platform';
+import R3platform__1 from './pages/R3platform__1';
+import R3platform__2 from './pages/R3platform__2';
+import R4platform from './pages/R4platform';
+import R4platform__1 from './pages/R4platform__1';
+import R4platform__2 from './pages/R4platform__2';
+import R7platform from './pages/R7platform';
+import R7platform__1 from './pages/R7platform__1';
+import R7platform__1_text from './pages/R7platform__1_text';
+import R7platform__2 from './pages/R7platform__2';
+import IPC_H0_ML_STD_545_170302 from './pages/IPC_H0_ML_STD_545_170302';
+import ForWindows from './pages/ForWindows';
+import Hikvisiontoolsmanager from './pages/Hikvisiontoolsmanager';
+import BatchConfigTool from './pages/BatchConfigTool';
+import SADP from './pages/SADP';
+import LocalPlayback from './pages/LocalPlayback';
+import RemoteBackup from './pages/RemoteBackup';
+import ReleaseNotes from './pages/ReleaseNotes';
+import C2006 from './pages/C2006';
+import C3023 from './pages/C3023';
+import C3038 from './pages/C3038';
+import C3104 from './pages/C3104';
+import C3122 from './pages/C3122';
+import C3125 from './pages/C3125';
+import C3005 from './pages/C3005';
+import C3012 from './pages/C3012';
+import V300301 from './pages/V300301';
+import V3012 from './pages/V3012';
+import VSPlayer from './pages/VSPlayer';
+import V744 from './pages/V744';
+import V7444 from './pages/V7444';
+import Lensselection from './pages/Lensselection';
+import C2041 from './pages/C2041';
+import GUIemulator from './pages/GUIemulator';
+import WebComponents from './pages/WebComponents';
+import ForIPSpeaker from './pages/ForIPSpeaker';
+import HikIPReceiverpro from './pages/HikIPReceiverpro';
+import IseriesNVRfirmware from './pages/IseriesNVRfirmware';
+import Speakerfirmware from './pages/Speakerfirmware';
+import HikInforwebcams from './pages/HikInforwebcams';
+import HikvisionCardDriver from './pages/HikvisionCardDriver';
+import Driver_v25 from './pages/Driver_v25';
+import DS4000Drv25x64 from './pages/DS4000Drv25x64';
+import DS4000Drv25x86 from './pages/DS4000Drv25x86';
+import Drivers_Old from './pages/Drivers_Old';
+import HIKVISIONCardDriver2 from './pages/HIKVISIONCardDriver2';
+import Vistax8632bitDriver from './pages/Vistax8632bitDriver';
 
 function App() {
   return (
@@ -454,6 +524,42 @@ function App() {
         <Route path='/Software/iVMS-4200/iVMS-4200 for macosx/V2.0.0.9/' element={<V2009 />} />
         <Route path='/Software/iVMS-4200/iVMS-4200 Video Wall client/' element={<IVMS4200VideoWallclient />} />
         <Route path='/Software/iVMS-4200/iVMS-4200 mobile/' element={<IVMS4200mobile />} />
+        <Route path='/Software/Hikvision Tools/For Windows/' element={<ForWindows />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision tools manager/' element={<Hikvisiontoolsmanager />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/' element={<BatchConfigTool />} />
+        <Route path='/Software/Hikvision Tools/For Windows/SADP/' element={<SADP />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Local Playback/' element={<LocalPlayback />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Remote Backup/' element={<RemoteBackup />} />
+        <Route path='/Software/Hikvision Tools/For Windows/SADP/Release Notes/' element={<ReleaseNotes />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/2.0.0.6/' element={<C2006 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.0.2.3/' element={<C3023 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.0.3.8/' element={<C3038 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.0.4/' element={<C3104 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.2.2/' element={<C3122 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.2.5/' element={<C3125 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Local Playback/3.0.0.5/' element={<C3005 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Local Playback/3.0.1.2/' element={<C3012 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Remote Backup/V3.0.0.301/' element={<V300301 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Remote Backup/V3.0.1.2/' element={<V3012 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/VSPlayer/' element={<VSPlayer />} />
+        <Route path='/Software/Hikvision Tools/For Windows/VSPlayer/v7.4.4/' element={<V744 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/VSPlayer/v7.4.4.4/' element={<V7444 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Lens selection/' element={<Lensselection />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Lens selection/2.0.4.1/' element={<C2041 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/GUI emulator/' element={<GUIemulator />} />
+        <Route path='/Software/Hikvision Tools/For Windows/WebComponents/' element={<WebComponents />} />
+        <Route path='/Software/Hikvision Tools/For Windows/For IP Speaker/' element={<ForIPSpeaker />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hik IP Receiver pro/' element={<HikIPReceiverpro />} />
+        <Route path='/Software/Hikvision Tools/For Windows/For IP Speaker/I series NVR firmware/' element={<IseriesNVRfirmware />} />
+        <Route path='/Software/Hikvision Tools/For Windows/For IP Speaker/Speaker firmware/' element={<Speakerfirmware />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hik In - for webcams/' element={<HikInforwebcams />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/' element={<HikvisionCardDriver />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Driver_v2.5/' element={<Driver_v25 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Driver_v2.5/DS4000Drv-2.5-x64/' element={<DS4000Drv25x64 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Driver_v2.5/DS4000Drv-2.5-x86/' element={<DS4000Drv25x86 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/' element={<Drivers_Old />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/' element={<HIKVISIONCardDriver2 />} />
+        <Route path='/Software/Hikvision Tools/For Windows/Hikvision Card Driver/Drivers_Old/HIKVISION Card Driver/Vista x86(32-bit) Driver/' element={<Vistax8632bitDriver />} />
       </Routes>
     </div>
   );

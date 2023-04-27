@@ -2,7 +2,7 @@ import React from 'react'
 import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
-function BatchConfigTool() {
+function BatchConfigTool() { 
     return (
         <div>
             <div className='home_div'>

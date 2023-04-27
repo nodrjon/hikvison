@@ -2,20 +2,16 @@ import React from 'react'
 import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
-function Speakerfirmware() {
+function HikInforwebcams() {
     return (
-        <div> 
+        <div>
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/"} className='button_div2'>
+                        <a target='_blank' href='' className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>Update_C_DS-PA0103_ V6.1.0b15.rar</h5>
-                        </Link>
-                        <Link to={"/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
-                            <h5>Update_C_DS-PA0103_ V6.1.0b9.bin</h5>
-                        </Link>
+                            <h5>HIK-IN.zip</h5>
+                        </a>
                     </div>
                     <div>
                         <img src={img} alt="" />
@@ -26,4 +22,4 @@ function Speakerfirmware() {
     )
 }
 
-export default Speakerfirmware
+export default HikInforwebcams

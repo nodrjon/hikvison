@@ -23,7 +23,7 @@ function C3104() {
                 </div>
             </div>
         </div>
-    )
+    ) 
 }
 
 export default C3104

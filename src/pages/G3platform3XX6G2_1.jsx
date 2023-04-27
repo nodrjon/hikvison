@@ -5,7 +5,7 @@ import img from "../photo/img.png";
 export default function G3platform3XX6G2_1() {
   return (
     <div>
-      <div className="home_div">
+      <div className="home_div"> 
         <div className="home_div2">
           <div className="button_div">
             <a

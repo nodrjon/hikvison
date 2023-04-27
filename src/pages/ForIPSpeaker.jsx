@@ -6,7 +6,7 @@ function ForIPSpeaker() {
     return (
         <div>
             <div className='home_div'>
-                <div className='home_div2'>
+                <div className='home_div2'> 
                     <div className='button_div'>
                         <Link to={"/Software/Hikvision Tools/For Windows/For IP Speaker/I series NVR firmware/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>

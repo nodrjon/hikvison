@@ -6,7 +6,7 @@ function IseriesNVRfirmware() {
     return (
         <div>
             <div className='home_div'>
-                <div className='home_div2'>
+                <div className='home_div2'> 
                     <div className='button_div'>
                         <Link to={"/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>

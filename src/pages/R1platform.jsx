@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function R1platform() {
   return (
-    <div>
+    <div> 
       <div className="home_div">
         <div className="home_div2">
           <div className="button_div">

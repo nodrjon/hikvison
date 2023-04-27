@@ -2,9 +2,9 @@ import React from 'react'
 import img from "../photo/img.png"
 import { Link } from "react-router-dom"
 
-
+ 
 function Камерывыпущенныедо201года() {
-    return (
+    return (   
         <div>
             <div className='home_div'>
                 <div className='home_div2'>
@@ -31,4 +31,4 @@ function Камерывыпущенныедо201года() {
     )
 }
 
-export default Камерывыпущенныедо201года
+export default Камерывыпущенныедо201года;
