@@ -20,30 +20,30 @@ function G1platform() {
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>Firmware V5.6.6 Release Note.pdf</h5>
                         </a>
-                        <Link to={"/"} className='button_div2'>
+                        <a href={"http://ftp.hikvision.ru/01.%20Firmware/01.%20Hikvision/01.%20IP%20Camera/01.%202%20series%20-%202XXX/G1%20platform%20%282XX5%202XX3%202XX7G1%29/IPC_G1_EN_STD_5.5.0_170725.zip"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>IPC_G1_EN_STD_ 5.5.0_170725.zip</h5>
-                        </Link>
-                        <Link to={"/"} className='button_div2'>
+                        </a>
+                        <a href={"http://ftp.hikvision.ru/01.%20Firmware/01.%20Hikvision/01.%20IP%20Camera/01.%202%20series%20-%202XXX/G1%20platform%20%282XX5%202XX3%202XX7G1%29/IPC_G1_EN_STD_5.6.0_190507.zip"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>IPC_G1_EN_STD_ 5.6.0_190507.zip </h5>
-                        </Link>
-                        <Link to={"/"} className='button_div2'>
+                        </a>
+                        <a href={"http://ftp.hikvision.ru/01.%20Firmware/01.%20Hikvision/01.%20IP%20Camera/01.%202%20series%20-%202XXX/G1%20platform%20%282XX5%202XX3%202XX7G1%29/IPC_G1_EN_STD_5.6.5_200316.zip"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>IPC_G1_EN_STD_ 5.6.5_200316.zip</h5>
-                        </Link>
-                        <Link to={"/"} className='button_div2'>
+                        </a>
+                        <a href={"http://ftp.hikvision.ru/01.%20Firmware/01.%20Hikvision/01.%20IP%20Camera/01.%202%20series%20-%202XXX/G1%20platform%20%282XX5%202XX3%202XX7G1%29/IPC_G1_EN_STD_5.6.6_210625.zip"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>IPC_G1_EN_STD_ 5.6.6_210625.zip </h5>
-                        </Link>
-                        <Link to={'/'} className='button_div2'>
+                        </a>
+                        <a href={'http://ftp.hikvision.ru/01.%20Firmware/01.%20Hikvision/01.%20IP%20Camera/01.%202%20series%20-%202XXX/G1%20platform%20%282XX5%202XX3%202XX7G1%29/IPC_G1_EN_STD_5.6.6_210827.zip'} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>IPC_G1_EN_STD_ 5.6.6_210827.zip</h5>
-                        </Link>
-                        <Link to={'/'} className='button_div2'>
+                        </a>
+                        <a href={'http://ftp.hikvision.ru/01.%20Firmware/01.%20Hikvision/01.%20IP%20Camera/01.%202%20series%20-%202XXX/G1%20platform%20%282XX5%202XX3%202XX7G1%29/IPC_G1_EN_STD_5.6.820_220519.zip'} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>IPC_G1_EN_STD_ 5.6.820_220519.zip</h5>
-                        </Link>
+                        </a>
                     </div>
                     <div>
                         <img src={img} alt="" />

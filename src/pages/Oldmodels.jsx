@@ -20,7 +20,7 @@ function Oldmodels() {
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>R2 platform (2хх2 2mpx, 2xx0)/  </h5>
                         </Link>
-                        <Link to={"//Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/"} className='button_div2'>
+                        <Link to={"/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/"} className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>R6 platform (2X22FWD, 2X42FWD)/</h5>
                         </Link>

@@ -201,34 +201,6 @@ import V20012 from './pages/V20012';
 import V2009 from './pages/V2009';
 import IVMS4200VideoWallclient from './pages/IVMS4200VideoWallclient';
 import IVMS4200mobile from './pages/IVMS4200mobile';
-import ForWindows from './pages/ForWindows';
-import Hikvisiontoolsmanager from './pages/Hikvisiontoolsmanager';
-import SADP from './pages/SADP';
-import ReleaseNotes from './pages/ReleaseNotes';
-import BatchConfigTool from './pages/BatchConfigTool';
-import C2006 from './pages/C2006';
-import C3023 from './pages/C3023';
-import C3038 from './pages/C3038';
-import C3104 from './pages/C3104';
-import C3122 from './pages/C3122';
-import C3125 from './pages/C3125';
-import LocalPlayback from './pages/LocalPlayback';
-import C3005 from './pages/C3005';
-import C3012 from './pages/C3012';
-import RemoteBackup from './pages/RemoteBackup';
-import V300301 from './pages/V300301';
-import V3012 from './pages/V3012';
-import VSPlayer from './pages/VSPlayer';
-import V744 from './pages/V744';
-import V7444 from './pages/V7444';
-import Lensselection from './pages/Lensselection';
-import C2041 from './pages/C2041';
-import GUIemulator from './pages/GUIemulator';
-import WebComponents from './pages/WebComponents';
-import ForIPSpeaker from './pages/ForIPSpeaker';
-import IseriesNVRfirmware from './pages/IseriesNVRfirmware';
-import Speakerfirmware from './pages/Speakerfirmware';
-import HikIPReceiverpro from './pages/HikIPReceiverpro';
 
 function App() {
   return (
@@ -388,23 +360,70 @@ function App() {
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.13_230403/' element={<V5713230403 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.1_211009 safe version/' element={<V571211009 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.2_211109/' element={<V572211109 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/G5 platform (2xx3G2 2xx6G2(C) 2xx7G2(C)/V5.7.3_220112/' element={<V573220112 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/' element={<Oldmodels />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R0 Fisheye(DS-2CD2942F-I(W)(S))/' element={<R0Fisheye />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R0 platform (2xx2)/' element={<R0platform />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R2 platform (2хх2 2mpx, 2xx0)/' element={<R2platform />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/' element={<R6platform />} />
+        {/* r6 ning ichki linklari */}
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/Firmware_IPC_Raptor series_En_V5.5.0 170725/' element={<FirmwareIPCRaptorseriesEnV550170725 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/Firmware_IPC_Raptor series_En_V5.5.5 180111/' element={<FirmwareIPCRaptorseriesEnV555180111 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/Firmware_IPC_Raptor series_En_V5.5.53 180730/' element={<Firmware_IPC_Raptorseries_En_V5553180730 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/Firmware_IPC_Raptor series_En_V5.5.82 190220/' element={<Firmware_IPC_Raptorseries_En_V5582190220 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/R6 platform (2X22FWD, 2X42FWD)/Firmware_IPC_Raptor series_En_V5.5.82 190909/' element={<Firmware_IPC_Raptorseries_EnV5582190909 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeA(6441)/' element={<TypeA6441 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeB(6446)/' element={<TypeB6446 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/' element={<TypeCplatformDS2CD7XXXDS2CD8XXX />} />
+        {/* type c files */}
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/Камеры, выпущенные до 2012 года/' element={<Камерывыпущенныедо201года />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/Камеры, выпущенные после 2012 года/' element={<Камерывыпущенныепосле2012года />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/Камеры, выпущенные до 2012 года/text' element={<TyCText />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/README.TXT/' element={<README_TyCTXT />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/Old models/TypeC platform - DS-2CD7XXX DS-2CD8XXX/html' element={<Html />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/' element={<WiFicamerawithUSB />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CD2U21_2Q21/' element={<DS2CD2U212Q21 />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CV2Q21FD-IW2.8mmW safe version/' element={<DS2CV2Q21FDIW28mmW />} />
+        <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/WiFi camera with USB/DS-2CV2Q21FD-IW2.8mmW safe version/model_txt' element={<Model_wifi_txt />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/' element={<A3series3XXX />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G1 platform (3XX5)/' element={<G1platform3XX5 />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/' element={<G3platform3XX6G2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/5.5.800 build210628 safe version/' element={<G3platform3XX6G2_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/5.5.800 build211009 safe version/' element={<G3platform3XX6G2_2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/5.5.820 build220520 safe version/' element={<G3platform3XX6G2_3 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G3 platform (3XX6G2)/5.5.800 build211009 safe version/text' element={<G3platform3XX6G2_text />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G5 platform (3xx6G2(C) 3xx7G2(C))/' element={<G5platform3xx6G2C />} />
         <Route path='/Firmware/Hikvision/IP Camera/3 series - 3XXX/G5 platform (3xxG2P)/' element={<G5platform3xxG2P />} />
         <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/' element={<Aseries4XXX />} />
+        {/* ichki fayllar */}
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/' element={<H0platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/R1 platform (discontinued)/' element={<R1platform />} />
+        {/* r1 uchun */}
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r1' element={<R1platform_r1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r2' element={<R1platform_r2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r3' element={<R1platform_r3 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r4' element={<R1platform_r4 />} />
+
+        {/* r3 */}
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/R3 platform (4x26FWD)/' element={<R3platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r3_1' element={<R3platform__1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r3_2' element={<R3platform__2 />} />
+
+          {/* r4 */}
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/R4 platform (4XX5 series)/' element={<R4platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r4_1' element={<R4platform__1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r4_2' element={<R4platform__2 />} />
+
+        {/* r7 */}
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/>R7 platform (H.265 4X26EFWD, 4BX6, 4CX6, 4DX6, ..' element={<R7platform />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r7_1' element={<R7platform__1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r7_1_text' element={<R7platform__1_text />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r7_2' element={<R7platform__2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/r7_3' element={<R7platform__3 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/HBaseline' element={<IPC_H0_ML_STD_545_170302 />} />
         <Route path='/Firmware/Hikvision/IP Camera/5 series - 5XXX/' element={<A5series5XXX />} />
         <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/' element={<A6series6XXX />} />
         <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/' element={<A7series7XXX />} />
@@ -435,34 +454,6 @@ function App() {
         <Route path='/Software/iVMS-4200/iVMS-4200 for macosx/V2.0.0.9/' element={<V2009 />} />
         <Route path='/Software/iVMS-4200/iVMS-4200 Video Wall client/' element={<IVMS4200VideoWallclient />} />
         <Route path='/Software/iVMS-4200/iVMS-4200 mobile/' element={<IVMS4200mobile />} />
-        <Route path='/Software/Hikvision Tools/For Windows/' element={<ForWindows />} />
-        <Route path='/Software/Hikvision Tools/For Windows/Hikvision tools manager/' element={<Hikvisiontoolsmanager />} />
-        <Route path='/Software/Hikvision Tools/For Windows/SADP/' element={<SADP />} />
-        <Route path='/Software/Hikvision Tools/For Windows/SADP/Release Notes/' element={<ReleaseNotes />} />
-        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/' element={<BatchConfigTool />} />
-        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/2.0.0.6/' element={<C2006 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.0.2.3/' element={<C3023 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.0.3.8/' element={<C3038 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.0.4/' element={<C3104 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.2.2/' element={<C3122 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.2.5/' element={<C3125 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/Local Playback/' element={<LocalPlayback />} />
-        <Route path='/Software/Hikvision Tools/For Windows/Local Playback/3.0.0.5/' element={<C3005 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/Local Playback/3.0.1.2/' element={<C3012 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/Remote Backup/' element={<RemoteBackup />} />
-        <Route path='/Software/Hikvision Tools/For Windows/Remote Backup/V3.0.0.301/' element={<V300301 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/Remote Backup/V3.0.1.2/' element={<V3012 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/VSPlayer/' element={<VSPlayer />} />
-        <Route path='/Software/Hikvision Tools/For Windows/VSPlayer/v7.4.4/' element={<V744 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/VSPlayer/v7.4.4.4/' element={<V7444 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/Lens selection/' element={<Lensselection />} />
-        <Route path='/Software/Hikvision Tools/For Windows/Lens selection/2.0.4.1/' element={<C2041 />} />
-        <Route path='/Software/Hikvision Tools/For Windows/GUI emulator/' element={<GUIemulator />} />
-        <Route path='/Software/Hikvision Tools/For Windows/WebComponents/' element={<WebComponents />} />
-        <Route path='/Software/Hikvision Tools/For Windows/For IP Speaker/' element={<ForIPSpeaker />} />
-        <Route path='/Software/Hikvision Tools/For Windows/For IP Speaker/I series NVR firmware/' element={<IseriesNVRfirmware />} />
-        <Route path='/Software/Hikvision Tools/For Windows/For IP Speaker/Speaker firmware/' element={<Speakerfirmware />} />
-        <Route path='/Software/Hikvision Tools/For Windows/Hik IP Receiver pro/' element={<HikIPReceiverpro />} />
       </Routes>
     </div>
   );
