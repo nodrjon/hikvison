@@ -304,6 +304,8 @@ import A5series5XXX_1_2 from './pages/A5series5XXX_1_2';
 import A6series6XXX_1_1 from './pages/A6series6XXX_1_1';
 import A6series6XXX_1_p1 from './pages/A6series6XXX_1_p1';
 import A6series6XXX_1_p2 from './pages/A6series6XXX_1_p2';
+import KRonshteyni from './pages/Кронштейны';
+
 
 function App() {
   return (
@@ -635,6 +637,7 @@ function App() {
         <Route path='/Software/Hik-Central/Software package/2.2.1/' element={<A221 />} />
         <Route path='/Software/Hik-Central/Software package/2.3/' element={<A23 />} />
         <Route path='/Documents/Accessary/Кожухи/' element={<Kojuhi />} />
+        <Route path='/Documents/Accessary/Кронштейны/' element={<KRonshteyni />} />
       </Routes>
     </div>
   );
