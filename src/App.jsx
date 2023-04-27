@@ -298,6 +298,7 @@ import A201 from './pages/A201';
 import A221 from './pages/A221';
 import A23 from './pages/A23';
 import Kojuhi from './pages/Кожухи';
+import KRonshteyni from './pages/Кронштейны';
 
 function App() {
   return (
@@ -614,6 +615,7 @@ function App() {
         <Route path='/Software/Hik-Central/Software package/2.2.1/' element={<A221 />} />
         <Route path='/Software/Hik-Central/Software package/2.3/' element={<A23 />} />
         <Route path='/Documents/Accessary/Кожухи/' element={<Kojuhi />} />
+        <Route path='/Documents/Accessary/Кронштейны/' element={<KRonshteyni />} />
       </Routes>
     </div>
   );
