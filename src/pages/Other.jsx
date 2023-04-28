@@ -8,11 +8,11 @@ function Other() {
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/Firmware/"} className='button_div2'>
+                        <Link to={"/Firmware/Hikvision/IP Camera/Other/p"} className='button_div2'>
                              
                             <h5>P series/</h5> 
                         </Link>
-                        <Link to={"/Software/"} className='button_div2'>
+                        <Link to={"/Firmware/Hikvision/IP Camera/Other/imds"} className='button_div2'>
                              
                             <h5>iDS-TCM/ </h5>
                         </Link>

@@ -40,7 +40,7 @@ function IPCamera() {
                              
                             <h5>08. Other/</h5>
                         </Link>
-                        <Link to={'/'} className='button_div2'>
+                        <Link to={'http://ftp.hikvision.ru/01.%20Firmware/01.%20Hikvision/01.%20IP%20Camera/%21%21%20README%21%21%21%20How%20to%20choose%20firmware.xlsx'} className='button_div2'>
                              
                             <h5>!! README!!! How to choose firmware.xlsx </h5>
                         </Link>

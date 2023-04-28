@@ -2,7 +2,7 @@ import React from "react";
 import img from "../photo/img.png";
 import { Link } from "react-router-dom";
 
-function A6series6XXX_2_1() {
+function A6series6XXX_h7() {
   return (
     <div>
       <div className="home_div">
@@ -10,14 +10,14 @@ function A6series6XXX_2_1() {
           <div className="button_div">
             <Link
               to={
-                "/Firmware/Hikvision/IP Camera/6 series - 6XXX/H3 platform (DS-2CD6DX4_6924)/p1_1"
+                "/Firmware/Hikvision/IP Camera/6 series - 6XXX/H3 platform (DS-2CD6DX4_6924)/h7_1"
               }
               className="button_div2"
             >
               <i id="clear_" className="material-icons">
                 clear
               </i>
-              <h5>V5.5.802_210926/ </h5>
+              <h5>DS-2CD'XM6825/ </h5>
             </Link>
           </div>
         </div>
@@ -26,4 +26,4 @@ function A6series6XXX_2_1() {
   );
 }
 
-export default A6series6XXX_2_1;
+export default A6series6XXX_h7;

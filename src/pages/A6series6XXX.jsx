@@ -16,7 +16,7 @@ function A6series6XXX() {
                              
                             <h5>H3+M platform (6425G0'F,63X5)/  </h5>
                         </Link>
-                        <Link to={"/Firmware/Hikvision/IP Camera/6 series - 6XXX/H7 platform (DS-2CD'XM6825,DS-2CD6DX2,DS-2XE68X5)/"} className='button_div2'>
+                        <Link to={"/Firmware/Hikvision/IP Camera/6 series - 6XXX/H7 platform (DS-2CDXM6825,DS-2CD6DX2,DS-2XE68X5)/"} className='button_div2'>
                              
                             <h5>H7 platform (DS-2CD'XM6825,DS-2CD6DX2,DS-2XE68X5)/</h5>
                         </Link>
