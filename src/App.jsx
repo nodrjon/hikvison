@@ -298,7 +298,14 @@ import A201 from './pages/A201';
 import A221 from './pages/A221';
 import A23 from './pages/A23';
 import Kojuhi from './pages/Кожухи';
+import A5series5XXX_1 from './pages/A5series5XXX_1';
+import A5series5XXX_1_3 from './pages/A5series5XXX_1_1';
+import A5series5XXX_1_2 from './pages/A5series5XXX_1_2';
+import A6series6XXX_1_1 from './pages/A6series6XXX_1_1';
+import A6series6XXX_1_p1 from './pages/A6series6XXX_1_p1';
+import A6series6XXX_1_p2 from './pages/A6series6XXX_1_p2';
 import KRonshteyni from './pages/Кронштейны';
+// <<<<<<< HEAD
 import Obektiv from './pages/Объективы';
 import IVMS_4200 from './pages/IVMS_4200';
 import P2pegionproblemsolution from './pages/P2pegionproblemsolution';
@@ -318,10 +325,85 @@ import Noviy_katalog from './pages/Новыйкаталог';
 import Elementi_Firmenno from './pages/Элементыфирменногостиля';
 import Materialidlyap from './pages/Материалыдляпроектирования';
 import HikvisionnanoCAD from './pages/HikvisionnanoCAD';
+// =======
+import A6series6XXX_2_1 from './pages/A6series6XXX_2_1';
+import A6series6XXX_2_1_1 from './pages/A6series6XXX_2_1_1';
+import A6series6XXX_h7 from './pages/A6series6XXX_h7';
+import A6series6XXX_h7_1 from './pages/A6series6XXX_h7_1';
+import A6series6XXX_r4 from './pages/A6series6XXX_r4';
+import A6series6XXX_r4_2 from './pages/A6series6XXX_r4_2';
+import A7series7XXX_1 from './pages/A7series7XXX_1';
+import A7series7XXX_h3_1 from './pages/A7series7XXX_h3_1';
+import A7series7XXX_h3_2 from './pages/A7series7XXX_h3_2';
+import A7series7XXX_2 from './pages/A7series7XXX_2';
+import A7series7XXX_h7_1 from './pages/A7series7XXX_h7_1';
+import A7series7XXX_h7_2 from './pages/A7series7XXX_h7_2';
+import A7series7XXX_3 from './pages/A7series7XXX_3';
+import A7series7XXX_h8_1 from './pages/A7series7XXX_h8_1';
+import A7series7XXX_h8_2 from './pages/A7series7XXX_h8_2';
+import A7series7XXX_h8_3 from './pages/A7series7XXX_h8_3';
+import A8series8XXX_1 from './pages/A8series8XXX_1';
+import A8series8XXX_1_1 from './pages/A8series8XXX_1_1';
+import A8series8XXX_h3_1 from './pages/A8series8XXX_h3_1';
+import Other_1 from './pages/Other_1';
+import Other_2 from './pages/Other_2';
+import Other_1_p1 from './pages/Other_1_p1';
+import Other_1_p2 from './pages/Other_1_p2';
+import Other_1_p3 from './pages/Other_1_p3';
+import Other_1_p4 from './pages/Other_1_p4';
+import Other_1_p1_1 from './pages/Other_1_p1_1';
+import Other_1_p4_1 from './pages/Other_1_p4_1';
+import Other_1_p4_2 from './pages/Other_1_p4_2';
+import Other_1_p4_3 from './pages/Other_1_p4_3';
+import Other_1_p4_4 from './pages/Other_1_p4_4';
+import Other_1_p4_5 from './pages/Other_1_p4_5';
+import Other_2_1 from './pages/Other_2_1';
+import Other_2_2 from './pages/Other_2_2';
+import Other_2_2_1 from './pages/Other_2_2_1';
+import Other_2_2_2 from './pages/Other_2_2_2';
+import Other_2_2_1_1 from './pages/Other_2_2_1_1';
+import Other_2_2_1_2 from './pages/Other_2_2_1_2';
+import Other_2_2_1_3 from './pages/Other_2_2_1_3';
+import Other_2_2_2_1 from './pages/Other_2_2_2_1';
+import Other_2_2_2_2 from './pages/Other_2_2_2_2';
+import NVRIPregs_K from './pages/NVRIPregs_K';
+import NVRIPregs_K_1 from './pages/NVRIPregs_K_1';
+import NVRIPregs_K_2 from './pages/NVRIPregs_K_2';
+import NVRIPregs_K_3 from './pages/NVRIPregs_K_3';
+import NVRIPregs_K_4 from './pages/NVRIPregs_K_4';
+import NVRIPregs_K_5 from './pages/NVRIPregs_K_5';
+import NVRIPregs_K_2_1 from './pages/NVRIPregs_K_2_1';
+import NVRIPregs_K_2_2 from './pages/NVRIPregs_K_2_2';
+import NVRIPregs_K_2_3 from './pages/NVRIPregs_K_2_3';
+import NVRIPregs_K_2_4 from './pages/NVRIPregs_K_2_4';
+import NVRIPregs_K_2_7 from './pages/NVRIPregs_K_2_7';
+import NVRIPregs_K_2_5 from './pages/NVRIPregs_K_2_5';
+import NVRIPregs_K_2_6 from './pages/NVRIPregs_K_2_6';
+import NVRIPregs_K_3_1 from './pages/NVRIPregs_K_3_1';
+import NVRIPregs_K_3_2 from './pages/NVRIPregs_K_3_2';
+import NVRIPregs_K_3_4 from './pages/NVRIPregs_K_3_4';
+import NVRIPregs_K_3_5 from './pages/NVRIPregs_K_3_5';
+import NVRIPregs_K_3_6 from './pages/NVRIPregs_K_3_6';
+import NVRIPregs_K_3_7 from './pages/NVRIPregs_K_3_7';
+import NVRIPregs_K_3_3 from './pages/NVRIPregs_K_3_3';
+import NVRIPregs_K_4_1 from './pages/NVRIPregs_K_4_1';
+import NVRIPregs_K_4_2 from './pages/NVRIPregs_K_4_2';
+import NVRIPregs_K_4_3 from './pages/NVRIPregs_K_4_3';
+import NVRIPregs_K_4_5 from './pages/NVRIPregs_K_4_5';
+import NVRIPregs_K_4_4 from './pages/NVRIPregs_K_4_4';
+import NVRIPregs_K_4_6 from './pages/NVRIPregs_K_4_6';
+import NVRIPregs_K_4_7 from './pages/NVRIPregs_K_4_7';
+import NVRIPregs_K_4_8 from './pages/NVRIPregs_K_4_8';
+import NVRIPregs_K_4_9 from './pages/NVRIPregs_K_4_9';
+import NVRIPregs_K_4_10 from './pages/NVRIPregs_K_4_10';
+import NVRIPregs_K_4_11 from './pages/NVRIPregs_K_4_11';
+import NVRIPregs_K_4_12 from './pages/NVRIPregs_K_4_12';
+
+// >>>>>>> 39a30d2cd12dafd43c20881aa18726e5631fd798
 
 function App() {
   return (
-    <div>
+    <div className='main_div'>
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -436,6 +518,58 @@ function App() {
         <Route path='/VMS/Blazer/Blazer Express/Documentation/Blazer Express 1.4/' element={<BlazerExpress14Doc />} />
         <Route path='/Firmware/Hikvision/IP Camera/' element={<IPCamera />} />
         <Route path='/Firmware/Hikvision/NVR (IP regs)/' element={<NVRIPregs />} />
+
+        {/* /Firmware/K/seria */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria' element={<NVRIPregs_K />} />
+        {/* Firmware/K/seria pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/1' element={<NVRIPregs_K_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2' element={<NVRIPregs_K_2 />} />
+
+        {/* /Firmware/Hikvision/NVR (IP regs)/k/seria/2 pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/1' element={<NVRIPregs_K_2_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/2' element={<NVRIPregs_K_2_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/3' element={<NVRIPregs_K_2_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/4' element={<NVRIPregs_K_2_4/>} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/5' element={<NVRIPregs_K_2_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/6' element={<NVRIPregs_K_2_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/7' element={<NVRIPregs_K_2_7 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3' element={<NVRIPregs_K_3 />} />
+        {/* /Firmware/Hikvision/NVR (IP regs)/k/seria/3/ pages */}
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/1' element={<NVRIPregs_K_3_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/2' element={<NVRIPregs_K_3_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/3' element={<NVRIPregs_K_3_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/4' element={<NVRIPregs_K_3_4 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/5' element={<NVRIPregs_K_3_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/6' element={<NVRIPregs_K_3_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/7' element={<NVRIPregs_K_3_7 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4' element={<NVRIPregs_K_4 />} />
+        {/* /Firmware/Hikvision/NVR (IP regs)/k/seria/4 pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/1' element={<NVRIPregs_K_4_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/2' element={<NVRIPregs_K_4_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/3' element={<NVRIPregs_K_4_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/4' element={<NVRIPregs_K_4_4 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/5' element={<NVRIPregs_K_4_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/6' element={<NVRIPregs_K_4_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/7' element={<NVRIPregs_K_4_7 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/8' element={<NVRIPregs_K_4_8 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/9' element={<NVRIPregs_K_4_9 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/10' element={<NVRIPregs_K_4_10 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/11' element={<NVRIPregs_K_4_11 />} />
+        {/* <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/12' element={<NVRIPregs_K_4_12 />} /> */}
+
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/5' element={<NVRIPregs_K_5 />} />
+
+
         <Route path='/Firmware/Hikvision/PTZ/' element={<PTZ />} />
         <Route path='/Firmware/Hikvision/DVR (TVI regs)/' element={<DVRTVIregs />} />
         <Route path='/Firmware/Hikvision/Video Intercom/' element={<DVRTVIregs />} />
@@ -542,10 +676,116 @@ function App() {
 
         <Route path='/Firmware/Hikvision/IP Camera/4 series - 4XXX/H0 platform (40X5）/HBaseline' element={<IPC_H0_ML_STD_545_170302 />} />
         <Route path='/Firmware/Hikvision/IP Camera/5 series - 5XXX/' element={<A5series5XXX />} />
+      {/* a seria */}
+        <Route path='/Firmware/Hikvision/IP Camera/5 series - 5XXX/1' element={<A5series5XXX_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/5 series - 5XXX/1_1' element={<A5series5XXX_1_3 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/5 series - 5XXX/1_2' element={<A5series5XXX_1_2 />} />
+
+
         <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/' element={<A6series6XXX />} />
+
+        {/* a6 series */}
+        <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/H3 platform (DS-2CD6DX4_6924)/' element={<A6series6XXX_1_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/H3 platform (DS-2CD6DX4_6924)/p1' element={<A6series6XXX_1_p1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/H3 platform (DS-2CD6DX4_6924)/p2' element={<A6series6XXX_1_p2 />} />
+        {/* a6 2 */}
+
+        <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/H3+M platform (6425G0F63X5)/' element={<A6series6XXX_2_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/H3 platform (DS-2CD6DX4_6924)/p1_1' element={<A6series6XXX_2_1_1 />} />
+
+        <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/H7 platform (DS-2CDXM6825,DS-2CD6DX2,DS-2XE68X5)/' element={<A6series6XXX_h7 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/H3 platform (DS-2CD6DX4_6924)/h7_1' element={<A6series6XXX_h7_1 />} />
+
+
+        <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/R4 DS-2CD6986F/' element={<A6series6XXX_r4/>} />
+        <Route path='/Firmware/Hikvision/IP Camera/6 series - 6XXX/R4 Fisheye (DS-2CD63X2)/' element={<A6series6XXX_r4_2/>} />
+
+
+{/* 7 seria */}
         <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/' element={<A7series7XXX />} />
+        {/* 7 seria pages */}
+
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/H3 platform (DS-2CD7XXX)/' element={<A7series7XXX_1 />} />
+        {/* 7s h3 pages */}
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/H3 platform (DS-2CD7XXX)/h3_1' element={<A7series7XXX_h3_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/H7 platform (iDS-2CD7XXX)/h3_2' element={<A7series7XXX_h3_2 />} />
+
+
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/H7 platform (iDS-2CD7XXX)/' element={<A7series7XXX_2 />} />
+        {/* 7s h7 pages */}
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/H3 platform (DS-2CD7XXX)/h7_1' element={<A7series7XXX_h7_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/H7 platform (iDS-2CD7XXX)/h7_2' element={<A7series7XXX_h7_2 />} />
+
+
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/H8 platform (iDS-2CD7XXX(C), iDS-2CD71XX(D))/' element={<A7series7XXX_3 />} />
+        {/* 7s h8 pages */}
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/H3 platform (DS-2CD7XXX)/h8_1' element={<A7series7XXX_h8_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/H7 platform (iDS-2CD7XXX)/h8_2' element={<A7series7XXX_h8_2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/7 series - 7XXX/H8 platform (iDS-2CD7XXX(C), iDS-2CD71XX(D))/h8_3' element={<A7series7XXX_h8_3 />} />
+
+
+
         <Route path='/Firmware/Hikvision/IP Camera/8 series - 8XXX/' element={<A8series8XXX />} />
+      {/* 8 seria pages */}
+        <Route path='/Firmware/Hikvision/IP Camera/8 series - 8XXX/H3 platform/' element={<A8series8XXX_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/8 series - 8XXX/H3 platform/1' element={<A8series8XXX_1_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/8 series - 8XXX/H3 platform/1_1' element={<A8series8XXX_h3_1 />} />
+
+
+
         <Route path='/Firmware/Hikvision/IP Camera/Other/' element={<Other />} />
+
+        {/* others pages */}
+        <Route path='/Firmware/Hikvision/IP Camera/Other/p' element={<Other_1 />} />
+        {/* others p ser 1 */}
+        <Route path='/Firmware/Hikvision/IP Camera/Other/p' element={<Other_1 />} />
+
+         {/* others p ser 1_1 */}
+        <Route path='/Firmware/Hikvision/IP Camera/Other/p_1' element={<Other_1_p1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/Other/p_1_1' element={<Other_1_p1_1 />} />
+
+
+        <Route path='/Firmware/Hikvision/IP Camera/Other/p_2' element={<Other_1_p2 />} />
+
+        <Route path='/Firmware/Hikvision/IP Camera/Other/p_3' element={<Other_1_p3 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/IP Camera/Other/p_4' element={<Other_1_p4 />} />
+        <Route path='Firmware/Hikvision/IP Camera/Other/ids(c)_1' element={<Other_1_p4_1 />} />
+        <Route path='Firmware/Hikvision/IP Camera/Other/ids(c)_2' element={<Other_1_p4_2 />} />
+        <Route path='Firmware/Hikvision/IP Camera/Other/ids(c)_3' element={<Other_1_p4_3 />} />
+        <Route path='Firmware/Hikvision/IP Camera/Other/ids(c)_4' element={<Other_1_p4_4 />} />
+        <Route path='Firmware/Hikvision/IP Camera/Other/ids(c)_5' element={<Other_1_p4_5 />} />
+
+
+
+
+
+        <Route path='/Firmware/Hikvision/IP Camera/Other/imds' element={<Other_2 />} />
+        {/* ids pages */}
+        <Route path='/Firmware/Hikvision/IP Camera/Other/pids_1' element={<Other_2_1 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2' element={<Other_2_2 />} />
+
+        <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2_1' element={<Other_2_2_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2_1_1' element={<Other_2_2_1_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2_1_2' element={<Other_2_2_1_2 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2_1_3' element={<Other_2_2_1_3 />} />
+
+
+        <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2_2' element={<Other_2_2_2 />} />
+        {/* pids_2_2 pages */}
+        <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2_2_1' element={<Other_2_2_2_1 />} />
+        <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2_2_2' element={<Other_2_2_2_2 />} />
+
+
+
+
+
+
         <Route path='/Software/iVMS-4200/iVMS-4200 full version/' element={<IVMS4200fullversion />} />
         <Route path='/Software/iVMS-4200/iVMS-4200 full version/3.1.1.9/' element={<A3119 />} />
         <Route path='/Software/iVMS-4200/iVMS-4200 full version/3.7.0.5/' element={<A3705 />} />

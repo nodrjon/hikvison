@@ -20,9 +20,7 @@ function A572() {
               <h5>IPCE_E8_EN_STD_ 5.7.2_220113.zip </h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

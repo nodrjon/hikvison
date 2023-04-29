@@ -31,9 +31,7 @@ export default function R4platform() {
               <h5>Baseline Firmware_IPC_Raptor series_En_V5.4.5 1..</h5>
             </Link>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

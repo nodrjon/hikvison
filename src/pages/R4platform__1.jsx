@@ -19,9 +19,7 @@ export default function R4platform__1() {
             <h5>IPC_R4_ ML_S TD_5 .4.5_170302.zip </h5>
           </a>
         </div>
-        <div>
-          <img src={img} alt="" />
-        </div>
+         
       </div>
     </div>
   );

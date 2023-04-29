@@ -9,21 +9,19 @@ function A32biWinOS() {
                 <div className='home_div2'>
                     <div className='button_div'>
                         <a  href='http://ftp.hikvision.ru/02.%20Software/02.%20Hikvision%20Tools/01.%20For%20Windows/Hikvision%20Card%20Driver/Drivers_Old/Hikvision%204200%20Card%20Driver/32bit%20WinOS/DS42xxDrv.inf' className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>DS42xxDrv.inf</h5>
                         </a>
                         <a  href='http://ftp.hikvision.ru/02.%20Software/02.%20Hikvision%20Tools/01.%20For%20Windows/Hikvision%20Card%20Driver/Drivers_Old/Hikvision%204200%20Card%20Driver/32bit%20WinOS/DS42xxDrv.sys' className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>DS42xxDrv.sys</h5>
                         </a>
                         <a href='http://ftp.hikvision.ru/02.%20Software/02.%20Hikvision%20Tools/01.%20For%20Windows/Hikvision%20Card%20Driver/Drivers_Old/Hikvision%204200%20Card%20Driver/32bit%20WinOS/Driver%20Install.exe' className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>DS42xxDrv.sys</h5>
                         </a>
                     </div>
-                    <div>
-                        <img src={img} alt="" />
-                    </div>
+                     
                 </div>
             </div>
         </div>

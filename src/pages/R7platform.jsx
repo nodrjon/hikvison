@@ -42,9 +42,7 @@ export default function R7platform() {
               <h5>V5.5.91 210429/</h5>
             </Link>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

@@ -21,9 +21,7 @@ function Firmware_IPC_Raptorseries_En_V5582190220() {
               <h5>IPC _R6_ EN_S TD_5.5.8 2_190220.zip</h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

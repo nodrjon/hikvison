@@ -41,9 +41,7 @@ function A5720() {
               <h5>Network Camera-V5.7.20 Release Note-E8.pdf </h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

@@ -31,9 +31,7 @@ export default function R7platform__1() {
             <h5>Warning-Impossilble to downgrade!!!!.txt</h5>
           </Link>
         </div>
-        <div>
-          <img src={img} alt="" />
-        </div>
+         
       </div>
     </div>
   );

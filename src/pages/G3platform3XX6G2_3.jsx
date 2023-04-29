@@ -31,9 +31,7 @@ export default function G3platform3XX6G2_3() {
               <h5>Network CameraV5.5.820 Release Note.pdf</h5>
             </Link>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

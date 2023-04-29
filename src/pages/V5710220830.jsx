@@ -30,9 +30,7 @@ function V5710220830() {
               <h5>Network Camera V5.7.10 build220720 Release Not..</h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

@@ -19,9 +19,7 @@ function A571() {
             </a>
 
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

@@ -9,13 +9,11 @@ function Twoinone() {
                 <div className='home_div2'>
                     <div className='button_div'>
                         <Link to={"/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>ITCimdh005_b_ EN_STD_4.5.1_ 200901.zip</h5>
                         </Link>
                     </div>
-                    <div>
-                        <img src={img} alt="" />
-                    </div>
+                     
                 </div>
             </div>
         </div>

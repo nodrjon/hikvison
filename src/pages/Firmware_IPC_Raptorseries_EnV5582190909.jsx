@@ -22,9 +22,7 @@ function Firmware_IPC_Raptorseries_EnV5582190909() {
               <h5>IPC_R 6_EN _STD_5 .5.8 2_190909.zip </h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

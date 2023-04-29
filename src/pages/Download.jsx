@@ -9,17 +9,15 @@ function Download() {
                 <div className='home_div2'>
                     <div className='button_div'>
                         <Link to={"/VMS/HikCentral/Download/V1.6.0/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>V1.6.0/</h5>
                         </Link>
                         <Link to={"/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>HikCentral_ V1.2.1_ 20180719.exe </h5>
                         </Link>
                     </div>
-                    <div>
-                        <img src={img} alt="" />
-                    </div>
+                     
                 </div>
             </div>
         </div>

@@ -41,9 +41,7 @@ function G1platform3XX5() {
               <h5>V5.6.2 Release Note.pdf</h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

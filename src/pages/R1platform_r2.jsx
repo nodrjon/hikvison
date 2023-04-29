@@ -19,9 +19,7 @@ export default function R1platform_r2() {
             <h5>IPC_R1_E N_STD _5.3.0  _150513.zip </h5>
           </a>
         </div>
-        <div>
-          <img src={img} alt="" />
-        </div>
+         
       </div>
     </div>
   );

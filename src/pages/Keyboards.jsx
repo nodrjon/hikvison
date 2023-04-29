@@ -9,33 +9,31 @@ function Keyboards() {
                 <div className='home_div2'>
                     <div className='button_div'>
                         <Link to={"/Firmware/Hikvision/Keyboards/DS-1005KI/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>DS-1005KI/</h5>
                         </Link>
                         <Link to={"/Firmware/Hikvision/Keyboards/DS-1100KI/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>DS-1100KI/</h5>
                         </Link>
                         <Link to={"/Firmware/Hikvision/Keyboards/DS-1100KI(B)/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>DS-1100KI(B)/</h5>
                         </Link>
                         <Link to={"/Firmware/Hikvision/Keyboards/DS-1200KI&1006KI/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>DS-1200KI&1006KI/</h5>
                         </Link>
                         <Link to={'/Firmware/Hikvision/Keyboards/DS-1600KI/'} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>DS-1600KI/</h5>
                         </Link>
                         <Link to={'/'} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>01 Keyboard compatibility list.xlsx</h5>
                         </Link>
                     </div>
-                    <div>
-                        <img src={img} alt="" />
-                    </div>
+                     
                 </div>
             </div>
         </div>

@@ -31,9 +31,7 @@ function FirmwareIPCRaptorseriesEnV550170725() {
               <h5>IPC_R6_EN_STD_...zip</h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

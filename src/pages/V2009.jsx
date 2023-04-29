@@ -9,13 +9,11 @@ function V2009() {
                 <div className='home_div2'>
                     <div className='button_div'>
                         <Link to={"/"} className='button_div2'>
-                            <i id='clear_' className="material-icons">clear</i>
+                             
                             <h5>iiVMS-4200_v2.0.0.9 Build20190611.zip </h5>
                         </Link>
                     </div>
-                    <div>
-                        <img src={img} alt="" />
-                    </div>
+                     
                 </div>
             </div>
         </div>

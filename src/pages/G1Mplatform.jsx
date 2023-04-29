@@ -20,9 +20,7 @@ function G1Mplatform() {
               <h5>IPCM_G1_EN_STD_ 5.6.0_190507.zip</h5>
             </a>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>

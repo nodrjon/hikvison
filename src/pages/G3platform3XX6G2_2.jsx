@@ -31,9 +31,7 @@ export default function G3platform3XX6G2_2() {
               <h5>model.txt</h5>
             </Link>
           </div>
-          <div>
-            <img src={img} alt="" />
-          </div>
+           
         </div>
       </div>
     </div>
