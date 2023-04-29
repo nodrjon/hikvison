@@ -28,14 +28,14 @@ function V226build200629() {
                              
                             <h5>Supported device models.txt</h5>
                         </Link>
-                        <Link to={"/"} className='button_div2'>
+                        <a href={"http://ftp.hikvision.ru/04.%20Temperature%20Screening/03%20Access%20Control/01%20Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200629/Temperature%20Screening%20MinMoe%20Terminal%20V2.2.6_build200629%20Release%20Note.docx"} className='button_div2'>
                              
-                            <h5>Temperature Screening MinMoe Terminal V2.2.6_bu..</h5>
-                        </Link>
-                        <Link to={"/"} className='button_div2'>
+                            <h5>Temperature Screening MinMoe Terminal V2.2.6_build200629 Release Note.docx</h5>
+                        </a>
+                        <a href={"http://ftp.hikvision.ru/04.%20Temperature%20Screening/03%20Access%20Control/01%20Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build200629/Temperature%20Screening%20MinMoe%20Terminal%20V2.2.6_build200629%20Release%20Note.pdf"} className='button_div2'>
                              
-                            <h5>Temperature Screening MinMoe Terminal V2.2.6_bu..</h5>
-                        </Link>
+                            <h5>Temperature Screening MinMoe Terminal V2.2.6_build200629 Release Note.pdf</h5>
+                        </a>
                     </div>
                      
                 </div>

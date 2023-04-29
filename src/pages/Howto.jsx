@@ -8,10 +8,10 @@ function Howto() {
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/"} className='button_div2'>
+                        <a href={"http://ftp.hikvision.ru/5.%20VMS/01.%20HikCentral/03.%20How-to/coming%20soon"} className='button_div2'>
                              
                             <h5>coming soon</h5>
-                        </Link>
+                        </a>
                     </div>
                      
                 </div>

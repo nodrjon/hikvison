@@ -12,18 +12,18 @@ function V32505() {
                              
                             <h5>How to Use Temperature Screening Version iVMS-4200.pdf</h5>
                         </a>
-                        <Link to={"/"} className='button_div2'>
+                        <a href={"http://ftp.hikvision.ru/04.%20Temperature%20Screening/04%20iVMS-4200/v3.2.50.5/Multilingual%20Package%28iVMS-4200_3.2.50.5%29.exe"} className='button_div2'>
                              
-                            <h5>Multilingual Package(iVMS-4200_3.2.50.5).exe</h5>
-                        </Link>
-                        <Link to={"/"} className='button_div2'>
+                            <h5>Multilingual Package (iVMS-4200_3.2.50.5).exe</h5>
+                        </a>
+                        <a href={"http://ftp.hikvision.ru/04.%20Temperature%20Screening/04%20iVMS-4200/v3.2.50.5/iVMS-4200%28V3.2.50.5_E%29.exe"} className='button_div2'>
                              
-                            <h5>iVMS-4200(V3.2.50.5_E).exe</h5>
-                        </Link>
-                        <Link to={"/"} className='button_div2'>
+                            <h5>iVMS-4200 (V3.2.50.5_E).exe</h5>
+                        </a>
+                        <a href={"http://ftp.hikvision.ru/04.%20Temperature%20Screening/04%20iVMS-4200/v3.2.50.5/iVMS-4200%28V3.3.0.5_E%29.exe"} className='button_div2'>
                              
-                            <h5>iVMS-4200(V3.3.0.5_E).exe</h5>
-                        </Link>
+                            <h5>iVMS-4200 (V3.3.0.5_E).exe</h5>
+                        </a>
                     </div>
                      
                 </div>

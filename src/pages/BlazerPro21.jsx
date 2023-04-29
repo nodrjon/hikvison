@@ -8,10 +8,10 @@ function BlazerPro21() {
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/"} className='button_div2'>
+                        <a href={"http://ftp.hikvision.ru/5.%20VMS/02.%20Blazer/01.%20Blazer%20Pro/01.%20Download/Blazer%20Pro%202.1/HikCentral_V1.1.0.exe"} className='button_div2'>
                              
                             <h5>HikCentral_V1.1.0.exe</h5>
-                        </Link>
+                        </a>
                     </div>
                      
                 </div>

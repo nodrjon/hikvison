@@ -8,10 +8,10 @@ function V3s235build220221() {
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/"} className='button_div2'>
+                        <a href={"http://ftp.hikvision.ru/04.%20Temperature%20Screening/03%20Access%20Control/01%20Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V3.2.35_build220221/ACS_671_3XF_AI3_EN_STD_V3.2.35_build220221.zip"} className='button_div2'>
                              
-                            <h5>ACS_671_3XF_AI3_ EN_STD_V3.2.35_ build220221.zip</h5>
-                        </Link>
+                            <h5>ACS_671_3XF_AI3_EN_STD_V3.2.35_build220221.zip</h5>
+                        </a>
                     </div>
                      
                 </div>

@@ -20,14 +20,14 @@ function BlazerPro21Doc() {
                              
                             <h5>UD07791B_Blazer Pro_Spec_2.1_ 20171025.PDF</h5>
                         </a>
-                        <Link to={"/"} className='button_div2'>
+                        <a href={"http://ftp.hikvision.ru/5.%20VMS/02.%20Blazer/01.%20Blazer%20Pro/02.%20Documentation/Blazer%20Pro%202.1/User%20Manual%20of%20HikCentral%20Control%20Client.chm"} className='button_div2'>
                              
                             <h5>User Manual of HikCentral Control Client.chm</h5>
-                        </Link>
-                        <Link to={"/"} className='button_div2'>
+                        </a>
+                        <a href={"http://ftp.hikvision.ru/5.%20VMS/02.%20Blazer/01.%20Blazer%20Pro/02.%20Documentation/Blazer%20Pro%202.1/User%20Manual%20of%20HikCentral%20Web%20Client.chm"} className='button_div2'>
                              
                             <h5>User Manual of HikCentral Web Client.chm</h5>
-                        </Link>
+                        </a>
                     </div>
                      
                 </div>

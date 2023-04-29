@@ -345,6 +345,16 @@ import Other_2_2_1_2 from './pages/Other_2_2_1_2';
 import Other_2_2_1_3 from './pages/Other_2_2_1_3';
 import Other_2_2_2_1 from './pages/Other_2_2_2_1';
 import Other_2_2_2_2 from './pages/Other_2_2_2_2';
+import V5526build200507 from './pages/V5526build200507';
+import V5526build200608 from './pages/V5526build200608';
+import V5526build200708 from './pages/V5526build200708';
+import V5526build200917 from './pages/V5526build200917';
+import V5532build201028 from './pages/V5532build201028';
+import V5532build201229WinterVersion from './pages/V5532build201229WinterVersion';
+import V5534build210123 from './pages/V5534build210123';
+import V5534build210402 from './pages/V5534build210402';
+import V5534build210702safeversion from './pages/V5534build210702safeversion';
+import V5534build211012 from './pages/V5534build211012';
 
 
 function App() {
@@ -376,11 +386,21 @@ function App() {
         <Route path='/Documents/Accessary/' element={<Accessary />} />
         <Route path='/Documents/Маркетинговые материалы/' element={<Marketing />} />
         <Route path='/Documents/ Материалы для проектирования/' element={<Materialsfordesign />} />
-        <Route path='/Temperature Screening/Thermal Camera/' element={<ThermalCamera />} />
+        <Route path='/Temperature Screening/Thermal Camera/' element={<ThermalCamera   />} />
         <Route path='/Temperature Screening/Thermal Camera/Installation&How to Video/' element={<InstallationHowVideo />} />
         <Route path='/Temperature Screening/Thermal Camera/Quick Installation&Configuration Guide/' element={<QuickInstallation />} />
         <Route path='/Temperature Screening/Thermal Camera/Firmware/' element={<FirmwarePage />} />
         <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/' element={<Firmwarefor12XXB26XXB />} />
+        <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/V5.5.26build200507/' element={<V5526build200507 />} />
+        <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/V5.5.26build200608/' element={<V5526build200608 />} />
+        <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/V5.5.26build200708/' element={<V5526build200708 />} />
+        <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/V5.5.26build200917/' element={<V5526build200917 />} />
+        <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/V5.5.32build201028/' element={<V5532build201028 />} />
+        <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/V5.5.32build201229_Winter Version/' element={<V5532build201229WinterVersion />} />
+        <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/V5.5.34build210123/' element={<V5534build210123 />} />
+        <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/V5.5.34build210402/' element={<V5534build210402 />} />
+        <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/V5.5.34build210702 safe version/' element={<V5534build210702safeversion />} />
+        <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for 12XXB, 26XXB/V5.5.34build211012/' element={<V5534build211012 />} />
         <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for Handheld Products/' element={<HandheldProducts />} />
         <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for Handheld Products/TP21B/' element={<TP21B />} />
         <Route path='/Temperature Screening/Thermal Camera/Firmware/Firmware for Handheld Products/TP31B/' element={<TP31B />} />

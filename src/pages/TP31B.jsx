@@ -8,14 +8,14 @@ function TP31B() {
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <div className='button_div2'>
+                        <a className='button_div2' href={'http://ftp.hikvision.ru/04.%20Temperature%20Screening/01%20Thermal%20Camera/03%20Firmware/02%20Firmware%20for%20Handheld%20Products/TP31B/IPTP_E2L_EN_STD_5.4.22_200325.zip'}>
                              
                             <h5>IPTP_E2L_EN_STD <tr></tr> _5.4.22_200325.zip</h5>
-                        </div>
-                        <div className='button_div2'>
+                        </a>
+                        <a className='button_div2' href={'http://ftp.hikvision.ru/04.%20Temperature%20Screening/01%20Thermal%20Camera/03%20Firmware/02%20Firmware%20for%20Handheld%20Products/TP31B/IPTP_E2L_EN_STD_5.4.38_200922.zip'}>
                              
-                            <h5>IPTP_E2L_EN_STD_5.4. <tr></tr> 38_200922.zip</h5>
-                        </div>
+                            <h5>IPTP_E2L_EN_STD <tr></tr> _5.4.38_200922.zip</h5>
+                        </a>
                         <Link to={"/Temperature Screening/Thermal Camera/Firmware/Firmware for Handheld Products/TP31B/Read me.txt"} className='button_div2'>
                              
                             <h5>Read me.txt</h5>

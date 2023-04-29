@@ -8,10 +8,10 @@ function HikCentralProfessional() {
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/"} className='button_div2'>
+                        <a href={"http://ftp.hikvision.ru/04.%20Temperature%20Screening/05%20HikCentral%20Professional/HikCentral_LanguagePack_V1.6.0027.20200604_HC1.6.0_Win_Installer.exe"} className='button_div2'>
                              
-                            <h5>HikCentral_ LanguagePack_V1.6.0027. 20200604_HC1...</h5>
-                        </Link>
+                            <h5>HikCentral_LanguagePack_V1.6.0027.20200604_HC1.6.0_Win_Installer.exe</h5>
+                        </a>
                     </div>
                      
                 </div>

@@ -22,7 +22,7 @@ function V226build201224() {
                         </a>
                         <a target='_blank' href='http://ftp.hikvision.ru/04.%20Temperature%20Screening/03%20Access%20Control/01%20Firmware/DS-K1T671TM-3XF_DS-K5604_DS-K5671_DS-K1TA70/V2.2.6_build201224/Temperature%20Screening%20MinMoe%20Terminal%20Release%20Note_V2.2.6_build201224.pdf' className='button_div2'>
                              
-                            <h5>Temperature Screening MinMoe Terminal Release N..</h5>
+                            <h5>Temperature Screening MinMoe Terminal Release Note_V2.2.6_build201224.pdf</h5>
                         </a>
                     </div>
                      
