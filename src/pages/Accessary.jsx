@@ -20,14 +20,14 @@ function Accessary() {
                             <i id='clear_' className="material-icons">clear</i>
                             <h5>Объективы/ </h5>
                         </Link>
-                        <Link to={"/Documents/Accessary/Кронштейны_Hikvision.xlsx/"} className='button_div2'>
+                        <a href='http://ftp.hikvision.ru/03.%20Documents/03.%20Accessary/%D0%9A%D1%80%D0%BE%D0%BD%D1%88%D1%82%D0%B5%D0%B9%D0%BD%D1%8B_Hikvision.xlsx' className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>Кронштейны_ <tr></tr> Hikvision.xlsx</h5>
-                        </Link>
-                        <Link to={'/Documents/Accessary/Кронштейны_Hiwatch.xlsx'} className='button_div2'>
+                            <h5>Кронштейны_  Hikvision.xlsx</h5>
+                        </a>
+                        <a href='http://ftp.hikvision.ru/03.%20Documents/03.%20Accessary/%D0%9A%D1%80%D0%BE%D0%BD%D1%88%D1%82%D0%B5%D0%B9%D0%BD%D1%8B_Hiwatch.xlsx' className='button_div2'>
                             <i id='clear_' className="material-icons">clear</i>
-                            <h5>Кронштейны_ <tr></tr> Hiwatch.xlsx</h5>
-                        </Link>
+                            <h5>Кронштейны_  Hiwatch.xlsx</h5>
+                        </a>
                     </div>
                     <div>
                         <img src={img} alt="" />

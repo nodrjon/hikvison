@@ -299,6 +299,25 @@ import A221 from './pages/A221';
 import A23 from './pages/A23';
 import Kojuhi from './pages/Кожухи';
 import KRonshteyni from './pages/Кронштейны';
+import Obektiv from './pages/Объективы';
+import IVMS_4200 from './pages/IVMS_4200';
+import P2pegionproblemsolution from './pages/P2pegionproblemsolution';
+import Run_error_randomly_on_the_process_of_loading from './pages/Run_error_randomly_on_the_process_of_loading';
+import Hik_Connect from './pages/Hik_Connect';
+import Storage_2 from './pages/Storage2';
+import VideoIntercom2 from './pages/VideoIntercom2';
+import First_gen_devicesV151 from './pages/First_gen_devicesV151';
+import HiWatch from './pages/HiWatch';
+import Protocol10 from './pages/Protocol10';
+import Protocol_20 from './pages/Protocol_20';
+import AccessControl3 from './pages/AccessControl3';
+import A1080Lite from './pages/A1080Lite';
+import POS from './pages/POS';
+import DobavleniepoRTSP from './pages/ДобавлениепоRTSP';
+import Noviy_katalog from './pages/Новыйкаталог';
+import Elementi_Firmenno from './pages/Элементыфирменногостиля';
+import Materialidlyap from './pages/Материалыдляпроектирования';
+import HikvisionnanoCAD from './pages/HikvisionnanoCAD';
 
 function App() {
   return (
@@ -616,6 +635,25 @@ function App() {
         <Route path='/Software/Hik-Central/Software package/2.3/' element={<A23 />} />
         <Route path='/Documents/Accessary/Кожухи/' element={<Kojuhi />} />
         <Route path='/Documents/Accessary/Кронштейны/' element={<KRonshteyni />} />
+        <Route path='/Documents/Accessary/Объективы/' element={<Obektiv />} />
+        <Route path='/Documents/How to documents/IVMS-4200/' element={<IVMS_4200 />} />
+        <Route path='/Documents/How to documents/IVMS-4200/p2p region problem solution/' element={<P2pegionproblemsolution />} />
+        <Route path='/Documents/How to documents/IVMS-4200/run error randomly on the process of loading/' element={<Run_error_randomly_on_the_process_of_loading />} />
+        <Route path='/Documents/How to documents/Hik-Connect/' element={<Hik_Connect />} />
+        <Route path='/Documents/How to documents/Storage/' element={<Storage_2 />} />
+        <Route path='/Documents/How to documents/Video Intercom/' element={<VideoIntercom2 />} />
+        <Route path='/Documents/How to documents/Video Intercom/First gen devices V1.5.1/' element={<First_gen_devicesV151 />} />
+        <Route path='/Documents/How to documents/Video Intercom/HiWatch/' element={<HiWatch />} />
+        <Route path='/Documents/How to documents/Video Intercom/Protocol 1.0/' element={<Protocol10 />} />
+        <Route path='/Documents/How to documents/Video Intercom/Protocol 2.0/' element={<Protocol_20 />} />
+        <Route path='/Documents/How to documents/Access Control/' element={<AccessControl3 />} />
+        <Route path='/Documents/How to documents/1080Lite/' element={<A1080Lite />} />
+        <Route path='/Documents/How to documents/POS/' element={<POS />} />
+        <Route path='/Documents/How to documents/Добавление по RTSP/' element={<DobavleniepoRTSP />} />
+        <Route path='/Documents/Маркетинговые материалы/Новый каталог/' element={<Noviy_katalog />} />
+        <Route path='/Documents/Маркетинговые материалы/Элементы фирменного стиля/' element={<Elementi_Firmenno />} />
+        <Route path='/Documents/Материалы для проектирования/' element={<Materialidlyap />} />
+        <Route path='/Documents/Материалы для проектирования/Hikvision и nanoCAD/' element={<HikvisionnanoCAD />} />
       </Routes>
     </div>
   );
