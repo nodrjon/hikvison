@@ -691,9 +691,14 @@ function App() {
 
 
         <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2_2' element={<Other_2_2_2 />} />
-        {/* pids_2_2 pages */}
+        {/* ids_2_2 pages */}
         <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2_2_1' element={<Other_2_2_2_1 />} />
         <Route path='/Firmware/Hikvision/IP Camera/Other/pids_2_2_2' element={<Other_2_2_2_2 />} />
+
+
+
+        {/* Firmware/Only for Warehouse/ */}
+        {/* <Route path='/Firmware/Only for Warehouse/' element={<OnlyforWarehouse />} /> */}
 
 
 
