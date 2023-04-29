@@ -12,11 +12,11 @@ function NVRIPregs() {
                              
                             <h5>00. K series/</h5>
                         </Link>
-                        <Link to={"/Software/"} className='button_div2'>
+                        <Link to={"/Firmware/Hikvision/NVR (IP regs)/m"} className='button_div2'>
                              
                             <h5>01. M series/</h5>
                         </Link>
-                        <Link to={"/Documents/"} className='button_div2'>
+                        <Link to={"/Firmware/Hikvision/NVR (IP regs)/i"} className='button_div2'>
                              
                             <h5>02. I series/</h5>
                         </Link>

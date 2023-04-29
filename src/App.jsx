@@ -398,6 +398,8 @@ import NVRIPregs_K_4_9 from './pages/NVRIPregs_K_4_9';
 import NVRIPregs_K_4_10 from './pages/NVRIPregs_K_4_10';
 import NVRIPregs_K_4_11 from './pages/NVRIPregs_K_4_11';
 import NVRIPregs_K_4_12 from './pages/NVRIPregs_K_4_12';
+import NVRIPregs_M from './pages/NVRIPregs_M';
+import NVRIPregs_I from './pages/NVRIPregs_I';
 
 // >>>>>>> 39a30d2cd12dafd43c20881aa18726e5631fd798
 
@@ -568,6 +570,19 @@ function App() {
 
 
         <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/5' element={<NVRIPregs_K_5 />} />
+
+
+      {/* /Firmware/Hikvision/NVR (IP regs)/m  seria*/}
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/m' element={<NVRIPregs_M />} />
+      {/* /Firmware/Hikvision/NVR (IP regs)/i */}
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/i' element={<NVRIPregs_I />} />
+
+
+
+
 
 
         <Route path='/Firmware/Hikvision/PTZ/' element={<PTZ />} />
