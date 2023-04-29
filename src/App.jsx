@@ -414,6 +414,24 @@ import Other_2_2_1_2 from './pages/Other_2_2_1_2';
 import Other_2_2_1_3 from './pages/Other_2_2_1_3';
 import Other_2_2_2_1 from './pages/Other_2_2_2_1';
 import Other_2_2_2_2 from './pages/Other_2_2_2_2';
+import DS2CD2123G0EIB from './pages/DS2CD2123G0EIB';
+import DSI200D from './pages/DSI200D';
+import DSI205MBC0DSI405MBC0 from './pages/DSI205MBC0DSI405MBC0';
+import DSI214WB from './pages/DSI214WB';
+import DSI215CDSI225CDSI415 from './pages/DSI215CDSI225CDSI415';
+import DSI250LDSI253L from './pages/DSI250LDSI253L';
+import DSI250WBI252WB from './pages/DSI250WBI252WB';
+import DSI250WC from './pages/DSI250WC';
+import DSI259MC from './pages/DSI259MC';
+import DSI400BDSI402B from './pages/DSI400BDSI402B';
+import DSI400CDSI402CDSI403C from './pages/DSI400CDSI402CDSI403C';
+import DSI450LDSI453L from './pages/DSI450LDSI453L';
+import DSI450MDSI453M from './pages/DSI450MDSI453M';
+import DSI450MBDSI453MBDSI250MBDSI253MB from './pages/DSI450MBDSI453MBDSI250MBDSI253MB';
+import DSI653M from './pages/DSI653M';
+import IPCT020B from './pages/IPCT020B';
+import IPCXXXXG2 from './pages/IPCXXXXG2';
+import IPTT012G2SIPTB012G2S from './pages/IPTT012G2SIPTB012G2S';
 
 // >>>>>>> 39a30d2cd12dafd43c20881aa18726e5631fd798
 
@@ -823,8 +841,24 @@ function App() {
 
 
         {/* Firmware/Only for Warehouse/ */}
-        {/* <Route path='/Firmware/Only for Warehouse/' element={<OnlyforWarehouse />} /> */}
-
+        <Route path='/Firmware/Only for Warehouse/DS-2CD2123G0E-I(B)/' element={<DS2CD2123G0EIB />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I200(D)/' element={<DSI200D />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I205M(B)(C0)    DS-I405M(B)(C0)/' element={<DSI205MBC0DSI405MBC0 />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I214(W)(B)/' element={<DSI214WB />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I215(C)  DS-I225(C) DS-I415/' element={<DSI215CDSI225CDSI415 />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I250L  DS-I253L/' element={<DSI250LDSI253L />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I250W(B)  I252W(B)/' element={<DSI250WBI252WB />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I250W(C)/' element={<DSI250WC />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I259M(C)/' element={<DSI259MC />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I400(B) DS-I402(B)/' element={<DSI400BDSI402B />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I400(C)  DS-I402(C)  DS-I403(C)/' element={<DSI400CDSI402CDSI403C />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I450L DS-I453L/' element={<DSI450LDSI453L />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I450M DS-I453M/' element={<DSI450MDSI453M />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I450M(B) DS-I453M(B) DS-I250M(B) DS-I253M(B)/' element={<DSI450MBDSI453MBDSI250MBDSI253MB />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I653M/' element={<DSI653M />} />
+        <Route path='/Firmware/Only for Warehouse/IPC-T020(B)/' element={<IPCT020B />} />
+        <Route path='/Firmware/Only for Warehouse/IPC-XXXX-G2/' element={<IPCXXXXG2 />} />
+        <Route path='/Firmware/Only for Warehouse/IPT-T012-G2_S    IPT-B012-G2_S/' element={<IPTT012G2SIPTB012G2S />} />
 
 
 
