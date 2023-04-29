@@ -326,6 +326,21 @@ import Elementi_Firmenno from './pages/Элементыфирменногост�
 import Materialidlyap from './pages/Материалыдляпроектирования';
 import HikvisionnanoCAD from './pages/HikvisionnanoCAD';
 // =======
+import V5526build200507 from './pages/V5526build200507';
+import V5526build200608 from './pages/V5526build200608';
+import V5526build200708 from './pages/V5526build200708';
+import V5526build200917 from './pages/V5526build200917';
+import V5532build201028 from './pages/V5532build201028';
+import V5532build201229WinterVersion from './pages/V5532build201229WinterVersion';
+import V5534build210123 from './pages/V5534build210123';
+import V5534build210402 from './pages/V5534build210402';
+import V5534build210702safeversion from './pages/V5534build210702safeversion';
+import V5534build211012 from './pages/V5534build211012';
+
+
+
+
+
 import A6series6XXX_2_1 from './pages/A6series6XXX_2_1';
 import A6series6XXX_2_1_1 from './pages/A6series6XXX_2_1_1';
 import A6series6XXX_h7 from './pages/A6series6XXX_h7';
