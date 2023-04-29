@@ -337,7 +337,40 @@ import V5534build210402 from './pages/V5534build210402';
 import V5534build210702safeversion from './pages/V5534build210702safeversion';
 import V5534build211012 from './pages/V5534build211012';
 
-
+// import V5534build211012 from './pages/V5534build211012';
+  import NVRIPregs_K from './pages/NVRIPregs_K';
+  import NVRIPregs_K_1 from './pages/NVRIPregs_K_1';
+  import NVRIPregs_K_2 from './pages/NVRIPregs_K_2';
+  import NVRIPregs_K_2_1 from './pages/NVRIPregs_K_2_1';
+  import NVRIPregs_K_2_2 from './pages/NVRIPregs_K_2_2';
+  import NVRIPregs_K_2_3 from './pages/NVRIPregs_K_2_3';
+  import NVRIPregs_K_2_4 from './pages/NVRIPregs_K_2_4';
+  import NVRIPregs_K_2_5 from './pages/NVRIPregs_K_2_5';
+  import NVRIPregs_K_2_6 from './pages/NVRIPregs_K_2_6';
+  import NVRIPregs_K_2_7 from './pages/NVRIPregs_K_2_7';
+  import NVRIPregs_K_3 from './pages/NVRIPregs_K_3';
+  import NVRIPregs_K_3_1 from './pages/NVRIPregs_K_3_1';
+  import NVRIPregs_K_3_2 from './pages/NVRIPregs_K_3_2';
+  import NVRIPregs_K_3_3 from './pages/NVRIPregs_K_3_3';
+  import NVRIPregs_K_3_4 from './pages/NVRIPregs_K_3_4';
+  import NVRIPregs_K_3_5 from './pages/NVRIPregs_K_3_5';
+  import NVRIPregs_K_3_6 from './pages/NVRIPregs_K_3_6';
+  import NVRIPregs_K_3_7 from './pages/NVRIPregs_K_3_7';
+  import NVRIPregs_K_4 from './pages/NVRIPregs_K_4';
+  import NVRIPregs_K_4_1 from './pages/NVRIPregs_K_4_1';
+  import NVRIPregs_K_4_2 from './pages/NVRIPregs_K_4_2';
+  import NVRIPregs_K_4_3 from './pages/NVRIPregs_K_4_3';
+  import NVRIPregs_K_4_4 from './pages/NVRIPregs_K_4_4';
+  import NVRIPregs_K_4_5 from './pages/NVRIPregs_K_4_5';
+  import NVRIPregs_K_4_6 from './pages/NVRIPregs_K_4_6';
+  import NVRIPregs_K_4_7 from './pages/NVRIPregs_K_4_7';
+  import NVRIPregs_K_4_8 from './pages/NVRIPregs_K_4_8';
+  import NVRIPregs_K_4_9 from './pages/NVRIPregs_K_4_9';
+  import NVRIPregs_K_4_10 from './pages/NVRIPregs_K_4_10';
+  import NVRIPregs_K_4_11 from './pages/NVRIPregs_K_4_11';
+  import NVRIPregs_K_5 from './pages/NVRIPregs_K_5';
+  import NVRIPregs_M from './pages/NVRIPregs_M';
+  import NVRIPregs_I from './pages/NVRIPregs_I';
 
 
 
