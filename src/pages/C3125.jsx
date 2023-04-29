@@ -8,10 +8,10 @@ function C3125() {
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={'/'} className='button_div2'>
+                        <a href='http://ftp.hikvision.ru/02.%20Software/02.%20Hikvision%20Tools/01.%20For%20Windows/02.%20BatchConfig%20Tool/3.1.2.5/Batch%20Configuration.exe' className='button_div2'>
                              
                             <h5>Batch Configuration.exe</h5>
-                        </Link>
+                        </a>
                     </div>
                      
                 </div>

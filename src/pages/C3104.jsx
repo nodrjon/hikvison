@@ -12,10 +12,10 @@ function C3104() {
                              
                             <h5>Batch Configuration 3.1.0.4 Release Notes.pdf</h5>
                         </a>
-                        <Link to={'/'} className='button_div2'>
+                        <a href='http://ftp.hikvision.ru/02.%20Software/02.%20Hikvision%20Tools/01.%20For%20Windows/02.%20BatchConfig%20Tool/3.1.0.4/Batch%20Configuration.exe' className='button_div2'>
                              
                             <h5>Batch Configuration.exe</h5>
-                        </Link>
+                        </a>
                     </div>
                      
                 </div>
