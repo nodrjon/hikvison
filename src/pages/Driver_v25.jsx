@@ -20,7 +20,7 @@ function Driver_v25() {
                              
                             <h5>Hikvision Card Windows Driver install Notes and..</h5>
                         </a>
-                        <a target='_blank' href='' className='button_div2'>
+                        <a  href='http://ftp.hikvision.ru/02.%20Software/02.%20Hikvision%20Tools/01.%20For%20Windows/Hikvision%20Card%20Driver/Driver_v2.5/setup.exe' className='button_div2'>
                              
                             <h5>setup.exe</h5>
                         </a>

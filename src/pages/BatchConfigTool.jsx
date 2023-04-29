@@ -28,9 +28,9 @@ function BatchConfigTool() {
                              
                             <h5>3.1.2.2/</h5>
                         </Link>
-                        <Link to={'/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.2.2/'} className='button_div2'>
+                        <Link to={'/Software/Hikvision Tools/For Windows/BatchConfig Tool/3.1.2.5/'} className='button_div2'>
                              
-                            <h5>3.1.2.2/</h5>
+                            <h5>3.1.2.5/</h5>
                         </Link>
                     </div>
                      

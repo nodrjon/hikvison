@@ -305,6 +305,27 @@ import A6series6XXX_1_1 from './pages/A6series6XXX_1_1';
 import A6series6XXX_1_p1 from './pages/A6series6XXX_1_p1';
 import A6series6XXX_1_p2 from './pages/A6series6XXX_1_p2';
 import KRonshteyni from './pages/Кронштейны';
+// <<<<<<< HEAD
+import Obektiv from './pages/Объективы';
+import IVMS_4200 from './pages/IVMS_4200';
+import P2pegionproblemsolution from './pages/P2pegionproblemsolution';
+import Run_error_randomly_on_the_process_of_loading from './pages/Run_error_randomly_on_the_process_of_loading';
+import Hik_Connect from './pages/Hik_Connect';
+import Storage_2 from './pages/Storage2';
+import VideoIntercom2 from './pages/VideoIntercom2';
+import First_gen_devicesV151 from './pages/First_gen_devicesV151';
+import HiWatch from './pages/HiWatch';
+import Protocol10 from './pages/Protocol10';
+import Protocol_20 from './pages/Protocol_20';
+import AccessControl3 from './pages/AccessControl3';
+import A1080Lite from './pages/A1080Lite';
+import POS from './pages/POS';
+import DobavleniepoRTSP from './pages/ДобавлениепоRTSP';
+import Noviy_katalog from './pages/Новыйкаталог';
+import Elementi_Firmenno from './pages/Элементыфирменногостиля';
+import Materialidlyap from './pages/Материалыдляпроектирования';
+import HikvisionnanoCAD from './pages/HikvisionnanoCAD';
+// =======
 import A6series6XXX_2_1 from './pages/A6series6XXX_2_1';
 import A6series6XXX_2_1_1 from './pages/A6series6XXX_2_1_1';
 import A6series6XXX_h7 from './pages/A6series6XXX_h7';
@@ -345,17 +366,8 @@ import Other_2_2_1_2 from './pages/Other_2_2_1_2';
 import Other_2_2_1_3 from './pages/Other_2_2_1_3';
 import Other_2_2_2_1 from './pages/Other_2_2_2_1';
 import Other_2_2_2_2 from './pages/Other_2_2_2_2';
-import V5526build200507 from './pages/V5526build200507';
-import V5526build200608 from './pages/V5526build200608';
-import V5526build200708 from './pages/V5526build200708';
-import V5526build200917 from './pages/V5526build200917';
-import V5532build201028 from './pages/V5532build201028';
-import V5532build201229WinterVersion from './pages/V5532build201229WinterVersion';
-import V5534build210123 from './pages/V5534build210123';
-import V5534build210402 from './pages/V5534build210402';
-import V5534build210702safeversion from './pages/V5534build210702safeversion';
-import V5534build211012 from './pages/V5534build211012';
 
+// >>>>>>> 39a30d2cd12dafd43c20881aa18726e5631fd798
 
 function App() {
   return (
@@ -484,6 +496,71 @@ function App() {
         <Route path='/VMS/Blazer/Blazer Express/Documentation/Blazer Express 1.4/' element={<BlazerExpress14Doc />} />
         <Route path='/Firmware/Hikvision/IP Camera/' element={<IPCamera />} />
         <Route path='/Firmware/Hikvision/NVR (IP regs)/' element={<NVRIPregs />} />
+
+        {/* /Firmware/K/seria */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria' element={<NVRIPregs_K />} />
+        {/* Firmware/K/seria pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/1' element={<NVRIPregs_K_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2' element={<NVRIPregs_K_2 />} />
+
+        {/* /Firmware/Hikvision/NVR (IP regs)/k/seria/2 pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/1' element={<NVRIPregs_K_2_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/2' element={<NVRIPregs_K_2_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/3' element={<NVRIPregs_K_2_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/4' element={<NVRIPregs_K_2_4/>} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/5' element={<NVRIPregs_K_2_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/6' element={<NVRIPregs_K_2_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/7' element={<NVRIPregs_K_2_7 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3' element={<NVRIPregs_K_3 />} />
+        {/* /Firmware/Hikvision/NVR (IP regs)/k/seria/3/ pages */}
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/1' element={<NVRIPregs_K_3_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/2' element={<NVRIPregs_K_3_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/3' element={<NVRIPregs_K_3_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/4' element={<NVRIPregs_K_3_4 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/5' element={<NVRIPregs_K_3_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/6' element={<NVRIPregs_K_3_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/7' element={<NVRIPregs_K_3_7 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4' element={<NVRIPregs_K_4 />} />
+        {/* /Firmware/Hikvision/NVR (IP regs)/k/seria/4 pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/1' element={<NVRIPregs_K_4_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/2' element={<NVRIPregs_K_4_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/3' element={<NVRIPregs_K_4_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/4' element={<NVRIPregs_K_4_4 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/5' element={<NVRIPregs_K_4_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/6' element={<NVRIPregs_K_4_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/7' element={<NVRIPregs_K_4_7 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/8' element={<NVRIPregs_K_4_8 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/9' element={<NVRIPregs_K_4_9 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/10' element={<NVRIPregs_K_4_10 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/11' element={<NVRIPregs_K_4_11 />} />
+        {/* <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/12' element={<NVRIPregs_K_4_12 />} /> */}
+
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/5' element={<NVRIPregs_K_5 />} />
+
+
+      {/* /Firmware/Hikvision/NVR (IP regs)/m  seria*/}
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/m' element={<NVRIPregs_M />} />
+      {/* /Firmware/Hikvision/NVR (IP regs)/i */}
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/i' element={<NVRIPregs_I />} />
+
+
+
+
+
+
         <Route path='/Firmware/Hikvision/PTZ/' element={<PTZ />} />
         <Route path='/Firmware/Hikvision/DVR (TVI regs)/' element={<DVRTVIregs />} />
         <Route path='/Firmware/Hikvision/Video Intercom/' element={<DVRTVIregs />} />
@@ -794,6 +871,25 @@ function App() {
         <Route path='/Software/Hik-Central/Software package/2.3/' element={<A23 />} />
         <Route path='/Documents/Accessary/Кожухи/' element={<Kojuhi />} />
         <Route path='/Documents/Accessary/Кронштейны/' element={<KRonshteyni />} />
+        <Route path='/Documents/Accessary/Объективы/' element={<Obektiv />} />
+        <Route path='/Documents/How to documents/IVMS-4200/' element={<IVMS_4200 />} />
+        <Route path='/Documents/How to documents/IVMS-4200/p2p region problem solution/' element={<P2pegionproblemsolution />} />
+        <Route path='/Documents/How to documents/IVMS-4200/run error randomly on the process of loading/' element={<Run_error_randomly_on_the_process_of_loading />} />
+        <Route path='/Documents/How to documents/Hik-Connect/' element={<Hik_Connect />} />
+        <Route path='/Documents/How to documents/Storage/' element={<Storage_2 />} />
+        <Route path='/Documents/How to documents/Video Intercom/' element={<VideoIntercom2 />} />
+        <Route path='/Documents/How to documents/Video Intercom/First gen devices V1.5.1/' element={<First_gen_devicesV151 />} />
+        <Route path='/Documents/How to documents/Video Intercom/HiWatch/' element={<HiWatch />} />
+        <Route path='/Documents/How to documents/Video Intercom/Protocol 1.0/' element={<Protocol10 />} />
+        <Route path='/Documents/How to documents/Video Intercom/Protocol 2.0/' element={<Protocol_20 />} />
+        <Route path='/Documents/How to documents/Access Control/' element={<AccessControl3 />} />
+        <Route path='/Documents/How to documents/1080Lite/' element={<A1080Lite />} />
+        <Route path='/Documents/How to documents/POS/' element={<POS />} />
+        <Route path='/Documents/How to documents/Добавление по RTSP/' element={<DobavleniepoRTSP />} />
+        <Route path='/Documents/Маркетинговые материалы/Новый каталог/' element={<Noviy_katalog />} />
+        <Route path='/Documents/Маркетинговые материалы/Элементы фирменного стиля/' element={<Elementi_Firmenno />} />
+        <Route path='/Documents/Материалы для проектирования/' element={<Materialidlyap />} />
+        <Route path='/Documents/Материалы для проектирования/Hikvision и nanoCAD/' element={<HikvisionnanoCAD />} />
       </Routes>
     </div>
   );

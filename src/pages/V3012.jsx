@@ -8,10 +8,10 @@ function V3012() {
             <div className='home_div'> 
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/"} className='button_div2'>
+                        <a href='http://ftp.hikvision.ru/02.%20Software/02.%20Hikvision%20Tools/01.%20For%20Windows/04.%20Remote%20Backup/V3.0.1.2/RemoteBackup.exe' className='button_div2'>
                              
                             <h5>RemoteBackup.exe</h5>
-                        </Link>
+                        </a>
                     </div>
                      
                 </div>

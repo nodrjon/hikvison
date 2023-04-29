@@ -12,10 +12,10 @@ function C2041() {
                              
                             <h5>Lens Selection v2.0.4.1 Release Notes.pdf</h5>
                         </a>
-                        <Link to={"/"} className='button_div2'>
+                        <a href='http://ftp.hikvision.ru/02.%20Software/02.%20Hikvision%20Tools/01.%20For%20Windows/06.%20Lens%20selection/2.0.4.1/Lens%20Selection.zip' className='button_div2'>
                              
                             <h5>Lens Selection.zip </h5>
-                        </Link>
+                        </a>
                     </div>
                      
                 </div>
