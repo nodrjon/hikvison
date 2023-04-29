@@ -432,6 +432,17 @@ import DSI653M from './pages/DSI653M';
 import IPCT020B from './pages/IPCT020B';
 import IPCXXXXG2 from './pages/IPCXXXXG2';
 import IPTT012G2SIPTB012G2S from './pages/IPTT012G2SIPTB012G2S';
+import NVRIPregs_Q from './pages/NVRIPregs_Q';
+import NVRIPregs_Q_1 from './pages/NVRIPregs_Q_1';
+import NVRIPregs_Q_2 from './pages/NVRIPregs_Q_2';
+import NVRIPregs_Q_2_1 from './pages/NVRIPregs_Q_2_1';
+import NVRIPregs_Q_2_2 from './pages/NVRIPregs_Q_2_2';
+import NVRIPregs_Q_2_3 from './pages/NVRIPregs_Q_2_3';
+import NVRIPregs_Q_2_4 from './pages/NVRIPregs_Q_2_4';
+import NVRIPregs_Q_2_5 from './pages/NVRIPregs_Q_2_5';
+import NVRIPregs_Q_2_6 from './pages/NVRIPregs_Q_2_6';
+import NVRIPregs_Q_2_7 from './pages/NVRIPregs_Q_2_7';
+import NVRIPregs_Q_2_8 from './pages/NVRIPregs_Q_2_8';
 
 // >>>>>>> 39a30d2cd12dafd43c20881aa18726e5631fd798
 
@@ -621,6 +632,23 @@ function App() {
       {/* /Firmware/Hikvision/NVR (IP regs)/i */}
 
         <Route path='/Firmware/Hikvision/NVR (IP regs)/i' element={<NVRIPregs_I />} />
+
+        {/* /Firmware/Hikvision/NVR (IP regs)/q */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q' element={<NVRIPregs_Q />} />
+
+        {/* /Firmware/Hikvision/NVR (IP regs)/q pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q_1' element={<NVRIPregs_Q_1 />} />
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q_2' element={<NVRIPregs_Q_2 />} />
+        {/* /Firmware/Hikvision/NVR (IP regs)/q_2 pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q_2/1' element={<NVRIPregs_Q_2_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q_2/2' element={<NVRIPregs_Q_2_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q_2/3' element={<NVRIPregs_Q_2_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q_2/4' element={<NVRIPregs_Q_2_4 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q_2/5' element={<NVRIPregs_Q_2_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q_2/6' element={<NVRIPregs_Q_2_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q_2/7' element={<NVRIPregs_Q_2_7 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/q_2/8' element={<NVRIPregs_Q_2_8 />} />
 
 
 

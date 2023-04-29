@@ -20,7 +20,7 @@ function NVRIPregs() {
                              
                             <h5>02. I series/</h5>
                         </Link>
-                        <Link to={"/Temperature Screening/"} className='button_div2'>
+                        <Link to={"/Firmware/Hikvision/NVR (IP regs)/q"} className='button_div2'>
                              
                             <h5>03. Q series/</h5>
                         </Link>
