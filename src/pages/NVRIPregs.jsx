@@ -8,7 +8,7 @@ function NVRIPregs() {
             <div className='home_div'>
                 <div className='home_div2'>
                     <div className='button_div'>
-                        <Link to={"/Firmware/"} className='button_div2'>
+                        <Link to={"/Firmware/Hikvision/NVR (IP regs)/k/seria"} className='button_div2'>
                              
                             <h5>00. K series/</h5>
                         </Link>

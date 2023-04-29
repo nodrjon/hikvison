@@ -345,6 +345,38 @@ import Other_2_2_1_2 from './pages/Other_2_2_1_2';
 import Other_2_2_1_3 from './pages/Other_2_2_1_3';
 import Other_2_2_2_1 from './pages/Other_2_2_2_1';
 import Other_2_2_2_2 from './pages/Other_2_2_2_2';
+import NVRIPregs_K from './pages/NVRIPregs_K';
+import NVRIPregs_K_1 from './pages/NVRIPregs_K_1';
+import NVRIPregs_K_2 from './pages/NVRIPregs_K_2';
+import NVRIPregs_K_3 from './pages/NVRIPregs_K_3';
+import NVRIPregs_K_4 from './pages/NVRIPregs_K_4';
+import NVRIPregs_K_5 from './pages/NVRIPregs_K_5';
+import NVRIPregs_K_2_1 from './pages/NVRIPregs_K_2_1';
+import NVRIPregs_K_2_2 from './pages/NVRIPregs_K_2_2';
+import NVRIPregs_K_2_3 from './pages/NVRIPregs_K_2_3';
+import NVRIPregs_K_2_4 from './pages/NVRIPregs_K_2_4';
+import NVRIPregs_K_2_7 from './pages/NVRIPregs_K_2_7';
+import NVRIPregs_K_2_5 from './pages/NVRIPregs_K_2_5';
+import NVRIPregs_K_2_6 from './pages/NVRIPregs_K_2_6';
+import NVRIPregs_K_3_1 from './pages/NVRIPregs_K_3_1';
+import NVRIPregs_K_3_2 from './pages/NVRIPregs_K_3_2';
+import NVRIPregs_K_3_4 from './pages/NVRIPregs_K_3_4';
+import NVRIPregs_K_3_5 from './pages/NVRIPregs_K_3_5';
+import NVRIPregs_K_3_6 from './pages/NVRIPregs_K_3_6';
+import NVRIPregs_K_3_7 from './pages/NVRIPregs_K_3_7';
+import NVRIPregs_K_3_3 from './pages/NVRIPregs_K_3_3';
+import NVRIPregs_K_4_1 from './pages/NVRIPregs_K_4_1';
+import NVRIPregs_K_4_2 from './pages/NVRIPregs_K_4_2';
+import NVRIPregs_K_4_3 from './pages/NVRIPregs_K_4_3';
+import NVRIPregs_K_4_5 from './pages/NVRIPregs_K_4_5';
+import NVRIPregs_K_4_4 from './pages/NVRIPregs_K_4_4';
+import NVRIPregs_K_4_6 from './pages/NVRIPregs_K_4_6';
+import NVRIPregs_K_4_7 from './pages/NVRIPregs_K_4_7';
+import NVRIPregs_K_4_8 from './pages/NVRIPregs_K_4_8';
+import NVRIPregs_K_4_9 from './pages/NVRIPregs_K_4_9';
+import NVRIPregs_K_4_10 from './pages/NVRIPregs_K_4_10';
+import NVRIPregs_K_4_11 from './pages/NVRIPregs_K_4_11';
+import NVRIPregs_K_4_12 from './pages/NVRIPregs_K_4_12';
 
 
 function App() {
@@ -464,6 +496,58 @@ function App() {
         <Route path='/VMS/Blazer/Blazer Express/Documentation/Blazer Express 1.4/' element={<BlazerExpress14Doc />} />
         <Route path='/Firmware/Hikvision/IP Camera/' element={<IPCamera />} />
         <Route path='/Firmware/Hikvision/NVR (IP regs)/' element={<NVRIPregs />} />
+
+        {/* /Firmware/K/seria */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria' element={<NVRIPregs_K />} />
+        {/* Firmware/K/seria pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/1' element={<NVRIPregs_K_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2' element={<NVRIPregs_K_2 />} />
+
+        {/* /Firmware/Hikvision/NVR (IP regs)/k/seria/2 pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/1' element={<NVRIPregs_K_2_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/2' element={<NVRIPregs_K_2_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/3' element={<NVRIPregs_K_2_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/4' element={<NVRIPregs_K_2_4/>} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/5' element={<NVRIPregs_K_2_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/6' element={<NVRIPregs_K_2_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/2/7' element={<NVRIPregs_K_2_7 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3' element={<NVRIPregs_K_3 />} />
+        {/* /Firmware/Hikvision/NVR (IP regs)/k/seria/3/ pages */}
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/1' element={<NVRIPregs_K_3_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/2' element={<NVRIPregs_K_3_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/3' element={<NVRIPregs_K_3_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/4' element={<NVRIPregs_K_3_4 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/5' element={<NVRIPregs_K_3_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/6' element={<NVRIPregs_K_3_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/3/7' element={<NVRIPregs_K_3_7 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4' element={<NVRIPregs_K_4 />} />
+        {/* /Firmware/Hikvision/NVR (IP regs)/k/seria/4 pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/1' element={<NVRIPregs_K_4_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/2' element={<NVRIPregs_K_4_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/3' element={<NVRIPregs_K_4_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/4' element={<NVRIPregs_K_4_4 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/5' element={<NVRIPregs_K_4_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/6' element={<NVRIPregs_K_4_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/7' element={<NVRIPregs_K_4_7 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/8' element={<NVRIPregs_K_4_8 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/9' element={<NVRIPregs_K_4_9 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/10' element={<NVRIPregs_K_4_10 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/11' element={<NVRIPregs_K_4_11 />} />
+        {/* <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/4/12' element={<NVRIPregs_K_4_12 />} /> */}
+
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/k/seria/5' element={<NVRIPregs_K_5 />} />
+
+
         <Route path='/Firmware/Hikvision/PTZ/' element={<PTZ />} />
         <Route path='/Firmware/Hikvision/DVR (TVI regs)/' element={<DVRTVIregs />} />
         <Route path='/Firmware/Hikvision/Video Intercom/' element={<DVRTVIregs />} />
