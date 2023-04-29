@@ -871,15 +871,15 @@ function App() {
         {/* Firmware/Only for Warehouse/ */}
         <Route path='/Firmware/Only for Warehouse/DS-2CD2123G0E-I(B)/' element={<DS2CD2123G0EIB />} />
         <Route path='/Firmware/Only for Warehouse/DS-I200(D)/' element={<DSI200D />} />
-        <Route path='/Firmware/Only for Warehouse/DS-I205M(B)(C0)    DS-I405M(B)(C0)/' element={<DSI205MBC0DSI405MBC0 />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I205M(B)(C0)DS-I405M(B)(C0)/' element={<DSI205MBC0DSI405MBC0 />} />
         <Route path='/Firmware/Only for Warehouse/DS-I214(W)(B)/' element={<DSI214WB />} />
-        <Route path='/Firmware/Only for Warehouse/DS-I215(C)  DS-I225(C) DS-I415/' element={<DSI215CDSI225CDSI415 />} />
-        <Route path='/Firmware/Only for Warehouse/DS-I250L  DS-I253L/' element={<DSI250LDSI253L />} />
-        <Route path='/Firmware/Only for Warehouse/DS-I250W(B)  I252W(B)/' element={<DSI250WBI252WB />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I215(C)DS-I225(C)DS-I415/' element={<DSI215CDSI225CDSI415 />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I250LDS-I253L/' element={<DSI250LDSI253L />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I250W(B)I252W(B)/' element={<DSI250WBI252WB />} />
         <Route path='/Firmware/Only for Warehouse/DS-I250W(C)/' element={<DSI250WC />} />
         <Route path='/Firmware/Only for Warehouse/DS-I259M(C)/' element={<DSI259MC />} />
         <Route path='/Firmware/Only for Warehouse/DS-I400(B) DS-I402(B)/' element={<DSI400BDSI402B />} />
-        <Route path='/Firmware/Only for Warehouse/DS-I400(C)  DS-I402(C)  DS-I403(C)/' element={<DSI400CDSI402CDSI403C />} />
+        <Route path='/Firmware/Only for Warehouse/DS-I400(C)DS-I402(C)DS-I403(C)/' element={<DSI400CDSI402CDSI403C />} />
         <Route path='/Firmware/Only for Warehouse/DS-I450L DS-I453L/' element={<DSI450LDSI453L />} />
         <Route path='/Firmware/Only for Warehouse/DS-I450M DS-I453M/' element={<DSI450MDSI453M />} />
         <Route path='/Firmware/Only for Warehouse/DS-I450M(B) DS-I453M(B) DS-I250M(B) DS-I253M(B)/' element={<DSI450MBDSI453MBDSI250MBDSI253MB />} />
@@ -887,9 +887,6 @@ function App() {
         <Route path='/Firmware/Only for Warehouse/IPC-T020(B)/' element={<IPCT020B />} />
         <Route path='/Firmware/Only for Warehouse/IPC-XXXX-G2/' element={<IPCXXXXG2 />} />
         <Route path='/Firmware/Only for Warehouse/IPT-T012-G2_S    IPT-B012-G2_S/' element={<IPTT012G2SIPTB012G2S />} />
-
-
-
 
 
         <Route path='/Software/iVMS-4200/iVMS-4200 full version/' element={<IVMS4200fullversion />} />
