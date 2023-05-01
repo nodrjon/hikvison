@@ -443,6 +443,39 @@ import NVRIPregs_Q_2_5 from './pages/NVRIPregs_Q_2_5';
 import NVRIPregs_Q_2_6 from './pages/NVRIPregs_Q_2_6';
 import NVRIPregs_Q_2_7 from './pages/NVRIPregs_Q_2_7';
 import NVRIPregs_Q_2_8 from './pages/NVRIPregs_Q_2_8';
+import NVRIPregs_E from './pages/NVRIPregs_E';
+import NVRIPregs_E_1 from './pages/NVRIPregs_E_1';
+import NVRIPregs_E_2 from './pages/NVRIPregs_E_2';
+import NVRIPregs_ACU from './pages/NVRIPregs_ACU';
+import NVRIPregs_ACU_1 from './pages/NVRIPregs_ACU_1';
+import NVRIPregs_ACU_2 from './pages/NVRIPregs_ACU_2';
+import NVRIPregs_ACU_3 from './pages/NVRIPregs_ACU_3';
+import NVRIPregs_ACU_2_1 from './pages/NVRIPregs_ACU_2_1';
+import NVRIPregs_ACU_2_2 from './pages/NVRIPregs_ACU_2_2';
+import NVRIPregs_ACU_2_3 from './pages/NVRIPregs_ACU_2_3';
+import NVRIPregs_ACU_2_4 from './pages/NVRIPregs_ACU_2_4';
+import NVRIPregs_ACU_3_1 from './pages/NVRIPregs_ACU_3_1';
+import NVRIPregs_ACU_3_2 from './pages/NVRIPregs_ACU_3_2';
+import NVRIPregs_ACU_3_3 from './pages/NVRIPregs_ACU_3_3';
+import NVRIPregs_DEEP from './pages/NVRIPregs_DEEP';
+import NVRIPregs_DEEP_1 from './pages/NVRIPregs_DEEP_1';
+import NVRIPregs_DEEP_2 from './pages/NVRIPregs_DEEP_2';
+import NVRIPregs_DEEP_3 from './pages/NVRIPregs_DEEP_3';
+import NVRIPregs_DEEP_4 from './pages/NVRIPregs_DEEP_4';
+import NVRIPregs_DEEP_5 from './pages/NVRIPregs_DEEP_5';
+import NVRIPregs_DEEP_1_1 from './pages/NVRIPregs_DEEP_1_1';
+import NVRIPregs_DEEP_1_2 from './pages/NVRIPregs_DEEP_1_2';
+import NVRIPregs_DEEP_1_1_1 from './pages/NVRIPregs_DEEP_1_1_1';
+import NVRIPregs_DEEP_1_2_1 from './pages/NVRIPregs_DEEP_1_2_1';
+import NVRIPregs_DEEP_2_1 from './pages/NVRIPregs_DEEP_2_1';
+import NVRIPregs_DEEP_2_2 from './pages/NVRIPregs_DEEP_2_2';
+import NVRIPregs_DEEP_2_2_1 from './pages/NVRIPregs_DEEP_2_2_1';
+import NVRIPregs_DEEP_2_2_2 from './pages/NVRIPregs_DEEP_2_2_2';
+import NVRIPregs_DEEP_3_1 from './pages/NVRIPregs_DEEP_3_1';
+import NVRIPregs_DEEP_3_2 from './pages/NVRIPregs_DEEP_3_2';
+import NVRIPregs_DEEP_4_1 from './pages/NVRIPregs_DEEP_4_1';
+import NVRIPregs_DEEP_4_1_1 from './pages/NVRIPregs_DEEP_4_1_1';
+import NVRIPregs_ISUPER from './pages/NVRIPregs_ISUPER';
 
 // >>>>>>> 39a30d2cd12dafd43c20881aa18726e5631fd798
 
@@ -651,7 +684,85 @@ function App() {
         <Route path='/Firmware/Hikvision/NVR (IP regs)/q_2/8' element={<NVRIPregs_Q_2_8 />} />
 
 
+        {/* /Firmware/Hikvision/NVR (IP regs)/e */}
 
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/e' element={<NVRIPregs_E />} />
+          {/* /Firmware/Hikvision/NVR (IP regs)/e pages */}
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/e/1' element={<NVRIPregs_E_1 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/e/2' element={<NVRIPregs_E_2 />} />
+
+        {/* /Firmware/Hikvision/NVR (IP regs)/acu */}
+
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu' element={<NVRIPregs_ACU />} />
+
+          {/* /Firmware/Hikvision/NVR (IP regs)/acu pages */}
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu/1' element={<NVRIPregs_ACU_1 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu/2' element={<NVRIPregs_ACU_2 />} />
+
+        {/* /Firmware/Hikvision/NVR (IP regs)/acu/2 pages */}
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu/2/1' element={<NVRIPregs_ACU_2_1 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu/2/2' element={<NVRIPregs_ACU_2_2 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu/2/3' element={<NVRIPregs_ACU_2_3 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu/2/4' element={<NVRIPregs_ACU_2_4 />} />
+
+
+
+
+
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu/3' element={<NVRIPregs_ACU_3 />} />
+          {/* /Firmware/Hikvision/NVR (IP regs)/acu/3  pages*/}
+
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu/3/1' element={<NVRIPregs_ACU_3_1 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu/3/2' element={<NVRIPregs_ACU_3_2 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/acu/3/3' element={<NVRIPregs_ACU_3_3 />} />
+
+          {/* /Firmware/Hikvision/NVR (IP regs)/deep */}
+
+
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep' element={<NVRIPregs_DEEP />} />
+              {/* /Firmware/Hikvision/NVR (IP regs)/deep pages */}
+
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/1' element={<NVRIPregs_DEEP_1 />} />
+          {/* /Firmware/Hikvision/NVR (IP regs)/deep/1 pages */}
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/1/1' element={<NVRIPregs_DEEP_1_1 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/1/1_1' element={<NVRIPregs_DEEP_1_1_1 />} />
+
+
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/1/2' element={<NVRIPregs_DEEP_1_2 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/1/2_1' element={<NVRIPregs_DEEP_1_2_1 />} />
+
+
+
+
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/2' element={<NVRIPregs_DEEP_2 />} />
+          {/* /Firmware/Hikvision/NVR (IP regs)/deep/2 pages */}
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/2/1' element={<NVRIPregs_DEEP_2_1 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/2/2' element={<NVRIPregs_DEEP_2_2 />} />
+          {/* /Firmware/Hikvision/NVR (IP regs)/deep/2/2' pages */}
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/2/2_1' element={<NVRIPregs_DEEP_2_2_1 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/2/2_2' element={<NVRIPregs_DEEP_2_2_2 />} />
+
+
+
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/3' element={<NVRIPregs_DEEP_3 />} />
+            {/* /Firmware/Hikvision/NVR (IP regs)/deep/3 pages */}
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/3/1' element={<NVRIPregs_DEEP_3_1 />} />
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/3/2' element={<NVRIPregs_DEEP_3_2 />} />
+
+
+
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/4' element={<NVRIPregs_DEEP_4 />} />
+          {/* /Firmware/Hikvision/NVR (IP regs)/deep/4/ pages */}
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/4/1' element={<NVRIPregs_DEEP_4_1 />} />
+          {/* /Firmware/Hikvision/NVR (IP regs)/deep/4/1 pages */}
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/4/1_1' element={<NVRIPregs_DEEP_4_1_1 />} />
+
+
+          <Route path='/Firmware/Hikvision/NVR (IP regs)/deep/5' element={<NVRIPregs_DEEP_5 />} />
+      
+          {/* /Firmware/Hikvision/NVR (IP regs)/isuper */}
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/isuper' element={<NVRIPregs_ISUPER />} />
 
 
 

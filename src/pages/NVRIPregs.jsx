@@ -24,19 +24,19 @@ function NVRIPregs() {
                              
                             <h5>03. Q series/</h5>
                         </Link>
-                        <Link to={'/VMS/'} className='button_div2'>
+                        <Link to={'/Firmware/Hikvision/NVR (IP regs)/e'} className='button_div2'>
                              
                             <h5>04. E series/</h5>
                         </Link>
-                        <Link to={'/VMS/'} className='button_div2'>
+                        <Link to={'/Firmware/Hikvision/NVR (IP regs)/acu'} className='button_div2'>
                              
                             <h5>05. AcuSence/ </h5>
                         </Link>
-                        <Link to={'/VMS/'} className='button_div2'>
+                        <Link to={'/Firmware/Hikvision/NVR (IP regs)/deep'} className='button_div2'>
                              
                             <h5>06. DeepinMind/</h5>
                         </Link>
-                        <Link to={'/VMS/'} className='button_div2'>
+                        <Link to={'/Firmware/Hikvision/NVR (IP regs)/isuper'} className='button_div2'>
                              
                             <h5>07. I series super NVR 128 256 channels/</h5>
                         </Link>
