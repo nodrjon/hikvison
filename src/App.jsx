@@ -482,6 +482,9 @@ import DSI25XZC from './pages/DSI25XZC';
 import DSI45X from './pages/DSI45X';
 import DSI45XZ from './pages/DSI45XZ';
 import DSI45XZC from './pages/DSI45XZC';
+import HiwatchEcolineIPC from './pages/HiwatchEcolineIPC';
+import IPCB020IPCT020 from './pages/IPCB020IPCT020';
+import IPCB020BIPCT020B from './pages/IPCB020BIPCT020B';
 
 // >>>>>>> 39a30d2cd12dafd43c20881aa18726e5631fd798
 
@@ -500,6 +503,9 @@ function App() {
         <Route path='/Firmware/HiWatch Value/' element={<HiWatchValue />} />
         <Route path='/Firmware/HiWatch Pro/' element={<HiWatchPro />} />
         <Route path='/Firmware/Hiwatch Ecoline/' element={<HiwatchEcoline />} />
+        <Route path='/Firmware/Hiwatch Ecoline/IPC/' element={<HiwatchEcolineIPC />} />
+        <Route path='/Firmware/Hiwatch Ecoline/IPC/IPC-B020 IPC-T020/' element={<IPCB020IPCT020 />} />
+        <Route path='/Firmware/Hiwatch Ecoline/IPC/IPC-B020(B)  IPC-T020(B)/' element={<IPCB020BIPCT020B />} />
         <Route path='/Firmware/HiWatch-CATC/' element={<HiWatchCATC />} />
         <Route path='/Firmware/HiWatch-CATC/DS-I20X-L/' element={<DSI20XL />} />
         <Route path='/Firmware/HiWatch-CATC/DS-I25XZ/' element={<DSI25XZ />} />
