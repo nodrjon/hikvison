@@ -476,6 +476,12 @@ import NVRIPregs_DEEP_3_2 from './pages/NVRIPregs_DEEP_3_2';
 import NVRIPregs_DEEP_4_1 from './pages/NVRIPregs_DEEP_4_1';
 import NVRIPregs_DEEP_4_1_1 from './pages/NVRIPregs_DEEP_4_1_1';
 import NVRIPregs_ISUPER from './pages/NVRIPregs_ISUPER';
+import DSI20XL from './pages/DSI20XL';
+import DSI25XZ from './pages/DSI25XZ';
+import DSI25XZC from './pages/DSI25XZC';
+import DSI45X from './pages/DSI45X';
+import DSI45XZ from './pages/DSI45XZ';
+import DSI45XZC from './pages/DSI45XZC';
 
 // >>>>>>> 39a30d2cd12dafd43c20881aa18726e5631fd798
 
@@ -495,6 +501,12 @@ function App() {
         <Route path='/Firmware/HiWatch Pro/' element={<HiWatchPro />} />
         <Route path='/Firmware/Hiwatch Ecoline/' element={<HiwatchEcoline />} />
         <Route path='/Firmware/HiWatch-CATC/' element={<HiWatchCATC />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I20X-L/' element={<DSI20XL />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I25XZ/' element={<DSI25XZ />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I25XZ (C)/' element={<DSI25XZC />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I45X/' element={<DSI45X />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I45XZ/' element={<DSI45XZ />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I45XZ (C)/' element={<DSI45XZC />} />
         <Route path='/Firmware/Only for Warehouse/' element={<OnlyforWarehouse />} />
         <Route path='/Software/iVMS-4200/' element={<IVMS4200 />} />
         <Route path='/Software/Hikvision Tools/' element={<HikvisionTools />} />
