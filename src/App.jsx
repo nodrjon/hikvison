@@ -495,8 +495,16 @@ import NVRIPregs_MODEL_15 from './pages/NVRIPregs_MODEL_15';
 import NVRIPregs_MODEL_16 from './pages/NVRIPregs_MODEL_16';
 import NVRIPregs_MODEL_15_1 from './pages/NVRIPregs_MODEL_15_1';
 import NVRIPregs_MODEL_15_2 from './pages/NVRIPregs_MODEL_15_2';
+import DSI20XL from './pages/DSI20XL';
+import DSI25XZ from './pages/DSI25XZ';
+import DSI25XZC from './pages/DSI25XZC';
+import DSI45X from './pages/DSI45X';
+import DSI45XZ from './pages/DSI45XZ';
+import DSI45XZC from './pages/DSI45XZC';
+import HiwatchEcolineIPC from './pages/HiwatchEcolineIPC';
+import IPCB020IPCT020 from './pages/IPCB020IPCT020';
+import IPCB020BIPCT020B from './pages/IPCB020BIPCT020B';
 
-// >>>>>>> 39a30d2cd12dafd43c20881aa18726e5631fd798
 
 function App() {
   return (
@@ -513,7 +521,16 @@ function App() {
         <Route path='/Firmware/HiWatch Value/' element={<HiWatchValue />} />
         <Route path='/Firmware/HiWatch Pro/' element={<HiWatchPro />} />
         <Route path='/Firmware/Hiwatch Ecoline/' element={<HiwatchEcoline />} />
+        <Route path='/Firmware/Hiwatch Ecoline/IPC/' element={<HiwatchEcolineIPC />} />
+        <Route path='/Firmware/Hiwatch Ecoline/IPC/IPC-B020 IPC-T020/' element={<IPCB020IPCT020 />} />
+        <Route path='/Firmware/Hiwatch Ecoline/IPC/IPC-B020(B)  IPC-T020(B)/' element={<IPCB020BIPCT020B />} />
         <Route path='/Firmware/HiWatch-CATC/' element={<HiWatchCATC />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I20X-L/' element={<DSI20XL />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I25XZ/' element={<DSI25XZ />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I25XZ (C)/' element={<DSI25XZC />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I45X/' element={<DSI45X />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I45XZ/' element={<DSI45XZ />} />
+        <Route path='/Firmware/HiWatch-CATC/DS-I45XZ (C)/' element={<DSI45XZC />} />
         <Route path='/Firmware/Only for Warehouse/' element={<OnlyforWarehouse />} />
         <Route path='/Software/iVMS-4200/' element={<IVMS4200 />} />
         <Route path='/Software/Hikvision Tools/' element={<HikvisionTools />} />
