@@ -618,6 +618,13 @@ import PTZ_Positioning_2_2 from './pages/PTZ_Positioning_2_2';
 import PTZ_Positioning_2_3 from './pages/PTZ_Positioning_2_3';
 import PTZ_Positioning_2_4 from './pages/PTZ_Positioning_2_4';
 import PTZ_Positioning_2_5 from './pages/PTZ_Positioning_2_5';
+import DVRTVIregs_SH from './pages/DVRTVIregs_SH';
+import DVRTVIregs_SH_1 from './pages/DVRTVIregs_SH_1';
+import DVRTVIregs_SH_2 from './pages/DVRTVIregs_SH_2';
+import DVRTVIregs_SH_2_1 from './pages/DVRTVIregs_SH_2_1';
+import DVRTVIregs_SH_2_2 from './pages/DVRTVIregs_SH_2_2';
+import DVRTVIregs_SH_2_3 from './pages/DVRTVIregs_SH_2_3';
+import DVRTVIregs_F from './pages/DVRTVIregs_F';
 
 
 function App() {
@@ -1103,6 +1110,22 @@ function App() {
 
 
         <Route path='/Firmware/Hikvision/DVR (TVI regs)/' element={<DVRTVIregs />} />
+        {/* /Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/ */}
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/' element={<DVRTVIregs_SH />} />
+        {/*/Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/ pages   */}
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/1' element={<DVRTVIregs_SH_1 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/2' element={<DVRTVIregs_SH_2 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/2/1' element={<DVRTVIregs_SH_2_1 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/2/2' element={<DVRTVIregs_SH_2_2 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/2/3' element={<DVRTVIregs_SH_2_3 />} />
+        
+
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series/' element={<DVRTVIregs_F />} />
+
+
+
+
+
         <Route path='/Firmware/Hikvision/Video Intercom/' element={<DVRTVIregs />} />
         <Route path='/Firmware/Hikvision/Access Control/' element={<AccessControl2 />} />
         <Route path='/Firmware/Hikvision/Alarm/' element={<Alarm />} />
