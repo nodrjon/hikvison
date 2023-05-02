@@ -40,7 +40,7 @@ function NVRIPregs() {
                              
                             <h5>07. I series super NVR 128 256 channels/</h5>
                         </Link>
-                        <Link to={'/VMS/'} className='button_div2'>
+                        <Link to={'/Firmware/Hikvision/NVR (IP regs)/models'} className='button_div2'>
                              
                             <h5>08. Old models/</h5>
                         </Link>

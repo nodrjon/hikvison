@@ -476,6 +476,25 @@ import NVRIPregs_DEEP_3_2 from './pages/NVRIPregs_DEEP_3_2';
 import NVRIPregs_DEEP_4_1 from './pages/NVRIPregs_DEEP_4_1';
 import NVRIPregs_DEEP_4_1_1 from './pages/NVRIPregs_DEEP_4_1_1';
 import NVRIPregs_ISUPER from './pages/NVRIPregs_ISUPER';
+import NVRIPregs_MODEL from './pages/NVRIPregs_MODEL';
+import NVRIPregs_MODEL_1 from './pages/NVRIPregs_MODEL_1';
+import NVRIPregs_MODEL_2 from './pages/NVRIPregs_MODEL_2';
+import NVRIPregs_MODEL_3 from './pages/NVRIPregs_MODEL_3';
+import NVRIPregs_MODEL_4 from './pages/NVRIPregs_MODEL_4';
+import NVRIPregs_MODEL_6 from './pages/NVRIPregs_MODEL_6';
+import NVRIPregs_MODEL_5 from './pages/NVRIPregs_MODEL_5';
+import NVRIPregs_MODEL_7 from './pages/NVRIPregs_MODEL_7';
+import NVRIPregs_MODEL_8 from './pages/NVRIPregs_MODEL_8';
+import NVRIPregs_MODEL_9 from './pages/NVRIPregs_MODEL_9';
+import NVRIPregs_MODEL_10 from './pages/NVRIPregs_MODEL_10';
+import NVRIPregs_MODEL_11 from './pages/NVRIPregs_MODEL_11';
+import NVRIPregs_MODEL_12 from './pages/NVRIPregs_MODEL_12';
+import NVRIPregs_MODEL_13 from './pages/NVRIPregs_MODEL_13';
+import NVRIPregs_MODEL_14 from './pages/NVRIPregs_MODEL_14';
+import NVRIPregs_MODEL_15 from './pages/NVRIPregs_MODEL_15';
+import NVRIPregs_MODEL_16 from './pages/NVRIPregs_MODEL_16';
+import NVRIPregs_MODEL_15_1 from './pages/NVRIPregs_MODEL_15_1';
+import NVRIPregs_MODEL_15_2 from './pages/NVRIPregs_MODEL_15_2';
 import DSI20XL from './pages/DSI20XL';
 import DSI25XZ from './pages/DSI25XZ';
 import DSI25XZC from './pages/DSI25XZC';
@@ -495,7 +514,6 @@ import DS2326basedon23242325 from './pages/DS2326basedon23242325';
 import DS2343basedon2326 from './pages/DS2343basedon2326';
 import DS234basedon2326 from './pages/DS234basedon2326';
 
-// >>>>>>> 39a30d2cd12dafd43c20881aa18726e5631fd798
 
 function App() {
   return (
@@ -790,6 +808,34 @@ function App() {
           {/* /Firmware/Hikvision/NVR (IP regs)/isuper */}
 
         <Route path='/Firmware/Hikvision/NVR (IP regs)/isuper' element={<NVRIPregs_ISUPER />} />
+
+
+      {/* /Firmware/Hikvision/NVR (IP regs)/models */}
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models' element={<NVRIPregs_MODEL />} />
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/1' element={<NVRIPregs_MODEL_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/2' element={<NVRIPregs_MODEL_2 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/3' element={<NVRIPregs_MODEL_3 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/4' element={<NVRIPregs_MODEL_4 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/5' element={<NVRIPregs_MODEL_5 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/6' element={<NVRIPregs_MODEL_6 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/7' element={<NVRIPregs_MODEL_7 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/8' element={<NVRIPregs_MODEL_8 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/9' element={<NVRIPregs_MODEL_9 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/17' element={<NVRIPregs_MODEL_10 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/11' element={<NVRIPregs_MODEL_11 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/12' element={<NVRIPregs_MODEL_12 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/13' element={<NVRIPregs_MODEL_13 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/14' element={<NVRIPregs_MODEL_14/>} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/15' element={<NVRIPregs_MODEL_15 />} />
+        {/* /Firmware/Hikvision/NVR (IP regs)/models/15 pages */}
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/15' element={<NVRIPregs_MODEL_15_1 />} />
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/15' element={<NVRIPregs_MODEL_15_2 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/NVR (IP regs)/models/16' element={<NVRIPregs_MODEL_16 />} />
 
 
 
