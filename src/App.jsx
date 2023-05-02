@@ -513,6 +513,26 @@ import DS2326basedon2314MC from './pages/DS2326basedon2314MC';
 import DS2326basedon23242325 from './pages/DS2326basedon23242325';
 import DS2343basedon2326 from './pages/DS2343basedon2326';
 import DS234basedon2326 from './pages/DS234basedon2326';
+import DS2352basedon234or2343 from './pages/DS2352basedon234or2343';
+import DS2362basedonor2343or2352 from './pages/DS2362basedonor2343or2352';
+import DS2372 from './pages/DS2372';
+import DS2388basedon2362andabove from './pages/DS2388basedon2362andabove';
+import StorageDSA82024D from './pages/StorageDSA82024D';
+import ST2314MCbasedon2314MA2314MB from './pages/ST2314MCbasedon2314MA2314MB';
+import ST2326basedon2314MC from './pages/ST2326basedon2314MC';
+import ST2326basedon23242325 from './pages/ST2326basedon23242325';
+import ST234basedon2326 from './pages/ST234basedon2326';
+import ST2343basedon2326 from './pages/ST2343basedon2326';
+import ST2352basedon234or2343 from './pages/ST2352basedon234or2343';
+import ST2362basedon234or2343or2352 from './pages/ST2362basedon234or2343or2352';
+import ST2372basedon234or2343or2352or2362 from './pages/ST2372basedon234or2343or2352or2362';
+import ST2384basedon234or2343or2352or2362or2372or2382 from './pages/ST2384basedon234or2343or2352or2362or2372or2382';
+import ST2388basedon2362andabove from './pages/ST2388basedon2362andabove';
+import STBasicconfiguration from './pages/STBasicconfiguration';
+import STEmailalarm from './pages/STEmailalarm';
+import STHybridsanbackupapplication from './pages/STHybridsanbackupapplication';
+import STHybridsanstreamdirectstorageapplication from './pages/STHybridsanstreamdirectstorageapplication';
+import STIpsanapplication from './pages/STIpsanapplication';
 
 
 function App() {
@@ -856,15 +876,27 @@ function App() {
         <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/232-6 （based on 232-4&232-5)/' element={<DS2326basedon23242325 />} />
         <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/234-3（based on 232-6）/' element={<DS2343basedon2326 />} />
         <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/234（based on 232-6）/' element={<DS234basedon2326 />} />
-
-        {/* <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/235-2（based on 234 or 234-3）/' element={<DS2352basedon234or2343 />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/235-2（based on 234 or 234-3）/' element={<DS2352basedon234or2343 />} />
         <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/236-2（based on 234 or 234-3 or 235-2）/' element={<DS2362basedonor2343or2352 />} />
         <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/237-2/' element={<DS2372 />} />
-        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/238-8(based on 236-2 and above)/' element={<DS2388basedon2362andabove />} /> */}
-
-        {/* <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/' element={<StorageDSA82024D />} /> */}
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/238-8(based on 236-2 and above)/' element={<DS2388basedon2362andabove />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/' element={<StorageDSA82024D />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/231-4MC(based on 231-4MA&231-4MB）' element={<ST2314MCbasedon2314MA2314MB />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/232-6 (based on 231-4MC）' element={<ST2326basedon2314MC />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/232-6 （based on 232-4&232-5)' element={<ST2326basedon23242325 />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/234 (based on 232-6)' element={<ST234basedon2326 />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/234-3 (based on 232-6)' element={<ST2343basedon2326 />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/235-2（based on 234 or 234-3）' element={<ST2352basedon234or2343 />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/236-2（based on 234 or 234-3 or 235-2）' element={<ST2362basedon234or2343or2352 />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/237-2（based on 234 or 234-3 or 235-2 or 236-2）' element={<ST2372basedon234or2343or2352or2362 />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/238-4 (based on 234 or 234-3 or 235-2 or 236-2 or 237-2 or 238-2) ' element={<ST2384basedon234or2343or2352or2362or2372or2382 />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A82024D/238-8(based on 236-2 and above)' element={<ST2388basedon2362andabove />} />
         <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/2. How to/' element={<HybridSAN2Howto />} />
-
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/2. How to/Basic configuration/' element={<STBasicconfiguration />} />  
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/2. How to/Email alarm/' element={<STEmailalarm />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/2. How to/Hybrid san back up application/' element={<STHybridsanbackupapplication />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/2. How to/Hybrid san stream direct storage application/' element={<STHybridsanstreamdirectstorageapplication />} />
+        <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/2. How to/Ipsan application/' element={<STIpsanapplication />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/' element={<A2series2XXX />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E3 platform (2X23G0D-IW2 2X21G1-IDW12 2X21G0 2/' element={<E3platform />} />
         <Route path='/Firmware/Hikvision/IP Camera/2 series - 2XXX/E3 platform (2X23G0D-IW2 2X21G1-IDW12 2X21G0 2/V5.5.800 210628 safe version/' element={<V55800210628safeversion />} />

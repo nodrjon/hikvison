@@ -9,7 +9,7 @@ function DSA81016SDSA80624SDSA720XXR() {
                 <div className='home_div2'>
                     <div className='button_div'>
                         <Link to={"/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/231-4MC001(based on 231-4MA&231-4MB）/"} className='button_div2'>
-                            <h5>231-4MC001 (based on 231-4MA&231-4MB）/</h5>
+                            <h5>231-4MC001 (based on 231-4MA&231-4MB) /</h5>
                         </Link>
                         <Link to={"/Firmware/Hikvision/Storage/Hybrid SAN/1. Firmware/DS-A81016S DS-A80624S DS-A720XXR/232-6 (based on 231-4MC）/"} className='button_div2'>
                             <h5>232-6 (based on 231-4MC）/</h5>
