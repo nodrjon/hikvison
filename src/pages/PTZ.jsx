@@ -34,7 +34,7 @@ function PTZ() {
                         </Link>
                         <Link to={'/Firmware/Hikvision/PTZ/E7 - DS-2DExxxx(S6))/'} className='button_div2'>
                              
-                            <h5>7. E7 - DS-2DExxxx(S6))/</h5>
+                            <h5>7. E7 - DS-2DExxxx(S6)/</h5>
                         </Link>
                         <Link to={'/Firmware/Hikvision/PTZ/H8 - DS-2DExxxx(T5)/'} className='button_div2'>
                              

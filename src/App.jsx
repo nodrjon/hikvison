@@ -513,6 +513,70 @@ import DS2326basedon2314MC from './pages/DS2326basedon2314MC';
 import DS2326basedon23242325 from './pages/DS2326basedon23242325';
 import DS2343basedon2326 from './pages/DS2343basedon2326';
 import DS234basedon2326 from './pages/DS234basedon2326';
+import PTZ_R3 from './pages/PTZ_R3';
+import PTZ_R3_1 from './pages/PTZ_R3_1';
+import PTZ_R3_2 from './pages/PTZ_R3_2';
+import PTZ_R3_3 from './pages/PTZ_R3_3';
+import PTZ_R3_4 from './pages/PTZ_R3_4';
+import PTZ_R3_5 from './pages/PTZ_R3_5';
+import PTZ_R3_6 from './pages/PTZ_R3_6';
+import PTZ_R3_7 from './pages/PTZ_R3_7';
+import PTZ_R3_8 from './pages/PTZ_R3_8';
+import PTZ_R3_8_1 from './pages/PTZ_R3_8_1';
+import PTZ_R7 from './pages/PTZ_R7';
+import PTZ_R7_1 from './pages/PTZ_R7_1';
+import PTZ_R7_2 from './pages/PTZ_R7_2';
+import PTZ_R7_3 from './pages/PTZ_R7_3';
+import PTZ_R7_4 from './pages/PTZ_R7_4';
+import PTZ_R7_5 from './pages/PTZ_R7_5';
+import PTZ_R7_6 from './pages/PTZ_R7_6';
+import PTZ_G3 from './pages/PTZ_G3';
+import PTZ_G3_1 from './pages/PTZ_G3_1';
+import PTZ_G3_2 from './pages/PTZ_G3_2';
+import PTZ_G3_1_1 from './pages/PTZ_G3_1_1';
+import PTZ_G3_1_2 from './pages/PTZ_G3_1_2';
+import PTZ_GG3 from './pages/PTZ_GG3';
+import PTZ_GG3_1 from './pages/PTZ_GG3_1';
+import PTZ_H5 from './pages/PTZ_H5';
+import PTZ_H5_1 from './pages/PTZ_H5_1';
+import PTZ_H7 from './pages/PTZ_H7';
+import PTZ_H7_1 from './pages/PTZ_H7_1';
+import PTZ_H7_2 from './PTZ_H7_2';
+import PTZ_E7 from './pages/PTZ_E7';
+import PTZ_E7_1 from './pages/PTZ_E7_1';
+import PTZ_E7_2 from './pages/PTZ_E7_2';
+import PTZ_E7_3 from './pages/PTZ_E7_3';
+import PTZ_H8 from './pages/PTZ_H8';
+import PTZ_H8_1 from './pages/PTZ_H8_1';
+import PTZ_H8_2 from './pages/PTZ_H8_2';
+import PTZ_H8_3 from './pages/PTZ_H8_3';
+import PTZ_H8_4 from './pages/PTZ_H8_4';
+import PTZ_H8_5 from './pages/PTZ_H8_5';
+import PTZ_HH8 from './pages/PTZ_HH8';
+import PTZ_HH8_1 from './pages/PTZ_HH8_1';
+import PTZ_HH8_1_1 from './pages/PTZ_HH8_1_1';
+import PTZ_HH8_1_2 from './pages/PTZ_HH8_1_2';
+import PTZ_Pano from './pages/PTZ_Pano';
+import PTZ_Pano_1 from './pages/PTZ_Pano_1';
+import PTZ_Pano_2 from './pages/PTZ_Pano_2';
+import PTZ_Pano_3 from './pages/PTZ_Pano_3';
+import PTZ_Pano_5 from './pages/PTZ_Pano_5';
+import PTZ_Pano_4 from './pages/PTZ_Pano_4';
+import PTZ_Pano_1_1 from './pages/PTZ_Pano_1_1';
+import PTZ_Pano_2_1 from './pages/PTZ_Pano_2_1';
+import PTZ_Pano_2_2 from './pages/PTZ_Pano_2_2';
+import PTZ_Pano_3_1 from './pages/PTZ_Pano_3_1';
+import PTZ_Pano_3_2 from './pages/PTZ_Pano_3_2';
+import PTZ_Pano_3_3 from './pages/PTZ_Pano_3_3';
+import PTZ_Pano_4_1 from './pages/PTZ_Pano_4_1';
+import PTZ_Pano_4_2 from './pages/PTZ_Pano_4_2';
+import PTZ_Pano_5_1 from './pages/PTZ_Pano_5_1';
+import PTZ_Tandem from './pages/PTZ_Tandem';
+import PTZ_Tandem_1 from './pages/PTZ_Tandem_1';
+import PTZ_Tandem_2 from './pages/PTZ_Tandem_2';
+import PTZ_Tandem_3 from './pages/PTZ_Tandem_3';
+import PTZ_Tandem_4 from './pages/PTZ_Tandem_4';
+import PTZ_Tandem_5 from './pages/PTZ_Tandem_5';
 
 
 function App() {
@@ -840,6 +904,129 @@ function App() {
 
 
         <Route path='/Firmware/Hikvision/PTZ/' element={<PTZ />} />
+        {/* /Firmware/Hikvision/PTZ/ pages */}
+
+        <Route path='/Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/' element={<PTZ_R3 />} />
+
+        {/* /Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/ pages */}
+
+        <Route path='/Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/1' element={<PTZ_R3_1 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/2' element={<PTZ_R3_2 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/3' element={<PTZ_R3_3 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/4' element={<PTZ_R3_4 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/5' element={<PTZ_R3_5 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/6' element={<PTZ_R3_6 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/7' element={<PTZ_R3_7 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/8' element={<PTZ_R3_8 />} />
+        {/*  */}
+        <Route path='/Firmware/Hikvision/PTZ/R3 - DS-2DFXXXX/8_1' element={<PTZ_R3_8_1 />} />
+
+        {/*   /Firmware/Hikvision/PTZ/R7 - DS-2DExxxxW, DS-2DFxxxxW/ pages */}
+        <Route path='/Firmware/Hikvision/PTZ/R7 - DS-2DExxxxW, DS-2DFxxxxW/' element={<PTZ_R7 />} />
+        {/* /Firmware/Hikvision/PTZ/R7 - DS-2DExxxxW, DS-2DFxxxxW/1 */}
+        <Route path='/Firmware/Hikvision/PTZ/R7 - DS-2DExxxxW, DS-2DFxxxxW/1' element={<PTZ_R7_1 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R7 - DS-2DExxxxW, DS-2DFxxxxW/2' element={<PTZ_R7_2 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R7 - DS-2DExxxxW, DS-2DFxxxxW/3' element={<PTZ_R7_3 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R7 - DS-2DExxxxW, DS-2DFxxxxW/4' element={<PTZ_R7_4 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R7 - DS-2DExxxxW, DS-2DFxxxxW/5' element={<PTZ_R7_5 />} />
+        <Route path='/Firmware/Hikvision/PTZ/R7 - DS-2DExxxxW, DS-2DFxxxxW/6' element={<PTZ_R7_6 />} />
+
+
+      {/* /Firmware/Hikvision/PTZ/G3 - DS-2DExxxx(S5),DS-2SE7Cxxxx(S5)/ */}
+        
+      
+      <Route path='/Firmware/Hikvision/PTZ/G3 - DS-2DExxxx(S5),DS-2SE7Cxxxx(S5)/' element={<PTZ_G3 />} />
+
+      <Route path='/Firmware/Hikvision/PTZ/G3 - DS-2DExxxx(S5),DS-2SE7Cxxxx(S5)/1' element={<PTZ_G3_1 />} />
+      {/* /Firmware/Hikvision/PTZ/G3 - DS-2DExxxx(S5),DS-2SE7Cxxxx(S5)/1/1 pages */}
+
+      <Route path='/Firmware/Hikvision/PTZ/G3 - DS-2DExxxx(S5),DS-2SE7Cxxxx(S5)/1/1' element={<PTZ_G3_1_1 />} />
+      <Route path='/Firmware/Hikvision/PTZ/G3 - DS-2DExxxx(S5),DS-2SE7Cxxxx(S5)/1/2' element={<PTZ_G3_1_2 />} />
+
+      <Route path='/Firmware/Hikvision/PTZ/G3 - DS-2DExxxx(S5),DS-2SE7Cxxxx(S5)/2' element={<PTZ_G3_2 />} />
+
+    {/* /Firmware/Hikvision/PTZ/G3 - DS-2DFxxxx(S5)/ */}
+
+      <Route path='/Firmware/Hikvision/PTZ/G3 - DS-2DFxxxx(S5)/' element={<PTZ_GG3 />} />
+      {/* /Firmware/Hikvision/PTZ/G3 - DS-2DFxxxx(S5)/ pages */}
+      <Route path='/Firmware/Hikvision/PTZ/G3 - DS-2DFxxxx(S5)/1' element={<PTZ_GG3_1 />} />
+
+
+      {/* /Firmware/Hikvision/PTZ/H5 - DS-2DFxxxxX(T2)/ */}
+      <Route path='/Firmware/Hikvision/PTZ/H5 - DS-2DFxxxxX(T2)/' element={<PTZ_H5 />} />
+      {/* /Firmware/Hikvision/PTZ/H5 - DS-2DFxxxxX(T2)/ pages */}
+      <Route path='/Firmware/Hikvision/PTZ/H5 - DS-2DFxxxxX(T2)/1' element={<PTZ_H5_1 />} />
+
+      {/* /Firmware/Hikvision/PTZ/H7 - DS-2DFxxxxX(T3),DS-2DYxxxx(T3)/ */}
+      <Route path='/Firmware/Hikvision/PTZ/H7 - DS-2DFxxxxX(T3),DS-2DYxxxx(T3)/' element={<PTZ_H7 />} />
+      {/* /Firmware/Hikvision/PTZ/H7 - DS-2DFxxxxX(T3),DS-2DYxxxx(T3)/ pages */}
+
+      <Route path='/Firmware/Hikvision/PTZ/H7 - DS-2DFxxxxX(T3),DS-2DYxxxx(T3)/1' element={<PTZ_H7_1 />} />
+      <Route path='/Firmware/Hikvision/PTZ/H7 - DS-2DFxxxxX(T3),DS-2DYxxxx(T3)/2' element={<PTZ_H7_2 />} />
+
+
+      {/* /Firmware/Hikvision/PTZ/E7 - DS-2DExxxx(S6)) */}
+      <Route path='/Firmware/Hikvision/PTZ/E7 - DS-2DExxxx(S6))/' element={<PTZ_E7 />} />
+      {/* /Firmware/Hikvision/PTZ/E7 - DS-2DExxxx(S6))/ pages */}
+      <Route path='/Firmware/Hikvision/PTZ/E7 - DS-2DExxxx(S6))/1' element={<PTZ_E7_1 />} />
+      <Route path='/Firmware/Hikvision/PTZ/E7 - DS-2DExxxx(S6))/2' element={<PTZ_E7_2 />} />
+      <Route path='/Firmware/Hikvision/PTZ/E7 - DS-2DExxxx(S6))/3' element={<PTZ_E7_3 />} />
+
+      {/* /Firmware/Hikvision/PTZ/H8 - DS-2DExxxx(T5)/ */}
+      <Route path='/Firmware/Hikvision/PTZ/H8 - DS-2DExxxx(T5)/' element={<PTZ_H8 />} />
+      {/* /Firmware/Hikvision/PTZ/H8 - DS-2DExxxx(T5)/ */}
+      <Route path='/Firmware/Hikvision/PTZ/H8 - DS-2DExxxx(T5)/1' element={<PTZ_H8_1 />} />
+      <Route path='/Firmware/Hikvision/PTZ/H8 - DS-2DExxxx(T5)/2' element={<PTZ_H8_2 />} />
+      <Route path='/Firmware/Hikvision/PTZ/H8 - DS-2DExxxx(T5)/3' element={<PTZ_H8_3 />} />
+      <Route path='/Firmware/Hikvision/PTZ/H8 - DS-2DExxxx(T5)/4' element={<PTZ_H8_4 />} />
+      <Route path='/Firmware/Hikvision/PTZ/H8 - DS-2DExxxx(T5)/5' element={<PTZ_H8_5 />} />
+
+
+      <Route path='/Firmware/Hikvision/PTZ/H8 - DS-2DFxxxx(T5)/' element={<PTZ_HH8 />} />
+      {/* /Firmware/Hikvision/PTZ/H8 - DS-2DFxxxx(T5) pages */}
+      <Route path='/Firmware/Hikvision/PTZ/H8 - DS-2DFxxxx(T5)/1' element={<PTZ_HH8_1 />} />
+      {/* /Firmware/Hikvision/PTZ/H8 - DS-2DFxxxx(T5)/1 pages */}
+      <Route path='/Firmware/Hikvision/PTZ/H8 - DS-2DFxxxx(T5)/1/1' element={<PTZ_HH8_1_1 />} />
+      <Route path='/Firmware/Hikvision/PTZ/H8 - DS-2DFxxxx(T5)/1/2' element={<PTZ_HH8_1_2 />} />
+
+    {/* /Firmware/Hikvision/PTZ/PanoVu/ */}
+
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/' element={<PTZ_Pano />} />
+      {/* Firmware/Hikvision/PTZ/PanoVu/ pages */}
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/1' element={<PTZ_Pano_1 />} />
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/1/1' element={<PTZ_Pano_1_1 />} />
+
+
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/2' element={<PTZ_Pano_2 />} />
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/2/1' element={<PTZ_Pano_2_1 />} />
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/2/2' element={<PTZ_Pano_2_2 />} />
+
+
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/3' element={<PTZ_Pano_3 />} />
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/3/1' element={<PTZ_Pano_3_1 />} />
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/3/1' element={<PTZ_Pano_3_2 />} />
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/3/3' element={<PTZ_Pano_3_3 />} />
+
+
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/4' element={<PTZ_Pano_4 />} />
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/4/1' element={<PTZ_Pano_4_1 />} />
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/4/2' element={<PTZ_Pano_4_2 />} />
+
+
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/5' element={<PTZ_Pano_5 />} />
+      <Route path='/Firmware/Hikvision/PTZ/PanoVu/5/1' element={<PTZ_Pano_5_1 />} />
+
+
+      {/* /Firmware/Hikvision/PTZ/TandemVu/ */}
+      <Route path='/Firmware/Hikvision/PTZ/TandemVu/' element={<PTZ_Tandem />} />
+      {/* /Firmware/Hikvision/PTZ/TandemVu/ pages */}
+      <Route path='/Firmware/Hikvision/PTZ/TandemVu/1' element={<PTZ_Tandem_1 />} />
+      <Route path='/Firmware/Hikvision/PTZ/TandemVu/2' element={<PTZ_Tandem_2 />} />
+      <Route path='/Firmware/Hikvision/PTZ/TandemVu/3' element={<PTZ_Tandem_3 />} />
+      <Route path='/Firmware/Hikvision/PTZ/TandemVu/4' element={<PTZ_Tandem_4 />} />
+      <Route path='/Firmware/Hikvision/PTZ/TandemVu/5' element={<PTZ_Tandem_5 />} />
+
+
         <Route path='/Firmware/Hikvision/DVR (TVI regs)/' element={<DVRTVIregs />} />
         <Route path='/Firmware/Hikvision/Video Intercom/' element={<DVRTVIregs />} />
         <Route path='/Firmware/Hikvision/Access Control/' element={<AccessControl2 />} />
