@@ -597,6 +597,27 @@ import STEmailalarm from './pages/STEmailalarm';
 import STHybridsanbackupapplication from './pages/STHybridsanbackupapplication';
 import STHybridsanstreamdirectstorageapplication from './pages/STHybridsanstreamdirectstorageapplication';
 import STIpsanapplication from './pages/STIpsanapplication';
+import PTZ_OldModel from './pages/PTZ_OldModel';
+import PTZ_OldModel_1 from './pages/PTZ_OldModel_1';
+import PTZ_OldModel_2 from './pages/PTZ_OldModel_2';
+import PTZ_OldModel_2_1 from './pages/PTZ_OldModel_2_1';
+import PTZ_OldModel_2_2 from './pages/PTZ_OldModel_2_2';
+import PTZ_OldModel_2_3 from './pages/PTZ_OldModel_2_3';
+import PTZ_OldModel_2_4 from './pages/PTZ_OldModel_2_4';
+import PTZ_OldModel_2_5 from './pages/PTZ_OldModel_2_5';
+import PTZ_OldModel_2_6 from './pages/PTZ_OldModel_2_6';
+import PTZ_Positioning from './pages/PTZ_Positioning';
+import PTZ_Positioning_1 from './pages/PTZ_Positioning_1';
+import PTZ_Positioning_2 from './pages/PTZ_Positioning_2';
+import PTZ_Positioning_3 from './pages/PTZ_Positioning_3';
+import PTZ_Positioning_4 from './pages/PTZ_Positioning_4';
+import PTZ_Positioning_1_1 from './pages/PTZ_Positioning_1_1';
+import PTZ_Positioning_1_2 from './pages/PTZ_Positioning_1_2';
+import PTZ_Positioning_2_1 from './pages/PTZ_Positioning_2_1';
+import PTZ_Positioning_2_2 from './pages/PTZ_Positioning_2_2';
+import PTZ_Positioning_2_3 from './pages/PTZ_Positioning_2_3';
+import PTZ_Positioning_2_4 from './pages/PTZ_Positioning_2_4';
+import PTZ_Positioning_2_5 from './pages/PTZ_Positioning_2_5';
 
 
 function App() {
@@ -1045,6 +1066,40 @@ function App() {
       <Route path='/Firmware/Hikvision/PTZ/TandemVu/3' element={<PTZ_Tandem_3 />} />
       <Route path='/Firmware/Hikvision/PTZ/TandemVu/4' element={<PTZ_Tandem_4 />} />
       <Route path='/Firmware/Hikvision/PTZ/TandemVu/5' element={<PTZ_Tandem_5 />} />
+
+        <Route path='/Firmware/Hikvision/PTZ/Old models/' element={<PTZ_OldModel/>} />
+        {/* /Firmware/Hikvision/PTZ/Old models/ pages */}
+        <Route path='/Firmware/Hikvision/PTZ/Old models/1' element={<PTZ_OldModel_1 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Old models/2' element={<PTZ_OldModel_2 />} />
+        {/* /Firmware/Hikvision/PTZ/Old models/2/1 */}
+        <Route path='/Firmware/Hikvision/PTZ/Old models/2/1' element={<PTZ_OldModel_2_1 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Old models/2/2' element={<PTZ_OldModel_2_2 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Old models/2/3' element={<PTZ_OldModel_2_3 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Old models/2/4' element={<PTZ_OldModel_2_4 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Old models/2/5' element={<PTZ_OldModel_2_5 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Old models/2/6' element={<PTZ_OldModel_2_6 />} />
+
+
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/' element={<PTZ_Positioning />} />
+        {/* /Firmware/Hikvision/PTZ/Positioning System Firmware pages */}
+
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/1' element={<PTZ_Positioning_1 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/1/1' element={<PTZ_Positioning_1_1 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/1/2' element={<PTZ_Positioning_1_2 />} />
+
+
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/2' element={<PTZ_Positioning_2 />} />
+        {/* /Firmware/Hikvision/PTZ/Positioning System Firmware/2/1 */}
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/2/1' element={<PTZ_Positioning_2_1 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/2/2' element={<PTZ_Positioning_2_2 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/2/3' element={<PTZ_Positioning_2_3 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/2/4' element={<PTZ_Positioning_2_4 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/2/5' element={<PTZ_Positioning_2_5 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/3' element={<PTZ_Positioning_3 />} />
+        <Route path='/Firmware/Hikvision/PTZ/Positioning System Firmware/4' element={<PTZ_Positioning_4 />} />
 
 
         <Route path='/Firmware/Hikvision/DVR (TVI regs)/' element={<DVRTVIregs />} />

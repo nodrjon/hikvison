@@ -64,10 +64,10 @@ function PTZ() {
                              
                             <h5>! Перепрошивка камеры.pdf</h5>
                         </a>
-                        <Link to={'/'} className='button_div2'>
+                        <a href={'http://ftp.hikvision.ru/01.%20Firmware/01.%20Hikvision/03.%20PTZ/How%20to%20choose%20firmware%20PTZ%20devices%20Hikvision.xlsx'} className='button_div2'>
                              
                             <h5>How to choose firmware PTZ devices Hikvision.xlsx</h5>
-                        </Link>
+                        </a>
                     </div>
                      
                 </div>
