@@ -625,6 +625,36 @@ import DVRTVIregs_SH_2_1 from './pages/DVRTVIregs_SH_2_1';
 import DVRTVIregs_SH_2_2 from './pages/DVRTVIregs_SH_2_2';
 import DVRTVIregs_SH_2_3 from './pages/DVRTVIregs_SH_2_3';
 import DVRTVIregs_F from './pages/DVRTVIregs_F';
+import DVRTVIregs_F_1 from './pages/DVRTVIregs_F_1';
+import DVRTVIregs_F_2 from './pages/DVRTVIregs_F_2';
+import DVRTVIregs_F_3 from './pages/DVRTVIregs_F_3';
+import DVRTVIregs_F_1_1 from './pages/DVRTVIregs_F_1_1';
+import DVRTVIregs_F_2_1 from './pages/DVRTVIregs_F_2_1';
+import DVRTVIregs_F_2_2 from './pages/DVRTVIregs_F_2_2';
+import DVRTVIregs_F_2_3 from './pages/DVRTVIregs_F_2_3';
+import DVRTVIregs_F_2_4 from './pages/DVRTVIregs_F_2_4';
+import DVRTVIregs_K from './pages/DVRTVIregs_K';
+import DVRTVIregs_K_1 from './pages/DVRTVIregs_K_1';
+import DVRTVIregs_K_3 from './pages/DVRTVIregs_K_3';
+import DVRTVIregs_K_2 from './pages/DVRTVIregs_K_2';
+import DVRTVIregs_K_4 from './pages/DVRTVIregs_K_4';
+import DVRTVIregs_K_5 from './pages/DVRTVIregs_K_5';
+import DVRTVIregs_K_6 from './pages/DVRTVIregs_K_6';
+import DVRTVIregs_IDS from './pages/DVRTVIregs_IDS';
+import DVRTVIregs_IDS_1 from './pages/DVRTVIregs_IDS_1';
+import DVRTVIregs_IDS_2 from './pages/DVRTVIregs_IDS_2';
+import DVRTVIregs_IDS_3 from './pages/DVRTVIregs_IDS_3';
+import DVRTVIregs_IDS_4 from './pages/DVRTVIregs_IDS_4';
+import DVRTVIregs_IDS_5 from './pages/DVRTVIregs_IDS_5';
+import DVRTVIregs_IDS_6 from './pages/DVRTVIregs_IDS_6';
+import DVRTVIregs_IDS_7 from './pages/DVRTVIregs_IDS_7';
+import DVRTVIregs_IDS_8 from './pages/DVRTVIregs_IDS_8';
+import DVRTVIregs_IDS_9 from './pages/DVRTVIregs_IDS_9';
+import DVRTVIregs_IDS_10 from './pages/DVRTVIregs_IDS_10';
+import DVRTVIregs_IDS_11 from './pages/DVRTVIregs_IDS_11';
+import DVRTVIregs_IDS_12 from './pages/DVRTVIregs_IDS_12';
+import DVRTVIregs_IDS_6_1 from './pages/DVRTVIregs_IDS_6_1';
+import DVRTVIregs_IDS_6_2 from './pages/DVRTVIregs_IDS_6_2';
 
 
 function App() {
@@ -1118,11 +1148,53 @@ function App() {
         <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/2/1' element={<DVRTVIregs_SH_2_1 />} />
         <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/2/2' element={<DVRTVIregs_SH_2_2 />} />
         <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 1.0 SH(E) series/2/3' element={<DVRTVIregs_SH_2_3 />} />
-        
-
+      
         <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series/' element={<DVRTVIregs_F />} />
+        {/* /Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series pages */}
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series/1' element={<DVRTVIregs_F_1 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series/1/1' element={<DVRTVIregs_F_1_1 />} />
 
 
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series/2' element={<DVRTVIregs_F_2 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series/2/1' element={<DVRTVIregs_F_2_1 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series/2/2' element={<DVRTVIregs_F_2_2 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series/2/3' element={<DVRTVIregs_F_2_3 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series/2/4' element={<DVRTVIregs_F_2_4 />} />
+
+
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 3.0 F series/3' element={<DVRTVIregs_F_3 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 4.0 K series/' element={<DVRTVIregs_K />} />
+        {/* /Firmware/Hikvision/DVR (TVI regs) pages */}
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/1' element={<DVRTVIregs_K_1 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/2' element={<DVRTVIregs_K_2 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/3' element={<DVRTVIregs_K_3 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/4' element={<DVRTVIregs_K_4 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/5' element={<DVRTVIregs_K_5 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/6' element={<DVRTVIregs_K_6 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/' element={<DVRTVIregs_IDS />} />
+        {/* /Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/ pages */}
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/1' element={<DVRTVIregs_IDS_1 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/2' element={<DVRTVIregs_IDS_2 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/3' element={<DVRTVIregs_IDS_3 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/4' element={<DVRTVIregs_IDS_4 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/5' element={<DVRTVIregs_IDS_5 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/6' element={<DVRTVIregs_IDS_6 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/6/1' element={<DVRTVIregs_IDS_6_1 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/6/2' element={<DVRTVIregs_IDS_6_2 />} />
+
+
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/7' element={<DVRTVIregs_IDS_7 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/8' element={<DVRTVIregs_IDS_8 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/9' element={<DVRTVIregs_IDS_9 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/10' element={<DVRTVIregs_IDS_10 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/11' element={<DVRTVIregs_IDS_11 />} />
+        <Route path='/Firmware/Hikvision/DVR (TVI regs)/TVI 5.0 iDS series/12' element={<DVRTVIregs_IDS_12 />} />
 
 
 
