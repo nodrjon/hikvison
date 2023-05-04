@@ -655,6 +655,62 @@ import DVRTVIregs_IDS_11 from './pages/DVRTVIregs_IDS_11';
 import DVRTVIregs_IDS_12 from './pages/DVRTVIregs_IDS_12';
 import DVRTVIregs_IDS_6_1 from './pages/DVRTVIregs_IDS_6_1';
 import DVRTVIregs_IDS_6_2 from './pages/DVRTVIregs_IDS_6_2';
+import VideInterCom from './pages/VideInterCom';
+import VideInterCom_1 from './pages/VideInterCom_1';
+import VideInterCom_2 from './pages/VideInterCom_2';
+import VideInterCom_3 from './pages/VideInterCom_3';
+import VideInterCom_4 from './pages/VideInterCom_4';
+import VideInterCom_1_1 from './pages/VideInterCom_1_1';
+import VideInterCom_1_2 from './pages/VideInterCom_1_2';
+import VideInterCom_1_3 from './pages/VideInterCom_1_3';
+import VideInterCom_1_4 from './pages/VideInterCom_1_4';
+import VideInterCom_1_5 from './pages/VideInterCom_1_5';
+import VideInterCom_1_2_1 from './pages/VideInterCom_1_2_1';
+import VideInterCom_1_2_2 from './pages/VideInterCom_1_2_2';
+import VideInterCom_1_2_3 from './pages/VideInterCom_1_2_3';
+import VideInterCom_1_4_1 from './pages/VideInterCom_1_4_1';
+import VideInterCom_1_4_2 from './pages/VideInterCom_1_4_2';
+import VideInterCom_1_5_1 from './pages/VideInterCom_1_5_1';
+import VideInterCom_1_5_2 from './pages/VideInterCom_1_5_2';
+import VideInterCom_1_5_3 from './pages/VideInterCom_1_5_3';
+import VideInterCom_2_1 from './pages/VideInterCom_2_1';
+import VideInterCom_2_2 from './pages/VideInterCom_2_2';
+import VideInterCom_2_3 from './pages/VideInterCom_2_3';
+import VideInterCom_2_1_1 from './pages/VideInterCom_2_1_1';
+import VideInterCom_2_1_2 from './pages/VideInterCom_2_1_2';
+import VideInterCom_2_1_3 from './pages/VideInterCom_2_1_3';
+import VideInterCom_2_1_4 from './pages/VideInterCom_2_1_4';
+import VideInterCom_2_2_1 from './pages/VideInterCom_2_2_1';
+import VideInterCom_2_2_2 from './pages/VideInterCom_2_2_2';
+import VideInterCom_2_2_3 from './pages/VideInterCom_2_2_3';
+import VideInterCom_2_2_4 from './pages/VideInterCom_2_2_4';
+import VideInterCom_2_2_5 from './pages/VideInterCom_2_2_5';
+import VideInterCom_2_2_6 from './pages/VideInterCom_2_2_6';
+import VideInterCom_2_2_7 from './pages/VideInterCom_2_2_7';
+import VideInterCom_2_2_2_1 from './pages/VideInterCom_2_2_2_1';
+import VideInterCom_2_2_2_2 from './pages/VideInterCom_2_2_2_2';
+import VideInterCom_2_2_2_3 from './pages/VideInterCom_2_2_2_3';
+import VideInterCom_2_2_2_4 from './pages/VideInterCom_2_2_2_4';
+import VideInterCom_2_2_2_5 from './pages/VideInterCom_2_2_2_5';
+import VideInterCom_2_2_6_1 from './pages/VideInterCom_2_2_6_1';
+import VideInterCom_2_3_1 from './pages/VideInterCom_2_3_1';
+import VideInterCom_2_3_2 from './pages/VideInterCom_2_3_2';
+import VideInterCom_2_3_3 from './pages/VideInterCom_2_3_3';
+import VideInterCom_3_1 from './pages/VideInterCom_3_1';
+import VideInterCom_3_1_1 from './pages/VideInterCom_3_1_1';
+import VideInterCom_3_1_2 from './pages/VideInterCom_3_1_2';
+import VideInterCom_3_1_3 from './pages/VideInterCom_3_1_3';
+import VideInterCom_3_1_4 from './pages/VideInterCom_3_1_4';
+import VideInterCom_4_1 from './pages/VideInterCom_4_1';
+import VideInterCom_4_2 from './pages/VideInterCom_4_2';
+import VideInterCom_4_1_1 from './pages/VideInterCom_4_1_1';
+import VideInterCom_4_1_2 from './pages/VideInterCom_4_1_2';
+import VideInterCom_4_1_3 from './pages/VideInterCom_4_1_3';
+import VideInterCom_4_2_1 from './pages/VideInterCom_4_2_1';
+import VideInterCom_4_2_2 from './pages/VideInterCom_4_2_2';
+import VideInterCom_4_2_2_1 from './pages/VideInterCom_4_2_2_1.JSX';
+import VideInterCom_4_2_2_2 from './pages/VideInterCom_4_2_2_2';
+import VideInterCom_4_2_2_3 from './pages/VideInterCom_4_2_2_3';
 
 
 function App() {
@@ -1198,7 +1254,89 @@ function App() {
 
 
 
-        <Route path='/Firmware/Hikvision/Video Intercom/' element={<DVRTVIregs />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/' element={<VideInterCom />} />
+        {/* /Firmware/Hikvision/Video Intercom pages */}
+        <Route path='/Firmware/Hikvision/Video Intercom/1' element={<VideInterCom_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/1' element={<VideInterCom_1_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/2' element={<VideInterCom_1_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/2/1' element={<VideInterCom_1_2_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/2/2' element={<VideInterCom_1_2_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/2/3' element={<VideInterCom_1_2_3 />} />
+
+
+        <Route path='/Firmware/Hikvision/Video Intercom/1/3' element={<VideInterCom_1_3 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/4' element={<VideInterCom_1_4 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/4/1' element={<VideInterCom_1_4_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/4/2' element={<VideInterCom_1_4_2 />} />
+
+
+        <Route path='/Firmware/Hikvision/Video Intercom/1/5' element={<VideInterCom_1_5 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/5/1' element={<VideInterCom_1_5_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/5/2' element={<VideInterCom_1_5_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/1/5/3' element={<VideInterCom_1_5_3 />} />
+
+
+        <Route path='/Firmware/Hikvision/Video Intercom/2' element={<VideInterCom_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/1' element={<VideInterCom_2_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/1/1' element={<VideInterCom_2_1_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/1/2' element={<VideInterCom_2_1_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/1/3' element={<VideInterCom_2_1_3 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/1/4' element={<VideInterCom_2_1_4 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2' element={<VideInterCom_2_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/1' element={<VideInterCom_2_2_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/2' element={<VideInterCom_2_2_2 />} />
+        {/* /Firmware/Hikvision/Video Intercom/2/2/2 pages */}
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/2/1' element={<VideInterCom_2_2_2_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/2/2' element={<VideInterCom_2_2_2_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/2/3' element={<VideInterCom_2_2_2_3 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/2/4' element={<VideInterCom_2_2_2_4 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/2/5' element={<VideInterCom_2_2_2_5 />} />
+
+
+
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/3' element={<VideInterCom_2_2_3 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/4' element={<VideInterCom_2_2_4 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/5' element={<VideInterCom_2_2_5 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/6' element={<VideInterCom_2_2_6 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/6/1' element={<VideInterCom_2_2_6_1 />} />
+
+        <Route path='/Firmware/Hikvision/Video Intercom/2/2/7' element={<VideInterCom_2_2_7 />} />
+
+
+        <Route path='/Firmware/Hikvision/Video Intercom/2/3' element={<VideInterCom_2_3 />} />
+        {/* /Firmware/Hikvision/Video Intercom/2/3 pages */}
+        <Route path='/Firmware/Hikvision/Video Intercom/2/3/1' element={<VideInterCom_2_3_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/3/2' element={<VideInterCom_2_3_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/2/3/3' element={<VideInterCom_2_3_3 />} />
+
+
+        <Route path='/Firmware/Hikvision/Video Intercom/3' element={<VideInterCom_3 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/3/1' element={<VideInterCom_3_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/3/1/1' element={<VideInterCom_3_1_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/3/1/2' element={<VideInterCom_3_1_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/3/1/3' element={<VideInterCom_3_1_3 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/3/1/4' element={<VideInterCom_3_1_4 />} />
+        
+        <Route path='/Firmware/Hikvision/Video Intercom/4' element={<VideInterCom_4 />} />
+        {/* /Firmware/Hikvision/Video Intercom/4 pages */}
+        <Route path='/Firmware/Hikvision/Video Intercom/4/1' element={<VideInterCom_4_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/4/1/1' element={<VideInterCom_4_1_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/4/1/2' element={<VideInterCom_4_1_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/4/1/3' element={<VideInterCom_4_1_3 />} />
+
+
+        <Route path='/Firmware/Hikvision/Video Intercom/4/2' element={<VideInterCom_4_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/4/2/1' element={<VideInterCom_4_2_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/4/2/2' element={<VideInterCom_4_2_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/4/2/2/1' element={<VideInterCom_4_2_2_1 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/4/2/2/2' element={<VideInterCom_4_2_2_2 />} />
+        <Route path='/Firmware/Hikvision/Video Intercom/4/2/2/3' element={<VideInterCom_4_2_2_3 />} />
+
+
+
         <Route path='/Firmware/Hikvision/Access Control/' element={<AccessControl2 />} />
         <Route path='/Firmware/Hikvision/Alarm/' element={<Alarm />} />
         <Route path='/Firmware/Hikvision/Keyboards/' element={<Keyboards />} />
