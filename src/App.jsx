@@ -835,6 +835,24 @@ import VideInterCom_4_2_2 from './pages/VideInterCom_4_2_2';
 import VideInterCom_4_2_2_1 from './pages/VideInterCom_4_2_2_1.JSX';
 import VideInterCom_4_2_2_2 from './pages/VideInterCom_4_2_2_2';
 import VideInterCom_4_2_2_3 from './pages/VideInterCom_4_2_2_3';
+import Network_Switch from './pages/Network_Switch';
+import Network_Wire from './pages/Network_Wire';
+import Network_Switch_1 from './pages/Network_Switch_1';
+import Network_Switch_2 from './pages/Network_Switch_2';
+import Network_Switch_3 from './pages/Network_Switch_3';
+import Network_Switch_4 from './pages/Network_Switch_4';
+import Network_Switch_5 from './pages/Network_Switch_5';
+import Network_Switch_6 from './pages/Network_Switch_6';
+import Network_Switch_7 from './pages/Network_Switch_7';
+import Network_Switch_8 from './pages/Network_Switch_8';
+import Network_Switch_9 from './pages/Network_Switch_9';
+import Network_Switch_10 from './pages/Network_Switch_10';
+import Network_Switch_11 from './pages/Network_Switch_11';
+import Network_Switch_12 from './pages/Network_Switch_12';
+import Network_Switch_13 from './pages/Network_Switch_13';
+import Network_Switch_14 from './pages/Network_Switch_14';
+import Network_Switch_15 from './pages/Network_Switch_15';
+import Network_Switch_16 from './pages/Network_Switch_16';
 
 
 
@@ -1627,7 +1645,34 @@ function App() {
 
 
         <Route path='/Firmware/Hikvision/Keyboards/' element={<Keyboards />} />
+
+
         <Route path='/Firmware/Hikvision/Network/' element={<Network />} />
+        {/* /Firmware/Hikvision/Network/Network Switch/ */}
+        <Route path='/Firmware/Hikvision/Network/Network Switch/' element={<Network_Switch />} />
+        {/* /Firmware/Hikvision/Network/Network Switch/ pages */}
+        <Route path='/Firmware/Hikvision/Network/Network Switch/1' element={<Network_Switch_1 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/2' element={<Network_Switch_2 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/3' element={<Network_Switch_3 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/4' element={<Network_Switch_4 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/5' element={<Network_Switch_5 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/6' element={<Network_Switch_6 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/7' element={<Network_Switch_7 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/8' element={<Network_Switch_8 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/9' element={<Network_Switch_9 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/10' element={<Network_Switch_10 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/11' element={<Network_Switch_11 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/12' element={<Network_Switch_12 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/13' element={<Network_Switch_13 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/14' element={<Network_Switch_14 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/15' element={<Network_Switch_15 />} />
+        <Route path='/Firmware/Hikvision/Network/Network Switch/16' element={<Network_Switch_16 />} />
+
+
+        <Route path='/Firmware/Hikvision/Network/Wireless Bridge/' element={<Network_Wire />} />
+
+
+
         <Route path='/Firmware/Hikvision/Thermal/' element={<Thermal2 />} />
         <Route path='/Firmware/Hikvision/Storage/' element={<Storage2 />} />
         <Route path='/Firmware/Hikvision/Storage/Hybrid SAN/' element={<StorageHybridSAN />} />
